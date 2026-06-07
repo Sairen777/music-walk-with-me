@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Back in My Days">
+  <rect width="32" height="32" rx="7" fill="#ff2d87" />
+  <rect x="6.5" y="4.5" width="19" height="23" rx="3.2" fill="#fff" />
+  <rect x="8.6" y="6.4" width="14.8" height="8" rx="1.4" fill="#9fd4ff" />
+  <circle cx="16" cy="20.2" r="5.1" fill="#eef1f4" />
+  <circle cx="16" cy="20.2" r="1.7" fill="#fff" stroke="#c7ccd2" stroke-width="0.7" />
+</svg>

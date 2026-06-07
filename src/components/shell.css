@@ -1,0 +1,95 @@
+.shell {
+  min-height: 100dvh;
+  background: var(--field);
+  /* iPod-ad light bloom from the upper area. */
+  background-image: radial-gradient(
+    120% 80% at 50% -10%,
+    var(--field-glow) 0%,
+    var(--field) 55%,
+    var(--field-deep) 130%
+  );
+  color: var(--ink-on-field);
+  display: flex;
+  flex-direction: column;
+  padding: clamp(1.25rem, 0.5rem + 3vw, 3rem) clamp(1rem, 0.4rem + 3vw, 3.5rem);
+}
+
+.shell__inner {
+  width: 100%;
+  max-width: 1180px;
+  margin-inline: auto;
+  flex: 1;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: clamp(1.5rem, 0.5rem + 3vw, 3rem);
+}
+
+.shell__head {
+  text-align: center;
+  display: grid;
+  gap: var(--sp-3);
+  justify-items: center;
+}
+
+.shell__wordmark {
+  font-family: var(--font-ipod);
+  font-weight: 800;
+  font-size: var(--t-display);
+  letter-spacing: -0.025em;
+  line-height: 0.92;
+  color: var(--ink-on-field);
+  text-shadow: 0 1px 0 oklch(1 0 0 / 0.25);
+}
+
+.shell__tld {
+  font-weight: 700;
+  font-size: 0.42em;
+  vertical-align: super;
+  margin-inline-start: 0.1em;
+  padding: 0.18em 0.42em;
+  border-radius: var(--r-pill);
+  color: var(--field-deep);
+  background: var(--paper);
+  background-image: var(--gloss);
+  box-shadow: 0 2px 6px oklch(0.2 0.06 350 / 0.3);
+  letter-spacing: 0;
+}
+
+.shell__tag {
+  max-width: 36ch;
+  font-family: var(--font-ms);
+  font-size: var(--t-md);
+  line-height: 1.4;
+  color: var(--ink-on-field);
+  text-wrap: balance;
+}
+
+.shell__stage {
+  align-self: center;
+  width: 100%;
+}
+
+.shell__foot {
+  text-align: center;
+  font-family: var(--font-ms);
+  font-size: var(--t-sm);
+  color: var(--ink-on-field);
+}
+
+.shell__foot strong {
+  font-weight: 700;
+}
+
+.shell__empty code {
+  font-family: var(--font-mono);
+  background: var(--ink);
+  color: var(--paper);
+  padding: 0.1em 0.45em;
+  border-radius: var(--r-btn);
+}
+
+@media (max-width: 600px) {
+  .shell__tag {
+    font-size: var(--t-base);
+  }
+}

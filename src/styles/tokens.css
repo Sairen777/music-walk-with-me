@@ -1,0 +1,122 @@
+/* Back in My Days — design tokens. See DESIGN.md. */
+
+:root {
+  /* ---- Era color fields (iPod-ad chroma) ---- */
+  --field-pink: oklch(0.66 0.24 358);
+  --field-lime: oklch(0.86 0.21 132);
+  --field-cyan: oklch(0.8 0.13 220);
+  --field-orange: oklch(0.72 0.2 48);
+  --field-blue: oklch(0.6 0.18 256);
+
+  /* Active field, overridden per capsule via [data-field]. Defaults to 2005 pink. */
+  --field: var(--field-pink);
+  --field-deep: oklch(0.5 0.21 358);
+  --field-glow: oklch(0.74 0.22 350);
+
+  /* ---- Core ---- */
+  --ink: oklch(0.17 0.02 280);
+  --ink-soft: oklch(0.32 0.02 280);
+  --paper: oklch(1 0 0);
+  --ink-on-field: oklch(0.15 0.03 350);
+  --cable: oklch(1 0 0);
+
+  /* ---- Capsule (MySpace / Web 2.0) ---- */
+  --ms-bg: oklch(0.9 0.005 250);
+  --ms-bg-deep: oklch(0.84 0.008 250);
+  --ms-panel: oklch(0.985 0 0);
+  --ms-line: oklch(0.78 0.01 250);
+  --ms-blue: oklch(0.5 0.12 245);
+  --ms-blue-deep: oklch(0.4 0.12 248);
+  --ms-blue-lite: oklch(0.72 0.11 240);
+  --ms-text: oklch(0.25 0.02 260);
+  --ms-text-soft: oklch(0.42 0.02 260);
+  --ms-link: oklch(0.45 0.15 250);
+
+  /* iPod device greys */
+  --pod-white: oklch(0.99 0 0);
+  --pod-shadow: oklch(0.8 0.005 250);
+  --pod-wheel: oklch(0.95 0.003 250);
+  --pod-screen-0: oklch(0.96 0.01 230);
+  --pod-screen-1: oklch(0.88 0.02 235);
+  --pod-screen-ink: oklch(0.22 0.03 250);
+
+  /* ---- Typography ---- */
+  --font-ipod: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+  --font-ms: Tahoma, Verdana, Geneva, "DejaVu Sans", sans-serif;
+  --font-mono: "Courier New", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Fluid type scale, ratio ~1.28 */
+  --t-xs: clamp(0.69rem, 0.66rem + 0.15vw, 0.78rem);
+  --t-sm: clamp(0.8rem, 0.76rem + 0.2vw, 0.9rem);
+  --t-base: clamp(0.92rem, 0.87rem + 0.25vw, 1.02rem);
+  --t-md: clamp(1.1rem, 1rem + 0.5vw, 1.35rem);
+  --t-lg: clamp(1.4rem, 1.2rem + 1vw, 2rem);
+  --t-xl: clamp(2rem, 1.5rem + 2.4vw, 3.4rem);
+  --t-display: clamp(2.8rem, 1.8rem + 5vw, 5.6rem);
+
+  /* ---- Spacing (fluid) ---- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: clamp(1.5rem, 1rem + 2vw, 2.75rem);
+  --sp-7: clamp(2rem, 1.2rem + 3.5vw, 4.5rem);
+
+  /* ---- Radius (period-correct) ---- */
+  --r-pod: 22px;
+  --r-screen: 6px;
+  --r-panel: 6px;
+  --r-btn: 5px;
+  --r-pill: 999px;
+
+  /* ---- Shadows / gloss ---- */
+  --shadow-pod: 0 24px 60px -20px oklch(0.2 0.08 350 / 0.55), 0 4px 14px oklch(0.2 0.05 350 / 0.25);
+  --shadow-panel: 0 2px 0 oklch(0.7 0.01 250 / 0.35);
+  --shadow-tile: 0 6px 16px -8px oklch(0.2 0.04 280 / 0.5);
+  --gloss: linear-gradient(180deg, oklch(1 0 0 / 0.55) 0%, oklch(1 0 0 / 0.08) 48%, oklch(0.5 0.05 250 / 0.12) 52%, oklch(1 0 0 / 0.06) 100%);
+
+  /* ---- Motion ---- */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+  --dur-fast: 140ms;
+  --dur-mid: 320ms;
+  --dur-slow: 520ms;
+
+  /* ---- Z-index scale ---- */
+  --z-map: 1;
+  --z-capsule: 10;
+  --z-player-sticky: 20;
+  --z-toast: 60;
+  --z-tooltip: 70;
+}
+
+/* Era field switch. data-field set on the capsule/app root. */
+[data-field="pink"] {
+  --field: var(--field-pink);
+  --field-deep: oklch(0.5 0.21 358);
+  --field-glow: oklch(0.74 0.22 350);
+}
+[data-field="lime"] {
+  --field: var(--field-lime);
+  --field-deep: oklch(0.66 0.2 134);
+  --field-glow: oklch(0.9 0.2 130);
+  --ink-on-field: oklch(0.2 0.05 140);
+}
+[data-field="cyan"] {
+  --field: var(--field-cyan);
+  --field-deep: oklch(0.62 0.13 222);
+  --field-glow: oklch(0.86 0.12 218);
+  --ink-on-field: oklch(0.2 0.04 235);
+}
+[data-field="orange"] {
+  --field: var(--field-orange);
+  --field-deep: oklch(0.58 0.19 46);
+  --field-glow: oklch(0.8 0.19 55);
+  --ink-on-field: oklch(0.2 0.05 50);
+}
+[data-field="blue"] {
+  --field: var(--field-blue);
+  --field-deep: oklch(0.46 0.17 258);
+  --field-glow: oklch(0.7 0.16 252);
+}

@@ -1,0 +1,194 @@
+.wall {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
+  gap: clamp(0.4rem, 0.2rem + 0.8vw, 0.7rem);
+}
+
+.wall__tile {
+  position: relative;
+  aspect-ratio: 1;
+}
+
+.wall__btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--ms-bg-deep);
+  box-shadow: var(--shadow-tile);
+  transition: transform var(--dur-fast) var(--ease-out-quart);
+}
+.wall__btn:hover {
+  transform: translateY(-3px);
+}
+.wall__btn:focus-visible {
+  outline: none;
+  box-shadow:
+    inset 0 0 0 3px var(--field),
+    inset 0 0 0 5px var(--paper);
+}
+
+.wall__cover {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--dur-mid) var(--ease-out-quart);
+}
+.wall__btn:hover .wall__cover {
+  transform: scale(1.07);
+}
+
+.wall__scrim {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  display: grid;
+  gap: 0.05rem;
+  padding: 1.6rem 0.5rem 0.45rem;
+  text-align: left;
+  background: linear-gradient(
+    180deg,
+    transparent,
+    oklch(0.12 0.02 280 / 0.82) 65%
+  );
+  color: var(--paper);
+}
+
+.wall__title {
+  font-family: var(--font-ms);
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.15;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 2px oklch(0 0 0 / 0.6);
+}
+.wall__artist {
+  font-family: var(--font-ms);
+  font-size: 0.68rem;
+  line-height: 1.1;
+  color: oklch(0.92 0.01 280);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 0;
+  opacity: 0;
+  transition:
+    max-height var(--dur-fast) var(--ease-out-quart),
+    opacity var(--dur-fast) var(--ease-out-quart);
+}
+.wall__btn:hover .wall__artist,
+.wall__btn:focus-visible .wall__artist,
+.is-current .wall__artist {
+  max-height: 1.4em;
+  opacity: 1;
+}
+
+.wall__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 42px;
+  height: 42px;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: oklch(1 0 0 / 0.92);
+  box-shadow: 0 4px 12px oklch(0 0 0 / 0.4);
+  opacity: 0;
+  scale: 0.8;
+  transition:
+    opacity var(--dur-fast) var(--ease-out-quart),
+    scale var(--dur-fast) var(--ease-out-quart);
+}
+.wall__play::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  translate: -50% -50%;
+  border-style: solid;
+  border-width: 8px 0 8px 13px;
+  border-color: transparent transparent transparent var(--ink);
+}
+.wall__btn:hover .wall__play,
+.wall__btn:focus-visible .wall__play {
+  opacity: 1;
+  scale: 1;
+}
+.is-current .wall__play {
+  opacity: 0;
+}
+
+/* Currently-selected tile: field-colored ring. */
+.is-current .wall__btn {
+  box-shadow:
+    inset 0 0 0 3px var(--field),
+    0 6px 18px -6px var(--field-deep);
+}
+
+.wall__badge {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 16px;
+  padding: 3px 4px;
+  border-radius: 3px;
+  background: var(--field);
+  box-shadow: 0 1px 4px oklch(0 0 0 / 0.4);
+}
+.wall__badge i {
+  width: 3px;
+  height: 40%;
+  background: var(--ink-on-field);
+  border-radius: 1px;
+}
+.wall__badge.is-playing i {
+  animation: wall-eq 0.85s ease-in-out infinite;
+}
+.wall__badge.is-playing i:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.wall__badge.is-playing i:nth-child(3) {
+  animation-delay: 0.4s;
+}
+@keyframes wall-eq {
+  0%,
+  100% {
+    height: 25%;
+  }
+  50% {
+    height: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wall__badge.is-playing i {
+    animation: none;
+    height: 70%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .wall__tile {
+    animation: wall-in 380ms var(--ease-out-expo) both;
+    animation-delay: calc(var(--i, 0) * 24ms);
+  }
+  @keyframes wall-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.95);
+    }
+  }
+}
