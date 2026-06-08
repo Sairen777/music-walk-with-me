@@ -698,5 +698,535 @@
         "durationMs": 205107
       }
     ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2004,
+    "era": "pop / pop-rock",
+    "field": "orange",
+    "blurb": "Чёрный бумер on every Nokia. The двор had a soundtrack.",
+    "tracks": [
+      {
+        "id": "serega--chernyi-bumer",
+        "artist": "Серёга",
+        "title": "Чёрный бумер",
+        "album": "Чёрный бумер - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ae/5f/33/ae5f3318-963c-77f5-dbb2-d64634fcc4f7/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c5/17/7e/c5177efa-5c77-13e1-6f5b-a6e712fe2605/mzaf_5080037117927674452.plus.aac.p.m4a",
+        "releaseYear": 2007,
+        "durationMs": 244213
+      },
+      {
+        "id": "zveri--vse-chto-kasaetsya",
+        "artist": "Zveri",
+        "title": "Всё, что касается",
+        "album": "Районы-кварталы",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/8c/3e/738c3e6f-7d01-2b70-e7de-05f77b5ae314/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/6d/28/a2/6d28a23c-a087-30c8-0b93-5f0354d27837/mzaf_13330653073485246634.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 209842
+      },
+      {
+        "id": "korni--ty-uznaesh-ee",
+        "artist": "Korni",
+        "title": "Ты узнаешь её",
+        "album": "На века",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/1d/ad/a51dadbd-a987-089c-1b24-14048ebffe71/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/aa/5b/01aa5b4b-9e1e-5769-f2fc-59aa9c7f35c1/mzaf_4924921318053726460.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 279853
+      },
+      {
+        "id": "gluk-oza--nevesta",
+        "artist": "Gluk'oZa",
+        "title": "Невеста",
+        "album": "Глюкоза Ностра",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/ea/5b/83ea5bf0-0740-2208-0164-ab98968a49ee/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/52/d0/c852d0cb-282c-31e0-dd70-2f4922d01c90/mzaf_8585773068792091394.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 248427
+      },
+      {
+        "id": "faktor-2--voina",
+        "artist": "Faktor 2",
+        "title": "Война",
+        "album": "Мы фальшивые MC",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2f/75/ae/2f75ae9f-8461-50fa-f1d3-33ed1630da3a/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/af/a8/daafa836-e505-bdcb-a7d7-0d6a309225ea/mzaf_10690182873402973685.plus.aac.p.m4a",
+        "releaseYear": 2016,
+        "durationMs": 215693
+      },
+      {
+        "id": "bi-2--moi-rok-n-roll-feat-yuliya-chicherina",
+        "artist": "Bi-2",
+        "title": "Мой рок-н-ролл (feat. Юлия Чичерина)",
+        "album": "Мяу кисс ми",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/d9/1f/6e/d91f6ef6-6fc2-4e12-0d06-517c8e67a328/193483691121.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/54/d3/63/54d363c4-e9ce-a72d-ee85-653b759db28e/mzaf_6921519295470799007.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 405387
+      },
+      {
+        "id": "dima-bilan--na-beregu-neba",
+        "artist": "Dima Bilan",
+        "title": "На берегу неба",
+        "album": "На берегу неба",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/80/3f/2f/803f2fbc-96bc-984b-f437-deeeaa7ee525/190295141998.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/46/df/e2/46dfe29d-f92a-a8db-dc8e-292238cc1d49/mzaf_14626289112884056335.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 242987
+      },
+      {
+        "id": "t-a-t-u--ne-ver-ne-boisya-ne-prosi",
+        "artist": "t.A.T.u.",
+        "title": "Не верь, не бойся, не проси",
+        "album": "в Поднебесной",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/61/8d/67618dd5-5fcd-34d6-f660-d521bd3bc0c4/cover.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/ba/c4/f5bac41f-614d-b072-3a86-65174de9b2c0/mzaf_3585616970968498103.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 184854
+      },
+      {
+        "id": "splean--liniya-zhizni",
+        "artist": "Splean",
+        "title": "Линия жизни",
+        "album": "25-й кадр",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/db/4a/c5/db4ac58b-d8b3-ab9a-f77a-79810509c2e6/859719935307_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/23/ab/2a/23ab2a51-0c9c-e043-46aa-2e10b85ae243/mzaf_14833886316845804570.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 182200
+      },
+      {
+        "id": "zveri--prosto-takaya-silnaya-lyubov",
+        "artist": "Zveri",
+        "title": "Просто такая сильная любовь",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ab/24/68/ab246810-4c6f-bfe4-d5c3-549965854ab7/mzaf_1672470297012240754.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 202684
+      },
+      {
+        "id": "uma2rman--praskovya",
+        "artist": "Uma2rman",
+        "title": "Прасковья",
+        "album": "В городе N",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/4c/98/284c98e5-31af-f4d1-076a-84d7a4fa6a40/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9b/d2/28/9bd228be-34dc-4768-6412-d5e366665683/mzaf_2335050408831342863.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 170293
+      },
+      {
+        "id": "yuliya-savicheva--vysoko",
+        "artist": "Yuliya Savicheva",
+        "title": "Высоко",
+        "album": "Высоко",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/23/ef/7e23ef34-3ae4-90d3-82c0-8b02ff624bd6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e6/52/6c/e6526c31-9203-b65a-b5af-3477f4d4b5f0/mzaf_4713899205572069303.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 294530
+      },
+      {
+        "id": "t-a-t-u--nas-ne-dogonyat",
+        "artist": "t.A.T.u.",
+        "title": "Nas Ne Dogonyat",
+        "album": "200 Po Vstrechnoy",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/7c/e9/c77ce918-8c08-8195-17ac-6ebbfdea60b0/26UMGIM11885.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/cc/62/e4cc62a0-59e5-4111-4e50-4da230b7d6ae/mzaf_6712217723366640604.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 276107
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2005,
+    "era": "pop-rock / dvor",
+    "field": "pink",
+    "blurb": "Районы, кварталы. A Walkman, a дача, and семки.",
+    "tracks": [
+      {
+        "id": "zveri--raiony-kvartaly",
+        "artist": "Zveri",
+        "title": "Районы-кварталы",
+        "album": "Районы-кварталы",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/73/8c/3e/738c3e6f-7d01-2b70-e7de-05f77b5ae314/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/96/5e/1c/965e1cc8-1b1f-46ed-77be-76ef62119cb6/mzaf_7272129002882601099.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 204460
+      },
+      {
+        "id": "zemfira--progulka",
+        "artist": "Zemfira",
+        "title": "Прогулка",
+        "album": "Вендетта",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/8d/9d/b6/8d9db678-b9f4-ccce-6956-c49eb6b9f005/3610154402932.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/31/5c/e4/315ce4a4-248e-45d9-ec51-47967697e851/mzaf_312439537742738113.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 254973
+      },
+      {
+        "id": "faktor-2--krasavitsa",
+        "artist": "Faktor 2",
+        "title": "Красавица",
+        "album": "Звёзды падают",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/05/41/88/054188d3-2606-3a8e-9652-a15a0defb1e5/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/18/da/b8/18dab83c-7134-338d-4192-a36759c4170c/mzaf_11320129140411797185.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 282147
+      },
+      {
+        "id": "gluk-oza--shvaine",
+        "artist": "Gluk'oZa",
+        "title": "Швайне",
+        "album": "Москва",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/6e/97/ae6e9700-4b3d-8368-bda0-4c0c1c9b026a/dj.qoefppzu.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/8b/a5/938ba534-12a4-8f37-fdd6-e7d70a60aa4b/mzaf_16150602011869053977.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 262975
+      },
+      {
+        "id": "korni--vika-s-dnem-rozhdeniya-vika-bonus-track",
+        "artist": "Korni",
+        "title": "Вика (С днём рождения, Вика) [Bonus Track]",
+        "album": "На века",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/1d/ad/a51dadbd-a987-089c-1b24-14048ebffe71/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/df/a7/57dfa731-21c2-5358-6288-62a13f95c7c2/mzaf_12490681422666595487.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 189027
+      },
+      {
+        "id": "t-a-t-u--lyudi-invalidy",
+        "artist": "t.A.T.u.",
+        "title": "Люди-инвалиды",
+        "album": "в Поднебесной",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/61/8d/67618dd5-5fcd-34d6-f660-d521bd3bc0c4/cover.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4b/a8/4b/4ba84bd4-75f8-f890-dfc6-1db427ec6ac9/mzaf_10619059395114142804.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 277130
+      },
+      {
+        "id": "dima-bilan--ya-tebya-pomnyu",
+        "artist": "Dima Bilan",
+        "title": "Я тебя помню",
+        "album": "Время-река",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/c9/17/94c91766-f3d6-ade5-eb86-a7d0dd0215d5/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/e0/c9/35e0c970-39c9-db51-36c0-60b682c25d2e/mzaf_13901302454382099596.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 195267
+      },
+      {
+        "id": "uma2rman--prostitsya",
+        "artist": "Uma2rman",
+        "title": "Проститься",
+        "album": "В городе N",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/4c/98/284c98e5-31af-f4d1-076a-84d7a4fa6a40/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9c/36/ca/9c36cae4-0aa4-d134-c6da-d36f2d6bdc19/mzaf_15549374880661892677.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 299133
+      },
+      {
+        "id": "zhanna-friske--la-la-la",
+        "artist": "Zhanna Friske",
+        "title": "Ла-ла-ла",
+        "album": "Жанна",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/38/94/d1/3894d135-688a-2d2e-3f38-8913412bbfbe/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/76/f2/ba76f20c-233d-3763-1b9e-ff3b44d47337/mzaf_585419967837887684.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 233897
+      },
+      {
+        "id": "zveri--dlya-tebya",
+        "artist": "Zveri",
+        "title": "Для тебя",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/35/3d/2c/353d2cb2-7e34-3fb3-d959-d80f05df6694/mzaf_13314121631430266000.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 147905
+      },
+      {
+        "id": "diskoteka-avariya--nebo",
+        "artist": "Diskoteka Avariya",
+        "title": "Небо",
+        "album": "THE BEST, Part 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/7e/18/5d7e1810-5d86-819e-f211-1f896d66bdf6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f6/73/3c/f6733cf5-e6bf-0c8c-9ae0-f36b15e81f8b/mzaf_15130562010529724447.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 230428
+      },
+      {
+        "id": "splean--romans",
+        "artist": "Splean",
+        "title": "Романс",
+        "album": "Реверсивная хроника событий",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e9/f5/bf/e9f5bfbe-f1eb-5ba3-85c7-83e1e0e283ef/859720101302_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/55/18/1b/55181b71-c19e-146f-d141-38ac9c0d6eab/mzaf_13865968627645556831.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 205427
+      },
+      {
+        "id": "t-a-t-u--obezyanka-nol",
+        "artist": "t.A.T.u.",
+        "title": "Обезьянка Ноль",
+        "album": "Люди Инвалиды",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/75/d7/ad/75d7ad95-f704-5d50-2102-307cd810de5c/00602498873588.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/df/38/f4/df38f4d8-af00-d7fe-fe2f-8ba8a54aadb6/mzaf_7925158413612062191.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 265933
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2006,
+    "era": "Eurovision pop",
+    "field": "blue",
+    "blurb": "Билан almost won Eurovision. You knew every word.",
+    "tracks": [
+      {
+        "id": "dima-bilan--never-let-you-go",
+        "artist": "Dima Bilan",
+        "title": "Never Let You Go",
+        "album": "Время-река",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/c9/17/94c91766-f3d6-ade5-eb86-a7d0dd0215d5/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/00/28/1a0028bb-d7cc-0c44-72c7-ae758865a257/mzaf_4104185703495106399.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 187987
+      },
+      {
+        "id": "gorod-312--ostanus",
+        "artist": "Gorod 312",
+        "title": "Останусь",
+        "album": "Вне зоны доступа",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a3/c5/d6/a3c5d66d-418e-ef9b-f0b0-cde08582b738/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/78/84/71/78847179-41d7-68b0-4634-0a1fd924900f/mzaf_2957026092370530495.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 222360
+      },
+      {
+        "id": "maksim--trudnyi-vozrast",
+        "artist": "MakSim",
+        "title": "Трудный возраст",
+        "album": "Трудный возраст",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/af/da/9aafda94-1675-ca5b-48a3-b93b8e99362e/825646512461.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/b3/2b/67b32ba1-4fdc-5e21-bff2-c792df778deb/mzaf_9440251606659646401.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 224013
+      },
+      {
+        "id": "diskoteka-avariya--malinki-malinki-feat-zhanna-friske",
+        "artist": "Diskoteka Avariya",
+        "title": "Малинки-Mалинки (feat. Жанна Фриске)",
+        "album": "THE BEST, Part 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/7e/18/5d7e1810-5d86-819e-f211-1f896d66bdf6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/dc/c1/3e/dcc13e58-2996-58e9-b5dc-d7376ce7a0ec/mzaf_18310777227779240294.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 244938
+      },
+      {
+        "id": "band-eros--mankhetten",
+        "artist": "BAND'EROS",
+        "title": "Манхэттен",
+        "album": "Коламбия Пикчерз не представляет (Новое издание)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9d/25/56/9d25566e-31ef-8378-e454-431962b4cd6c/5056132004114.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/27/93/c427939c-e382-4a81-8004-7af72b24ba21/mzaf_2512714509660671041.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 230000
+      },
+      {
+        "id": "kasta--sochinyai-mechty",
+        "artist": "Kasta",
+        "title": "Сочиняй мечты",
+        "album": "Лучшие песни",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a7/21/46/a721463b-b69c-9c25-d9b4-3f93c14a4b3a/3616405793361_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/4c/3c/5c4c3c00-68f8-8cac-362c-e6a9f5102380/mzaf_10527542899741436959.plus.aac.p.m4a",
+        "releaseYear": 2012,
+        "durationMs": 216301
+      },
+      {
+        "id": "maksim--vetrom-stat",
+        "artist": "MakSim",
+        "title": "Ветром стать",
+        "album": "Трудный возраст",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/af/da/9aafda94-1675-ca5b-48a3-b93b8e99362e/825646512461.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/93/79/9f/93799f39-8f66-83e8-d5c3-f5e0579c9b27/mzaf_13133865021132619609.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 192747
+      },
+      {
+        "id": "yuliya-savicheva--prosti-za-lyubov",
+        "artist": "Yuliya Savicheva",
+        "title": "Прости за любовь",
+        "album": "Высоко",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/23/ef/7e23ef34-3ae4-90d3-82c0-8b02ff624bd6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d4/cc/63/d4cc630b-64ba-df10-e719-4538ecee97f8/mzaf_11880054621914983380.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 248895
+      },
+      {
+        "id": "korol-i-shut--kukla-kolduna",
+        "artist": "Korol I Shut",
+        "title": "Кукла колдуна",
+        "album": "Акустический альбом",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/23/ad/1f/23ad1fa6-b7e1-f60f-3afc-3f45ec24205f/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e5/ec/b4/e5ecb4ea-36dd-f143-cbdf-6bb2853919ec/mzaf_9765140534173139740.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 203920
+      },
+      {
+        "id": "band-eros--kolambiya-pikcherz-ne-predstavlyaet",
+        "artist": "BAND'EROS",
+        "title": "Коламбия Пикчерз не представляет",
+        "album": "Коламбия Пикчерз не представляет (Новое издание)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9d/25/56/9d25566e-31ef-8378-e454-431962b4cd6c/5056132004114.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/fe/06/c4fe06c2-de5e-347a-38c4-2e4bb9642c90/mzaf_7711666367303767280.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 266560
+      },
+      {
+        "id": "diskoteka-avariya--esli-khochesh-ostatsya",
+        "artist": "Diskoteka Avariya",
+        "title": "Если хочешь остаться",
+        "album": "THE BEST, Part 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/7e/18/5d7e1810-5d86-819e-f211-1f896d66bdf6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/76/22/5c/76225c29-a9e0-6af3-efa5-b6bdf8fceadb/mzaf_7022923927257133664.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 258694
+      },
+      {
+        "id": "infiniti--gde-ty-feat-d-i-p-project",
+        "artist": "Infiniti",
+        "title": "Где Ты (feat. D.I.P. Project)",
+        "album": "Где Ты (feat. D.I.P. Project)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/93/4d/8c934de4-d5a6-5b11-c720-8bd5c6f82c24/825646505630.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/18/c3/ce/18c3ce6d-c731-8033-dc44-96c8142bba88/mzaf_10365044571363510357.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 260733
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2007,
+    "era": "glam pop / school disco",
+    "field": "lime",
+    "blurb": "Серебро, МакSим, and a Motorola RAZR.",
+    "tracks": [
+      {
+        "id": "serebro--song-1",
+        "artist": "SEREBRO",
+        "title": "Song #1",
+        "album": "Опиумroz",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/5a/60/765a60e5-17f7-2ba6-a249-56440793fff9/cover.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/ff/8d/47ff8da0-289a-62a4-9cc5-c35ed56a3af5/mzaf_14974518424447766955.plus.aac.p.m4a",
+        "releaseYear": 2009,
+        "durationMs": 181400
+      },
+      {
+        "id": "maksim--moi-rai",
+        "artist": "MakSim",
+        "title": "Мой Рай",
+        "album": "Мой Рай",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e5/6e/6f/e56e6f77-d51e-9e00-a9a2-163b0750a212/825646520312.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/8b/76/298b761d-c069-43ed-e5d7-62e5d1470b0b/mzaf_7889860341671800442.plus.aac.p.m4a",
+        "releaseYear": 2007,
+        "durationMs": 215720
+      },
+      {
+        "id": "splean--mayak",
+        "artist": "Splean",
+        "title": "Маяк",
+        "album": "Раздвоение личности",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/05/e7/b9/05e7b91c-9da3-f769-03d5-fb06fd99b806/859724957233_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/47/d1/90/47d190ea-61b6-8dce-3690-6de1888f6d3e/mzaf_11816910550465757317.plus.aac.p.m4a",
+        "releaseYear": 2007,
+        "durationMs": 227907
+      },
+      {
+        "id": "guf--ice-baby",
+        "artist": "Guf",
+        "title": "Ice Baby",
+        "album": "Дома",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/57/09/e8/5709e8b0-6c03-2884-b104-04791f05b26a/825646498833.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d6/79/99/d6799997-446b-437f-743d-8596a8a30ae9/mzaf_2350084969206266474.plus.aac.p.m4a",
+        "releaseYear": 2009,
+        "durationMs": 252125
+      },
+      {
+        "id": "zveri--dozhdi-pistolety",
+        "artist": "Zveri",
+        "title": "Дожди-пистолеты",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f0/68/96/f068967a-0ca6-392d-5837-650e4ad24a21/mzaf_5202950032183843801.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 221074
+      },
+      {
+        "id": "dima-bilan--number-one-fan",
+        "artist": "Dima Bilan",
+        "title": "Number One Fan",
+        "album": "Против правил",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/1d/5b/24/1d5b2457-deff-2af6-f8d5-7e5595eb793a/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/96/12/85/96128518-1132-b515-0b72-9297f284207d/mzaf_2865730165479349060.plus.aac.p.m4a",
+        "releaseYear": 2007,
+        "durationMs": 190347
+      },
+      {
+        "id": "maksim--otpuskayu",
+        "artist": "MakSim",
+        "title": "Отпускаю",
+        "album": "Трудный возраст",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/9a/af/da/9aafda94-1675-ca5b-48a3-b93b8e99362e/825646512461.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c2/e6/01/c2e60117-dc75-a38b-9ba7-f3edefeebb14/mzaf_5325957151020398394.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 261600
+      },
+      {
+        "id": "gorod-312--vne-zony-dostupa",
+        "artist": "Gorod 312",
+        "title": "Вне зоны доступа",
+        "album": "Вне зоны доступа",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a3/c5/d6/a3c5d66d-418e-ef9b-f0b0-cde08582b738/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/4b/33/e7/4b33e76a-1b3c-b6d1-f0f5-70d6ce34a97f/mzaf_6528971896538926114.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 211520
+      },
+      {
+        "id": "kasta--vokrug-shum",
+        "artist": "Kasta",
+        "title": "Вокруг шум",
+        "album": "Быль в глаза",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/59/9a/e6/599ae6d6-e010-f716-1b91-7e6a33f16502/3616405793262_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/20/1e/c7/201ec772-7ebc-25a8-0ae6-1beb90d8aa89/mzaf_4865880592236823822.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 215680
+      },
+      {
+        "id": "band-eros--pro-krasivuyu-zhizn",
+        "artist": "BAND'EROS",
+        "title": "Про красивую жизнь",
+        "album": "Коламбия Пикчерз не представляет (Новое издание)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9d/25/56/9d25566e-31ef-8378-e454-431962b4cd6c/5056132004114.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/92/e1/5f92e1c2-56e8-48d1-d0e9-63fc9279d26c/mzaf_16252508168586884201.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 220347
+      },
+      {
+        "id": "serebro--opium",
+        "artist": "SEREBRO",
+        "title": "Опиум",
+        "album": "Опиумroz",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/76/5a/60/765a60e5-17f7-2ba6-a249-56440793fff9/cover.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ca/e6/d7/cae6d793-56a0-b509-7e2d-7b4fc4dd4410/mzaf_4271316918097135151.plus.aac.p.m4a",
+        "releaseYear": 2009,
+        "durationMs": 224693
+      }
+    ]
   }
 ]

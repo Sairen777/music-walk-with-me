@@ -3,10 +3,6 @@ import raw from "./capsules.json";
 
 export const capsules = raw as Capsule[];
 
-/** The hero loop the product opens on. */
-export const HERO_ISO = "USA";
-export const HERO_YEAR = 2005;
-
 export function findCapsule(iso: string, year: number): Capsule | undefined {
   return capsules.find((c) => c.iso === iso && c.year === year);
 }
@@ -19,5 +15,15 @@ export function yearsFor(iso: string): number[] {
     .sort((a, b) => a - b);
 }
 
-/** ISO codes that have at least one capsule (lit on the map). */
-export const litCountries: ReadonlySet<string> = new Set(capsules.map((c) => c.iso));
+/** Countries with at least one capsule, in first-seen order — the lit map targets. */
+export const activeCountries: { iso: string; label: string }[] = (() => {
+  const byIso = new Map<string, string>();
+  for (const c of capsules) if (!byIso.has(c.iso)) byIso.set(c.iso, c.countryName);
+  return [...byIso].map(([iso, label]) => ({ iso, label }));
+})();
+
+/** The year a country opens to when clicked. Falls back to its earliest year. */
+const HERO_YEAR_BY_ISO: Record<string, number> = { USA: 2005, RUS: 2006 };
+export function heroYearFor(iso: string): number {
+  return HERO_YEAR_BY_ISO[iso] ?? yearsFor(iso)[0];
+}

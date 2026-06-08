@@ -21,12 +21,23 @@ const BAD =
 const COMP =
   /\b(now thats|now that s|kidz bop|punk goes|emo bangers|\bemo\b|feelgood|classic rock|pop punk|love songs|bad news|various|greatest hits|the hits|number ones|essentials?|speed pop|pop party|party hits|workout|running|throwbacks?|\d{2,4}s hits|hits of|best of the|ultimate|mega ?hits|compilation|playlist|karaoke|tribute|guitar tribute|string quartet|made famous|originally performed|as made famous|soundtrack|drum and bass|covers? of|in the style|road trip)\b/i;
 
+// Russian Cyrillic -> Latin so a Cyrillic seed matches whether iTunes returns
+// the track in Cyrillic ("Звери") or transliterated ("Zveri"). Both sides run
+// through this, so the scheme only has to be internally consistent.
+const RU = {
+  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ж: "zh", з: "z", и: "i",
+  й: "i", к: "k", л: "l", м: "m", н: "n", о: "o", п: "p", р: "r", с: "s",
+  т: "t", у: "u", ф: "f", х: "kh", ц: "ts", ч: "ch", ш: "sh", щ: "sch",
+  ъ: "", ы: "y", ь: "", э: "e", ю: "yu", я: "ya",
+};
+
 const norm = (s) =>
   s
     .toLowerCase()
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/&/g, "and")
+    .replace(/[\u0400-\u04ff]/g, (ch) => RU[ch] ?? "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
 

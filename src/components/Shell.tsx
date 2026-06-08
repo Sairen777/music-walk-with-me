@@ -1,6 +1,6 @@
 import { usePlayer } from "../audio/player";
 import { WorldMap } from "./WorldMap";
-import { findCapsule, HERO_ISO, HERO_YEAR } from "../data/capsules";
+import { activeCountries, findCapsule, heroYearFor } from "../data/capsules";
 import "./shell.css";
 
 interface ShellProps {
@@ -9,15 +9,17 @@ interface ShellProps {
 
 export function Shell({ onOpen }: ShellProps) {
   const { playQueue } = usePlayer();
-  const hero = findCapsule(HERO_ISO, HERO_YEAR);
 
   const open = (iso: string) => {
-    const capsule = findCapsule(iso, HERO_YEAR);
+    const year = heroYearFor(iso);
+    const capsule = findCapsule(iso, year);
     if (!capsule || capsule.tracks.length === 0) return;
     // Fire inside the click gesture so the browser permits audio.
     playQueue(capsule.tracks, 0);
-    onOpen(iso, HERO_YEAR);
+    onOpen(iso, year);
   };
+
+  const names = activeCountries.map((c) => c.label).join(" and ");
 
   return (
     <main className="shell" data-on-field data-field="pink">
@@ -33,15 +35,14 @@ export function Shell({ onOpen }: ShellProps) {
         </header>
 
         <section className="shell__stage" aria-label="Pick a place">
-          <WorldMap litIso={HERO_ISO} litLabel="USA" onSelect={open} />
+          <WorldMap countries={activeCountries} onSelect={open} />
         </section>
 
         <footer className="shell__foot">
-          {hero ? (
+          {activeCountries.length ? (
             <p>
-              Now playing the <strong>{hero.countryName}</strong> capsule:{" "}
-              <strong>{hero.year}</strong>, {hero.era}. More years and countries
-              are on the way.
+              Lit up so far: <strong>{names}</strong>. Click one to drop in. More
+              countries and years are on the way.
             </p>
           ) : (
             <p className="shell__empty">

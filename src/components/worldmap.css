@@ -114,3 +114,16 @@
     transform: scale(1.8);
   }
 }
+
+.map__label {
+  font-family: var(--font-ipod);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: var(--cable);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
