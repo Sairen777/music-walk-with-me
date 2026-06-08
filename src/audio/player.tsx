@@ -42,6 +42,8 @@ interface PlayerApi extends PlayerState {
   isPlaying: boolean;
   /** Load a queue and start at startIndex. Call inside a user gesture to allow audio. */
   playQueue: (tracks: HydratedTrack[], startIndex: number) => void;
+  /** Replace queue metadata without touching the active audio element. */
+  adoptQueue: (tracks: HydratedTrack[], preferredIndex: number) => void;
   toggle: () => void;
   next: () => void;
   prev: () => void;
@@ -189,6 +191,26 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  const adoptQueue = useCallback((tracks: HydratedTrack[], preferredIndex: number) => {
+    if (tracks.length === 0) return;
+    setState((s) => {
+      const currentIndex = s.current
+        ? tracks.findIndex((track) => track.id === s.current?.id)
+        : -1;
+      const idx = currentIndex >= 0
+        ? currentIndex
+        : Math.max(0, Math.min(preferredIndex, tracks.length - 1));
+      queueRef.current = tracks;
+      indexRef.current = idx;
+      return {
+        ...s,
+        queue: tracks,
+        index: idx,
+        current: currentIndex >= 0 ? s.current : tracks[idx],
+      };
+    });
+  }, []);
+
   const unlockedRef = useRef(false);
   const unlock = useCallback(() => {
     const audio = audioRef.current;
@@ -196,7 +218,9 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     unlockedRef.current = true;
     audio.src = SILENT_WAV;
     const p = audio.play();
-    if (p) p.then(() => audio.pause()).catch(() => {});
+    if (p) p.then(() => {
+      if (audio.src === SILENT_WAV) audio.pause();
+    }).catch(() => {});
   }, []);
 
   const value = useMemo<PlayerApi>(
@@ -204,13 +228,14 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       ...state,
       isPlaying: state.status === "playing" || state.status === "loading",
       playQueue,
+      adoptQueue,
       toggle,
       next,
       prev,
       seek,
       unlock,
     }),
-    [state, playQueue, toggle, next, prev, seek, unlock],
+    [state, playQueue, adoptQueue, toggle, next, prev, seek, unlock],
   );
 
   return <PlayerContext.Provider value={value}>{children}</PlayerContext.Provider>;

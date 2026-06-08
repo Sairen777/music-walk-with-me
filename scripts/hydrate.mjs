@@ -6,13 +6,15 @@
  * Run: node scripts/hydrate.mjs
  * No API key, no auth. Be polite to the endpoint (throttled below).
  */
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { seeds } from "./seed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, "../public/data");
+const TRACK_CACHE = resolve(__dirname, "../.cache/itunes-track-cache.json");
+const HERO_YEAR_BY_ISO = { USA: 2005, RUS: 2006 };
 const ENDPOINT = "https://itunes.apple.com/search";
 
 const BAD =
@@ -26,7 +28,7 @@ const COMP =
 // the track in Cyrillic ("Звери") or transliterated ("Zveri"). Both sides run
 // through this, so the scheme only has to be internally consistent.
 const RU = {
-  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ж: "zh", з: "z", и: "i",
+  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ё: "e", ж: "zh", з: "z", и: "i",
   й: "i", к: "k", л: "l", м: "m", н: "n", о: "o", п: "p", р: "r", с: "s",
   т: "t", у: "u", ф: "f", х: "kh", ц: "ts", ч: "ch", ш: "sh", щ: "sch",
   ъ: "", ы: "y", ь: "", э: "e", ю: "yu", я: "ya",
@@ -131,9 +133,73 @@ function hydrateTrack(r) {
   };
 }
 
+async function loadExistingTrackCache() {
+  const byId = new Map();
+
+  try {
+    const persisted = JSON.parse(await readFile(TRACK_CACHE, "utf8"));
+    for (const track of persisted) byId.set(track.id, track);
+  } catch {
+    // First run on a repo without a cache: fall through to shard bootstrap.
+  }
+
+  try {
+    const index = JSON.parse(await readFile(resolve(OUT_DIR, "index.json"), "utf8"));
+    for (const entry of index) {
+      const country = JSON.parse(await readFile(resolve(OUT_DIR, `${entry.iso}.json`), "utf8"));
+      for (const capsule of country) {
+        for (const track of capsule.tracks ?? []) byId.set(track.id, track);
+      }
+    }
+  } catch {
+    // No shards yet.
+  }
+
+  return [...byId.values()];
+}
+
+async function saveTrackCache(tracks) {
+  await mkdir(OUT_DIR, { recursive: true });
+  await writeFile(TRACK_CACHE, JSON.stringify(tracks, null, 2) + "\n", "utf8");
+}
+
+function bestCachedMatch(cache, artist, title) {
+  const at = norm(artist);
+  const tt = norm(title);
+  const ttCore = coreOf(title);
+  let best = null;
+  let bestScore = -Infinity;
+
+  for (const r of cache) {
+    const ra = norm(r.artist);
+    const rt = norm(r.title.replace(/\((?:album|single|lp|stereo|original|mono|mixed|remaster(?:ed)?)(?: version)?\)/gi, " "));
+    const rtCore = coreOf(r.title);
+
+    let artistScore = 0;
+    if (ra === at) artistScore = 4;
+    else if (ra.includes(at) || at.includes(ra)) artistScore = 2;
+    if (artistScore === 0) continue;
+
+    let score = artistScore;
+    if (rt === tt) score += 5;
+    else if (rtCore === ttCore && ttCore) score += 4;
+    else if (rt.includes(ttCore) || ttCore.includes(rtCore)) score += 2;
+
+    if (score > bestScore) {
+      bestScore = score;
+      best = r;
+    }
+  }
+
+  return bestScore >= 6 ? best : null;
+}
+
 async function main() {
   const capsules = [];
   const misses = [];
+  const existing = await loadExistingTrackCache();
+  if (existing.length) process.stdout.write(`Using ${existing.length} cached tracks from public/data\n`);
+
 
   for (const seed of seeds) {
     const tracks = [];
@@ -141,6 +207,15 @@ async function main() {
     process.stdout.write(`\n${seed.countryName} ${seed.year} (${seed.tracks.length} tracks)\n`);
 
     for (const t of seed.tracks) {
+      let hydrated = bestCachedMatch(existing, t.artist, t.title);
+      if (hydrated) {
+        if (seen.has(hydrated.id)) continue;
+        seen.add(hydrated.id);
+        tracks.push(hydrated);
+        process.stdout.write(`  ↺ ${hydrated.artist} - ${hydrated.title}\n`);
+        continue;
+      }
+
       const term = t.hint ?? `${t.artist} ${t.title}`;
       let match = null;
       try {
@@ -160,13 +235,15 @@ async function main() {
         continue;
       }
 
-      const hydrated = hydrateTrack(match);
+      hydrated = hydrateTrack(match);
       if (seen.has(hydrated.id)) {
         await sleep(320);
         continue;
       }
       seen.add(hydrated.id);
       tracks.push(hydrated);
+      existing.push(hydrated);
+      await saveTrackCache(existing);
       process.stdout.write(`  ✓ ${hydrated.artist} - ${hydrated.title}\n`);
       await sleep(320);
     }
@@ -193,7 +270,17 @@ async function main() {
   for (const [iso, list] of byCountry) {
     list.sort((a, b) => a.year - b.year);
     await writeFile(resolve(OUT_DIR, `${iso}.json`), JSON.stringify(list, null, 2) + "\n", "utf8");
-    index.push({ iso, countryName: list[0].countryName, years: list.map((c) => c.year) });
+    const heroYear = HERO_YEAR_BY_ISO[iso] && list.some((c) => c.year === HERO_YEAR_BY_ISO[iso])
+      ? HERO_YEAR_BY_ISO[iso]
+      : list[0].year;
+    const hero = list.find((c) => c.year === heroYear);
+    index.push({
+      iso,
+      countryName: list[0].countryName,
+      years: list.map((c) => c.year),
+      heroYear,
+      heroTrack: hero?.tracks[0],
+    });
   }
   await writeFile(resolve(OUT_DIR, "index.json"), JSON.stringify(index, null, 2) + "\n", "utf8");
 

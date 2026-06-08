@@ -2,6 +2,496 @@
   {
     "iso": "RUS",
     "countryName": "Russia",
+    "year": 2000,
+    "era": "Muz-TV / Brother 2 rock",
+    "field": "cyan",
+    "blurb": "Zemfira, Brother 2, and школьная дискотека pop on one CD-R.",
+    "tracks": [
+      {
+        "id": "t-a-t-u--ya-soshla-s-uma",
+        "artist": "t.A.T.u.",
+        "title": "Ya Soshla S Uma",
+        "album": "200 Po Vstrechnoy",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/7c/e9/c77ce918-8c08-8195-17ac-6ebbfdea60b0/26UMGIM11885.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/34/af/6134af87-04ab-6c9b-2b8f-624f4a4924fa/mzaf_10838400790779625770.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 209467
+      },
+      {
+        "id": "zemfira--iskala",
+        "artist": "Zemfira",
+        "title": "ИСКАЛА",
+        "album": "ПРОСТИ МЕНЯ МОЯ ЛЮБОВЬ",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/ca/d0/bbcad0b1-109b-f19b-e4f4-18a35e526ab4/3610154399133.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/7c/74/03/7c740362-9e88-2f6d-1dda-90e971ca4bf0/mzaf_1191450239480208136.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 214000
+      },
+      {
+        "id": "zemfira--do-svidaniya",
+        "artist": "Zemfira",
+        "title": "до свидания...",
+        "album": "до свидания... - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/33/f1/0533f1ba-adb8-8a9a-11e1-f5d174c49316/190296343438.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ae/12/f1/ae12f1bd-a549-d7e0-924f-e88c21ee1f76/mzaf_8226138181214105858.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 224000
+      },
+      {
+        "id": "gosti-iz-budushchego--zima-v-serdtse",
+        "artist": "Gosti Iz Budushchego",
+        "title": "Зима в сердце",
+        "album": "Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/99/05/c69905ee-9dff-f174-693e-6b3f8a62bff9/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/1e/9d/281e9db9-c8bc-7924-4925-a698431ce146/mzaf_7871306172541511191.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 233773
+      },
+      {
+        "id": "demo--solnyshko",
+        "artist": "Demo",
+        "title": "Солнышко",
+        "album": "The Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/fb/76/d2fb7688-d96d-1997-d607-6706abc506fe/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/db/e9/6fdbe9be-60dc-3279-bd04-1de732bb0dc7/mzaf_14651879588263526684.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 261893
+      },
+      {
+        "id": "bi-2--polkovniku-nikto-ne-pishet",
+        "artist": "Bi-2",
+        "title": "Полковнику никто не пишет",
+        "album": "Би-2",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/09/9f/bb/099fbb12-3a95-fc08-ea6d-5f73641b32e8/193483690865.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/51/ed/fa/51edfa58-229e-0bc9-a215-a4a41e276088/mzaf_2377296068526084657.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 292027
+      },
+      {
+        "id": "tantsy-minus--gorod",
+        "artist": "Tantsy Minus",
+        "title": "Город",
+        "album": "Флора и фауна",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/18/a6/36/18a63651-b374-b9cf-a18b-71f0bd91be5b/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/33/6b/35/336b3532-adfe-7d5a-9a0f-bda86487b0c1/mzaf_5187882380102686066.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 250720
+      },
+      {
+        "id": "mumiy-troll--karnavala-net",
+        "artist": "Mumiy Troll",
+        "title": "Карнавала.нет",
+        "album": "The Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ad/3c/71/ad3c7138-f58b-a08b-02cd-670db7b77594/Mumiy_Troll_The_Best_Cover_2000x2000.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/9f/46/659f46b1-7415-c07b-cf91-e7939be8e3a2/mzaf_14738264878875577902.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 192647
+      },
+      {
+        "id": "diskoteka-avariya--na-ostrie-ataki",
+        "artist": "Diskoteka Avariya",
+        "title": "На острие атаки",
+        "album": "THE BEST, Ч. 2",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/ed/99/a9ed99f7-e67f-ea77-1468-87c0a454acbc/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/b1/ce/26b1ceec-bd45-ff2c-8ad0-581b521515a5/mzaf_12932857658467649731.plus.aac.p.m4a",
+        "releaseYear": 2025,
+        "durationMs": 206405
+      },
+      {
+        "id": "virus--ty-menya-ne-ischi",
+        "artist": "Virus",
+        "title": "Ты меня не ищи",
+        "album": "Ты меня не ищи - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/29/d2/2a/29d22a75-9b1f-5dcb-97d8-f82396c150b5/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e7/37/03/e73703cd-6f5f-d115-5028-332ba4ceabfe/mzaf_11975123299564961176.plus.aac.p.m4a",
+        "releaseYear": 2020,
+        "durationMs": 233728
+      },
+      {
+        "id": "hi-fi--glupye-lyudi",
+        "artist": "Hi-Fi",
+        "title": "Глупые люди",
+        "album": "The Best (Легенды)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/5e/6c/95/mzi.pghfzeiz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b0/3d/bc/b03dbcd2-5a32-e5c3-c421-05c1502f1fc6/mzaf_9162818270912853148.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 222760
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2001,
+    "era": "t.A.T.u. / school disco",
+    "field": "blue",
+    "blurb": "A diary, a cassette adapter, and t.A.T.u. absolutely everywhere.",
+    "tracks": [
+      {
+        "id": "t-a-t-u--ya-soshla-s-uma",
+        "artist": "t.A.T.u.",
+        "title": "Ya Soshla S Uma",
+        "album": "200 Po Vstrechnoy",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/7c/e9/c77ce918-8c08-8195-17ac-6ebbfdea60b0/26UMGIM11885.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/34/af/6134af87-04ab-6c9b-2b8f-624f4a4924fa/mzaf_10838400790779625770.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 209467
+      },
+      {
+        "id": "t-a-t-u--nas-ne-dogonyat",
+        "artist": "t.A.T.u.",
+        "title": "Nas Ne Dogonyat",
+        "album": "200 Po Vstrechnoy",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c7/7c/e9/c77ce918-8c08-8195-17ac-6ebbfdea60b0/26UMGIM11885.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/cc/62/e4cc62a0-59e5-4111-4e50-4da230b7d6ae/mzaf_6712217723366640604.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 276107
+      },
+      {
+        "id": "demo--solnyshko",
+        "artist": "Demo",
+        "title": "Солнышко",
+        "album": "The Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d2/fb/76/d2fb7688-d96d-1997-d607-6706abc506fe/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/db/e9/6fdbe9be-60dc-3279-bd04-1de732bb0dc7/mzaf_14651879588263526684.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 261893
+      },
+      {
+        "id": "zemfira--trafik",
+        "artist": "Zemfira",
+        "title": "трафик",
+        "album": "четырнадцать недель тишины",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/74/bf/8474bf24-28e8-3e85-0fde-2dc2e768822b/3610154399607.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/61/4d/b6614d7f-ed6e-2fed-0411-1daba4b8c619/mzaf_3082893427647303228.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 240760
+      },
+      {
+        "id": "mumiy-troll--karnavala-net",
+        "artist": "Mumiy Troll",
+        "title": "Карнавала.нет",
+        "album": "The Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ad/3c/71/ad3c7138-f58b-a08b-02cd-670db7b77594/Mumiy_Troll_The_Best_Cover_2000x2000.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/65/9f/46/659f46b1-7415-c07b-cf91-e7939be8e3a2/mzaf_14738264878875577902.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 192647
+      },
+      {
+        "id": "via-gra--ya-ne-vernus",
+        "artist": "VIA Gra",
+        "title": "Я не вернусь",
+        "album": "Бриллианты",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/6b/bd/84/6bbd8422-d3d1-a648-ed65-5e4c722c0984/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cd/61/a0/cd61a0fb-72b5-70aa-d4dc-de0783ad8d6c/mzaf_9718715916793715856.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 224067
+      },
+      {
+        "id": "gosti-iz-budushchego--zima-v-serdtse",
+        "artist": "Gosti Iz Budushchego",
+        "title": "Зима в сердце",
+        "album": "Best",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c6/99/05/c69905ee-9dff-f174-693e-6b3f8a62bff9/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/1e/9d/281e9db9-c8bc-7924-4925-a698431ce146/mzaf_7871306172541511191.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 233773
+      },
+      {
+        "id": "gruppa-total--bet-po-glazam",
+        "artist": "Gruppa TOTAL",
+        "title": "Бьёт по глазам",
+        "album": "Total: 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/90/9e/b4/909eb46b-9900-86e1-e8b4-7f26153caaf3/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a9/9f/b7/a99fb736-e76e-9f5e-65e8-d56576b28097/mzaf_1830491705157877480.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 252733
+      },
+      {
+        "id": "bi-2--serebro",
+        "artist": "Bi-2",
+        "title": "Серебро",
+        "album": "...И корабль плывёт",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/67/92/91/6792918f-264a-8f8e-69ee-26e219b231c3/193483707242.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/fd/53/ec/fd53ec97-ae19-d9a0-ab10-d79dfe92f125/mzaf_8050367423273347804.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 275400
+      },
+      {
+        "id": "hi-fi--glupye-lyudi",
+        "artist": "Hi-Fi",
+        "title": "Глупые люди",
+        "album": "The Best (Легенды)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/5e/6c/95/mzi.pghfzeiz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b0/3d/bc/b03dbcd2-5a32-e5c3-c421-05c1502f1fc6/mzaf_9162818270912853148.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 222760
+      },
+      {
+        "id": "diskoteka-avariya--na-ostrie-ataki",
+        "artist": "Diskoteka Avariya",
+        "title": "На острие атаки",
+        "album": "THE BEST, Ч. 2",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a9/ed/99/a9ed99f7-e67f-ea77-1468-87c0a454acbc/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/b1/ce/26b1ceec-bd45-ff2c-8ad0-581b521515a5/mzaf_12932857658467649731.plus.aac.p.m4a",
+        "releaseYear": 2025,
+        "durationMs": 206405
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2002,
+    "era": "Star Factory / global t.A.T.u.",
+    "field": "orange",
+    "blurb": "Star Factory on TV, t.A.T.u. going global, and everyone arguing over lyrics.",
+    "tracks": [
+      {
+        "id": "zveri--dozhdi-pistolety",
+        "artist": "Zveri",
+        "title": "Дожди-пистолеты",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f0/68/96/f068967a-0ca6-392d-5837-650e4ad24a21/mzaf_5202950032183843801.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 221074
+      },
+      {
+        "id": "zemfira--do-svidaniya",
+        "artist": "Zemfira",
+        "title": "до свидания...",
+        "album": "до свидания... - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/33/f1/0533f1ba-adb8-8a9a-11e1-f5d174c49316/190296343438.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ae/12/f1/ae12f1bd-a549-d7e0-924f-e88c21ee1f76/mzaf_8226138181214105858.plus.aac.p.m4a",
+        "releaseYear": 2000,
+        "durationMs": 224000
+      },
+      {
+        "id": "zemfira--macho",
+        "artist": "Zemfira",
+        "title": "мачо",
+        "album": "четырнадцать недель тишины",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/84/74/bf/8474bf24-28e8-3e85-0fde-2dc2e768822b/3610154399607.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d9/23/79/d92379a6-c5bc-b3ce-9047-073845e59f3b/mzaf_7812121115235693378.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 260293
+      },
+      {
+        "id": "t-a-t-u--all-the-things-she-said",
+        "artist": "t.A.T.u.",
+        "title": "All the Things She Said",
+        "album": "200 KM/H In the Wrong Lane",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/7d/73/cb7d73a3-b77f-aec4-b1ee-dd759c35374c/06UMGIM34819.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/04/ef/b7/04efb7c0-63b8-0164-cdd9-f7d7a93c1372/mzaf_15885597228946383675.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 213867
+      },
+      {
+        "id": "t-a-t-u--not-gonna-get-us",
+        "artist": "t.A.T.u.",
+        "title": "Not Gonna Get Us",
+        "album": "200 KM/H In the Wrong Lane",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/cb/7d/73/cb7d73a3-b77f-aec4-b1ee-dd759c35374c/06UMGIM34819.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/61/ef/a6/61efa656-cfb9-4d71-3971-bbb2820ce072/mzaf_590443390531804793.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 261200
+      },
+      {
+        "id": "via-gra--ya-ne-vernus",
+        "artist": "VIA Gra",
+        "title": "Я не вернусь",
+        "album": "Бриллианты",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/6b/bd/84/6bbd8422-d3d1-a648-ed65-5e4c722c0984/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cd/61/a0/cd61a0fb-72b5-70aa-d4dc-de0783ad8d6c/mzaf_9718715916793715856.plus.aac.p.m4a",
+        "releaseYear": 2001,
+        "durationMs": 224067
+      },
+      {
+        "id": "via-gra--good-morning-papa",
+        "artist": "VIA Gra",
+        "title": "Good Morning, папа!",
+        "album": "ВИА Гра. Всё лучшее в одном",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fb/14/c6/fb14c6b1-3545-dc2d-aedd-8b78ce0f951a/mzm.ufhrtjub.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1c/e8/fe/1ce8fe3f-ff87-4343-03c6-b80778978811/mzaf_17941959789824817335.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 213427
+      },
+      {
+        "id": "dima-bilan--ya-nochnoi-khuligan",
+        "artist": "Dima Bilan",
+        "title": "Я ночной хулиган",
+        "album": "Я ночной хулиган",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/be/1b/37/be1b3786-de1e-6773-b761-26534ffb36a7/190295144272.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/84/f3/bc84f343-dec6-83fe-cb38-bc6691777c03/mzaf_7317590179992641478.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 191840
+      },
+      {
+        "id": "fabrika--pro-lyubov",
+        "artist": "Fabrika",
+        "title": "Про любовь",
+        "album": "Мы такие разные",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fd/f4/51/fdf45171-a8c8-c950-1688-4f8e1db651d8/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ca/73/11/ca7311be-f20d-c797-316a-57e4f89c62f4/mzaf_12128556604777289382.plus.aac.p.m4a",
+        "releaseYear": 2002,
+        "durationMs": 212200
+      },
+      {
+        "id": "korni--ty-uznaesh-ee",
+        "artist": "Korni",
+        "title": "Ты узнаешь её",
+        "album": "На века",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/1d/ad/a51dadbd-a987-089c-1b24-14048ebffe71/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/aa/5b/01aa5b4b-9e1e-5769-f2fc-59aa9c7f35c1/mzaf_4924921318053726460.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 279853
+      },
+      {
+        "id": "diskoteka-avariya--nebo",
+        "artist": "Diskoteka Avariya",
+        "title": "Небо",
+        "album": "THE BEST, Part 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/7e/18/5d7e1810-5d86-819e-f211-1f896d66bdf6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f6/73/3c/f6733cf5-e6bf-0c8c-9ae0-f36b15e81f8b/mzaf_15130562010529724447.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 230428
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
+    "year": 2003,
+    "era": "Star Factory / early Zveri",
+    "field": "pink",
+    "blurb": "Early Zveri guitars, Star Factory hooks, and the first real ringtone era.",
+    "tracks": [
+      {
+        "id": "diskoteka-avariya--nebo",
+        "artist": "Diskoteka Avariya",
+        "title": "Небо",
+        "album": "THE BEST, Part 1",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/5d/7e/18/5d7e1810-5d86-819e-f211-1f896d66bdf6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/f6/73/3c/f6733cf5-e6bf-0c8c-9ae0-f36b15e81f8b/mzaf_15130562010529724447.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 230428
+      },
+      {
+        "id": "t-a-t-u--ne-ver-ne-boisya-ne-prosi",
+        "artist": "t.A.T.u.",
+        "title": "Не верь, не бойся, не проси",
+        "album": "в Поднебесной",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/67/61/8d/67618dd5-5fcd-34d6-f660-d521bd3bc0c4/cover.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/ba/c4/f5bac41f-614d-b072-3a86-65174de9b2c0/mzaf_3585616970968498103.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 184854
+      },
+      {
+        "id": "zveri--dozhdi-pistolety",
+        "artist": "Zveri",
+        "title": "Дожди-пистолеты",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/f0/68/96/f068967a-0ca6-392d-5837-650e4ad24a21/mzaf_5202950032183843801.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 221074
+      },
+      {
+        "id": "zveri--prosto-takaya-silnaya-lyubov",
+        "artist": "Zveri",
+        "title": "Просто такая сильная любовь",
+        "album": "Голод",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/47/69/96/47699680-a0f9-371d-68a3-e424ce7aa33e/0.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ab/24/68/ab246810-4c6f-bfe4-d5c3-549965854ab7/mzaf_1672470297012240754.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 202684
+      },
+      {
+        "id": "dima-bilan--ya-nochnoi-khuligan",
+        "artist": "Dima Bilan",
+        "title": "Я ночной хулиган",
+        "album": "Я ночной хулиган",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/be/1b/37/be1b3786-de1e-6773-b761-26534ffb36a7/190295144272.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/bc/84/f3/bc84f343-dec6-83fe-cb38-bc6691777c03/mzaf_7317590179992641478.plus.aac.p.m4a",
+        "releaseYear": 2004,
+        "durationMs": 191840
+      },
+      {
+        "id": "gluk-oza--shvaine",
+        "artist": "Gluk'oZa",
+        "title": "Швайне",
+        "album": "Москва",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ae/6e/97/ae6e9700-4b3d-8368-bda0-4c0c1c9b026a/dj.qoefppzu.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/93/8b/a5/938ba534-12a4-8f37-fdd6-e7d70a60aa4b/mzaf_16150602011869053977.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 262975
+      },
+      {
+        "id": "korni--ty-uznaesh-ee",
+        "artist": "Korni",
+        "title": "Ты узнаешь её",
+        "album": "На века",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/a5/1d/ad/a51dadbd-a987-089c-1b24-14048ebffe71/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/aa/5b/01aa5b4b-9e1e-5769-f2fc-59aa9c7f35c1/mzaf_4924921318053726460.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 279853
+      },
+      {
+        "id": "fabrika--devushki-fabrichnye",
+        "artist": "Fabrika",
+        "title": "Девушки фабричные",
+        "album": "Девушки фабричные",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6f/d5/91/6fd591be-20f8-d54e-ad09-2b4ea065c64e/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/6b/a0/eb/6ba0eb85-3c8a-4cff-5dec-1bd649b79aae/mzaf_14605041019942995711.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 237867
+      },
+      {
+        "id": "via-gra--ne-ostavlyai-menya-lyubimyi",
+        "artist": "VIA Gra",
+        "title": "Не оставляй меня, любимый!",
+        "album": "Стоп! Снято!",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/d4/d8/a6/d4d8a665-09b1-2423-2abc-f2d61a6dae5a/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f6/12/52/f61252aa-7948-c342-be94-24bb7a9dcc60/mzaf_15035816803820728201.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 211573
+      },
+      {
+        "id": "valeriya--chasiki",
+        "artist": "Valeriya",
+        "title": "Часики",
+        "album": "Страна любви",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/bb/16/3c/bb163cf1-8237-59ca-8d08-c9cd2ca134a3/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/67/9f/1c/679f1c8d-5a44-d13c-ec65-7ec3fcc2d32f/mzaf_793726749842278190.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 184161
+      },
+      {
+        "id": "gluk-oza--nevesta",
+        "artist": "Gluk'oZa",
+        "title": "Невеста",
+        "album": "Глюкоза Ностра",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/83/ea/5b/83ea5bf0-0740-2208-0164-ab98968a49ee/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/52/d0/c852d0cb-282c-31e0-dd70-2f4922d01c90/mzaf_8585773068792091394.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 248427
+      },
+      {
+        "id": "yuliya-savicheva--vysoko",
+        "artist": "Yuliya Savicheva",
+        "title": "Высоко",
+        "album": "Высоко",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/23/ef/7e23ef34-3ae4-90d3-82c0-8b02ff624bd6/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e6/52/6c/e6526c31-9203-b65a-b5af-3477f4d4b5f0/mzaf_4713899205572069303.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 294530
+      }
+    ]
+  },
+  {
+    "iso": "RUS",
+    "countryName": "Russia",
     "year": 2004,
     "era": "pop / pop-rock",
     "field": "orange",

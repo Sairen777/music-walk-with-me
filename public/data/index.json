@@ -3,20 +3,50 @@
     "iso": "USA",
     "countryName": "USA",
     "years": [
+      2000,
+      2001,
+      2002,
+      2003,
       2004,
       2005,
       2006,
       2007
-    ]
+    ],
+    "heroYear": 2005,
+    "heroTrack": {
+      "id": "the-all-american-rejects--dirty-little-secret",
+      "artist": "The All-American Rejects",
+      "title": "Dirty Little Secret",
+      "album": "Move Along (Bonus Track Version)",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7f/41/aa/7f41aa35-8904-9946-2e43-48b1893e9495/06UMGIM44690.rgb.jpg/600x600bb.jpg",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/8e/38/888e389a-71ea-c58d-5991-5b1f7f45a98f/mzaf_11717317186140991213.plus.aac.p.m4a",
+      "releaseYear": 2005,
+      "durationMs": 193653
+    }
   },
   {
     "iso": "RUS",
     "countryName": "Russia",
     "years": [
+      2000,
+      2001,
+      2002,
+      2003,
       2004,
       2005,
       2006,
       2007
-    ]
+    ],
+    "heroYear": 2006,
+    "heroTrack": {
+      "id": "dima-bilan--never-let-you-go",
+      "artist": "Dima Bilan",
+      "title": "Never Let You Go",
+      "album": "Время-река",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/c9/17/94c91766-f3d6-ade5-eb86-a7d0dd0215d5/0.jpg/600x600bb.jpg",
+      "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1a/00/28/1a0028bb-d7cc-0c44-72c7-ae758865a257/mzaf_4104185703495106399.plus.aac.p.m4a",
+      "releaseYear": 2006,
+      "durationMs": 187987
+    }
   }
 ]

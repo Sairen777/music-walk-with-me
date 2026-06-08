@@ -1,18 +1,17 @@
 import { useMemo } from "react";
 import { usePlayer } from "../audio/player";
 import { WorldMap } from "./WorldMap";
-import { heroYearFor } from "../data/capsules";
 import type { CountryIndex } from "../types";
 import "./shell.css";
 
 interface ShellProps {
   countries: CountryIndex[] | null;
   error: boolean;
-  onOpen: (iso: string, countryName: string, year: number) => void;
+  onOpen: (iso: string, countryName: string, year: number, initialPlaybackKey?: string) => void;
 }
 
 export function Shell({ countries, error, onOpen }: ShellProps) {
-  const { unlock } = usePlayer();
+  const { playQueue, unlock } = usePlayer();
 
   const mapCountries = useMemo(
     () => (countries ?? []).map((c) => ({ iso: c.iso, label: c.countryName })),
@@ -22,9 +21,15 @@ export function Shell({ countries, error, onOpen }: ShellProps) {
   const open = (iso: string) => {
     const entry = countries?.find((c) => c.iso === iso);
     if (!entry) return;
-    // Bless audio inside the click; the country's tracks load async, then autoplay.
-    unlock();
-    onOpen(iso, entry.countryName, heroYearFor(iso, entry.years));
+    const initialPlaybackKey = entry.heroTrack ? `${entry.iso}-${entry.heroYear}` : undefined;
+    if (entry.heroTrack) {
+      // Start a real preview inside the click. The full country shard still loads
+      // on demand after navigation, but the product loop gets sound immediately.
+      playQueue([entry.heroTrack], 0);
+    } else {
+      unlock();
+    }
+    onOpen(iso, entry.countryName, entry.heroYear, initialPlaybackKey);
   };
 
   const names = (countries ?? []).map((c) => c.countryName).join(" and ");

@@ -11,6 +11,7 @@ interface CapsuleSceneProps {
   iso: string;
   countryName: string;
   year: number;
+  initialPlaybackKey?: string;
   onYear: (year: number) => void;
   onClose: () => void;
 }
@@ -19,10 +20,11 @@ export function CapsuleScene({
   iso,
   countryName,
   year,
+  initialPlaybackKey,
   onYear,
   onClose,
 }: CapsuleSceneProps) {
-  const { playQueue, unlock } = usePlayer();
+  const { playQueue, adoptQueue, unlock } = usePlayer();
   // Tag loaded data with its iso so a stale country's data never shows during a switch,
   // and we avoid resetting state synchronously inside the effect.
   const [loaded, setLoaded] = useState<{ iso: string; capsules: Capsule[] } | null>(null);
@@ -44,19 +46,32 @@ export function CapsuleScene({
   const capsule = capsules?.find((c) => c.year === year);
   const years = capsules?.map((c) => c.year) ?? [];
 
-  // Autoplay whenever the resolved capsule (country + year) changes.
-  const lastPlayed = useRef("");
+  // Autoplay whenever the resolved capsule (country + year) changes. If Shell
+  // already started the hero preview inside the country click, just adopt the
+  // full queue metadata without touching the active audio.
+  const lastPlayed = useRef(initialPlaybackKey ?? "");
   useEffect(() => {
     if (!capsule) return;
     const key = `${capsule.iso}-${capsule.year}`;
-    if (lastPlayed.current === key) return;
+    if (lastPlayed.current === key) {
+      adoptQueue(capsule.tracks, 0);
+      return;
+    }
     lastPlayed.current = key;
     playQueue(capsule.tracks, 0);
-  }, [capsule, playQueue]);
+  }, [capsule, playQueue, adoptQueue]);
 
   const changeYear = (next: number) => {
     if (next === year) return;
-    unlock();
+    const target = capsules?.find((c) => c.year === next);
+    if (target) {
+      // Year changes happen after the country shard is already loaded, so start
+      // playback inside the button gesture instead of waiting for an effect.
+      lastPlayed.current = `${target.iso}-${target.year}`;
+      playQueue(target.tracks, 0);
+    } else {
+      unlock();
+    }
     onYear(next);
   };
 

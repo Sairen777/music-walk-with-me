@@ -9,6 +9,7 @@ interface OpenState {
   iso: string;
   countryName: string;
   year: number;
+  initialPlaybackKey?: string;
 }
 
 export function App() {
@@ -34,6 +35,7 @@ export function App() {
           iso={open.iso}
           countryName={open.countryName}
           year={open.year}
+          initialPlaybackKey={open.initialPlaybackKey}
           onYear={(year) => setOpen({ ...open, year })}
           onClose={() => setOpen(null)}
         />
@@ -41,7 +43,9 @@ export function App() {
         <Shell
           countries={index}
           error={indexError}
-          onOpen={(iso, countryName, year) => setOpen({ iso, countryName, year })}
+          onOpen={(iso, countryName, year, initialPlaybackKey) =>
+            setOpen({ iso, countryName, year, initialPlaybackKey })
+          }
         />
       )}
     </PlayerProvider>

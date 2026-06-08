@@ -48,9 +48,11 @@ export interface Capsule {
   tracks: HydratedTrack[];
 }
 
-/** Lightweight map entry from public/data/index.json (no track data). */
+/** Lightweight map entry from public/data/index.json (only one hero track, no full shard). */
 export interface CountryIndex {
   iso: string;
   countryName: string;
   years: number[];
+  heroYear: number;
+  heroTrack?: HydratedTrack;
 }
