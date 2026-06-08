@@ -1,6 +1,7 @@
 /**
  * Build-time hydration: resolve every seed track to real iTunes artwork
- * + a 30s preview, then write src/data/capsules.json.
+ * + a 30s preview, then write per-country shard files + a tiny index to
+ * public/data/ (the app fetches one country file on demand).
  *
  * Run: node scripts/hydrate.mjs
  * No API key, no auth. Be polite to the endpoint (throttled below).
@@ -11,7 +12,7 @@ import { dirname, resolve } from "node:path";
 import { seeds } from "./seed.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const OUT = resolve(__dirname, "../src/data/capsules.json");
+const OUT_DIR = resolve(__dirname, "../public/data");
 const ENDPOINT = "https://itunes.apple.com/search";
 
 const BAD =
@@ -53,10 +54,10 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function search(term) {
   const url = `${ENDPOINT}?term=${encodeURIComponent(term)}&media=music&entity=song&limit=25&country=US`;
-  for (let attempt = 0; attempt < 3; attempt++) {
+  for (let attempt = 0; attempt < 6; attempt++) {
     const res = await fetch(url);
     if (res.status === 403 || res.status === 429) {
-      await sleep(2000 * (attempt + 1));
+      await sleep(3000 * (attempt + 1));
       continue;
     }
     if (!res.ok) throw new Error(`iTunes ${res.status} for "${term}"`);
@@ -155,19 +156,19 @@ async function main() {
       if (!match) {
         misses.push(`${seed.year}  ${t.artist} - ${t.title}`);
         process.stdout.write(`  · MISS  ${t.artist} - ${t.title}\n`);
-        await sleep(220);
+        await sleep(320);
         continue;
       }
 
       const hydrated = hydrateTrack(match);
       if (seen.has(hydrated.id)) {
-        await sleep(220);
+        await sleep(320);
         continue;
       }
       seen.add(hydrated.id);
       tracks.push(hydrated);
       process.stdout.write(`  ✓ ${hydrated.artist} - ${hydrated.title}\n`);
-      await sleep(220);
+      await sleep(320);
     }
 
     capsules.push({
@@ -181,11 +182,25 @@ async function main() {
     });
   }
 
-  await mkdir(dirname(OUT), { recursive: true });
-  await writeFile(OUT, JSON.stringify(capsules, null, 2) + "\n", "utf8");
+  // Shard by country: one file per ISO, plus a tiny index for the map.
+  await mkdir(OUT_DIR, { recursive: true });
+  const byCountry = new Map();
+  for (const c of capsules) {
+    if (!byCountry.has(c.iso)) byCountry.set(c.iso, []);
+    byCountry.get(c.iso).push(c);
+  }
+  const index = [];
+  for (const [iso, list] of byCountry) {
+    list.sort((a, b) => a.year - b.year);
+    await writeFile(resolve(OUT_DIR, `${iso}.json`), JSON.stringify(list, null, 2) + "\n", "utf8");
+    index.push({ iso, countryName: list[0].countryName, years: list.map((c) => c.year) });
+  }
+  await writeFile(resolve(OUT_DIR, "index.json"), JSON.stringify(index, null, 2) + "\n", "utf8");
 
   const total = capsules.reduce((n, c) => n + c.tracks.length, 0);
-  process.stdout.write(`\nWrote ${total} tracks across ${capsules.length} capsules -> ${OUT}\n`);
+  process.stdout.write(
+    `\nWrote ${total} tracks -> ${byCountry.size} country files + index.json in ${OUT_DIR}\n`,
+  );
   if (misses.length) {
     process.stdout.write(`\n${misses.length} misses to fix in seed.mjs:\n${misses.map((m) => "  " + m).join("\n")}\n`);
   }

@@ -1,4 +1,4 @@
-import { useMemo, type KeyboardEvent } from "react";
+import { useMemo, type CSSProperties, type KeyboardEvent } from "react";
 import { geoNaturalEarth1, geoPath } from "d3-geo";
 import { feature } from "topojson-client";
 import type { FeatureCollection, Geometry } from "geojson";
@@ -82,7 +82,7 @@ export function WorldMap({ countries, onSelect }: WorldMapProps) {
   const names = lit.map((c) => c.label).join(" and ");
 
   return (
-    <div className="map" data-on-field>
+    <div className="map">
       <svg
         className="map__svg"
         viewBox={`0 0 ${WIDTH} ${HEIGHT}`}
@@ -95,8 +95,12 @@ export function WorldMap({ countries, onSelect }: WorldMapProps) {
           ))}
         </g>
 
-        {lit.map((c) => (
-          <g key={c.iso} className="map__lit">
+        {lit.map((c, i) => (
+          <g
+            key={c.iso}
+            className="map__lit"
+            style={{ "--lit": `var(--candy-${(i % 5) + 1})` } as CSSProperties}
+          >
             <path className="map__lit-glow" d={c.d} aria-hidden="true" />
             <path
               className="map__lit-shape"

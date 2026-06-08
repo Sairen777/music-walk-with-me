@@ -37,7 +37,7 @@ export interface HydratedTrack {
   durationMs: number;
 }
 
-/** A fully hydrated, ready-to-play capsule. Shape of every entry in capsules.json. */
+/** A fully hydrated, ready-to-play capsule. Shape of each entry in a per-country shard. */
 export interface Capsule {
   iso: string;
   countryName: string;
@@ -46,4 +46,11 @@ export interface Capsule {
   field: FieldKey;
   blurb: string;
   tracks: HydratedTrack[];
+}
+
+/** Lightweight map entry from public/data/index.json (no track data). */
+export interface CountryIndex {
+  iso: string;
+  countryName: string;
+  years: number[];
 }

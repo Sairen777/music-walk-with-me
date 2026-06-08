@@ -1,29 +1,35 @@
-import type { Capsule } from "../types";
-import raw from "./capsules.json";
+import type { Capsule, CountryIndex } from "../types";
 
-export const capsules = raw as Capsule[];
+const BASE = import.meta.env.BASE_URL;
 
-export function findCapsule(iso: string, year: number): Capsule | undefined {
-  return capsules.find((c) => c.iso === iso && c.year === year);
+let indexPromise: Promise<CountryIndex[]> | null = null;
+const countryCache = new Map<string, Promise<Capsule[]>>();
+
+/** Fetch the lightweight country index for the map (cached, no track data). */
+export function loadIndex(): Promise<CountryIndex[]> {
+  indexPromise ??= fetch(`${BASE}data/index.json`).then((r) => {
+    if (!r.ok) throw new Error(`index.json ${r.status}`);
+    return r.json() as Promise<CountryIndex[]>;
+  });
+  return indexPromise;
 }
 
-/** Sorted list of years available for a country, e.g. [2004, 2005, 2006, 2007]. */
-export function yearsFor(iso: string): number[] {
-  return capsules
-    .filter((c) => c.iso === iso)
-    .map((c) => c.year)
-    .sort((a, b) => a - b);
+/** Fetch one country's capsules on demand (cached for the session). */
+export function loadCountry(iso: string): Promise<Capsule[]> {
+  let pending = countryCache.get(iso);
+  if (!pending) {
+    pending = fetch(`${BASE}data/${iso}.json`).then((r) => {
+      if (!r.ok) throw new Error(`${iso}.json ${r.status}`);
+      return r.json() as Promise<Capsule[]>;
+    });
+    countryCache.set(iso, pending);
+  }
+  return pending;
 }
 
-/** Countries with at least one capsule, in first-seen order — the lit map targets. */
-export const activeCountries: { iso: string; label: string }[] = (() => {
-  const byIso = new Map<string, string>();
-  for (const c of capsules) if (!byIso.has(c.iso)) byIso.set(c.iso, c.countryName);
-  return [...byIso].map(([iso, label]) => ({ iso, label }));
-})();
-
-/** The year a country opens to when clicked. Falls back to its earliest year. */
+/** Editorial landing year per country; falls back to the earliest available. */
 const HERO_YEAR_BY_ISO: Record<string, number> = { USA: 2005, RUS: 2006 };
-export function heroYearFor(iso: string): number {
-  return HERO_YEAR_BY_ISO[iso] ?? yearsFor(iso)[0];
+export function heroYearFor(iso: string, years: number[]): number {
+  const hero = HERO_YEAR_BY_ISO[iso];
+  return hero && years.includes(hero) ? hero : years[0];
 }

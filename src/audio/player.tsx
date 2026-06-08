@@ -10,6 +10,23 @@ import {
 } from "react";
 import type { HydratedTrack } from "../types";
 
+/** A 1-sample silent WAV. Playing it inside a user gesture "unlocks" the audio
+ * element so a later play() (after an async fetch) isn't blocked by autoplay rules. */
+const SILENT_WAV = (() => {
+  const view = new DataView(new ArrayBuffer(45));
+  const tag = (offset: number, text: string) => {
+    for (let i = 0; i < text.length; i++) view.setUint8(offset + i, text.charCodeAt(i));
+  };
+  tag(0, "RIFF"); view.setUint32(4, 37, true); tag(8, "WAVE");
+  tag(12, "fmt "); view.setUint32(16, 16, true); view.setUint16(20, 1, true);
+  view.setUint16(22, 1, true); view.setUint32(24, 8000, true); view.setUint32(28, 8000, true);
+  view.setUint16(32, 1, true); view.setUint16(34, 8, true);
+  tag(36, "data"); view.setUint32(40, 1, true); view.setUint8(44, 128);
+  let binary = "";
+  for (const byte of new Uint8Array(view.buffer)) binary += String.fromCharCode(byte);
+  return `data:audio/wav;base64,${btoa(binary)}`;
+})();
+
 export type PlayerStatus = "idle" | "loading" | "playing" | "paused" | "error";
 
 interface PlayerState {
@@ -29,6 +46,8 @@ interface PlayerApi extends PlayerState {
   next: () => void;
   prev: () => void;
   seek: (seconds: number) => void;
+  /** Play a silent blip inside a gesture so a later async play() isn't blocked. */
+  unlock: () => void;
 }
 
 const PlayerContext = createContext<PlayerApi | null>(null);
@@ -170,6 +189,16 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  const unlockedRef = useRef(false);
+  const unlock = useCallback(() => {
+    const audio = audioRef.current;
+    if (!audio || unlockedRef.current) return;
+    unlockedRef.current = true;
+    audio.src = SILENT_WAV;
+    const p = audio.play();
+    if (p) p.then(() => audio.pause()).catch(() => {});
+  }, []);
+
   const value = useMemo<PlayerApi>(
     () => ({
       ...state,
@@ -179,8 +208,9 @@ export function PlayerProvider({ children }: { children: ReactNode }) {
       next,
       prev,
       seek,
+      unlock,
     }),
-    [state, playQueue, toggle, next, prev, seek],
+    [state, playQueue, toggle, next, prev, seek, unlock],
   );
 
   return <PlayerContext.Provider value={value}>{children}</PlayerContext.Provider>;

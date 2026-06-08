@@ -1,42 +1,67 @@
+import { useEffect, useRef, useState } from "react";
 import { usePlayer } from "../audio/player";
-import { findCapsule, yearsFor } from "../data/capsules";
+import { loadCountry } from "../data/capsules";
 import { IpodPlayer } from "./IpodPlayer";
 import { AlbumWall } from "./AlbumWall";
 import { YearDial } from "./YearDial";
+import type { Capsule } from "../types";
 import "./capsule.css";
 
 interface CapsuleSceneProps {
   iso: string;
+  countryName: string;
   year: number;
   onYear: (year: number) => void;
   onClose: () => void;
 }
 
-export function CapsuleScene({ iso, year, onYear, onClose }: CapsuleSceneProps) {
-  const { playQueue } = usePlayer();
-  const capsule = findCapsule(iso, year);
-  const years = yearsFor(iso);
+export function CapsuleScene({
+  iso,
+  countryName,
+  year,
+  onYear,
+  onClose,
+}: CapsuleSceneProps) {
+  const { playQueue, unlock } = usePlayer();
+  // Tag loaded data with its iso so a stale country's data never shows during a switch,
+  // and we avoid resetting state synchronously inside the effect.
+  const [loaded, setLoaded] = useState<{ iso: string; capsules: Capsule[] } | null>(null);
+  const [failedIso, setFailedIso] = useState<string | null>(null);
 
-  if (!capsule) {
-    return (
-      <main className="capsule capsule--empty">
-        <p>That capsule is empty.</p>
-        <button type="button" className="capsule__back" onClick={onClose}>
-          Back to the map
-        </button>
-      </main>
+  useEffect(() => {
+    let alive = true;
+    loadCountry(iso).then(
+      (data) => alive && setLoaded({ iso, capsules: data }),
+      () => alive && setFailedIso(iso),
     );
-  }
+    return () => {
+      alive = false;
+    };
+  }, [iso]);
+
+  const capsules = loaded && loaded.iso === iso ? loaded.capsules : null;
+  const error = failedIso === iso;
+  const capsule = capsules?.find((c) => c.year === year);
+  const years = capsules?.map((c) => c.year) ?? [];
+
+  // Autoplay whenever the resolved capsule (country + year) changes.
+  const lastPlayed = useRef("");
+  useEffect(() => {
+    if (!capsule) return;
+    const key = `${capsule.iso}-${capsule.year}`;
+    if (lastPlayed.current === key) return;
+    lastPlayed.current = key;
+    playQueue(capsule.tracks, 0);
+  }, [capsule, playQueue]);
 
   const changeYear = (next: number) => {
     if (next === year) return;
-    const target = findCapsule(iso, next);
-    if (target && target.tracks.length) playQueue(target.tracks, 0);
+    unlock();
     onYear(next);
   };
 
   return (
-    <main className="capsule" data-field={capsule.field} data-on-field>
+    <main className="capsule" data-field={capsule?.field} data-on-field>
       <div className="capsule__bg" aria-hidden="true" />
 
       <header className="capsule__bar">
@@ -47,32 +72,43 @@ export function CapsuleScene({ iso, year, onYear, onClose }: CapsuleSceneProps) 
         <div className="capsule__id">
           <span className="capsule__brand">Back in My Days</span>
           <h1 className="capsule__title">
-            {capsule.countryName}, {capsule.year}
+            {countryName}, {year}
           </h1>
         </div>
 
-        <YearDial years={years} value={year} onChange={changeYear} />
+        {years.length > 0 && (
+          <YearDial years={years} value={year} onChange={changeYear} />
+        )}
       </header>
 
-      <p className="capsule__blurb">{capsule.blurb}</p>
+      {capsule && <p className="capsule__blurb">{capsule.blurb}</p>}
 
       <div className="capsule__stage" key={`${iso}-${year}`}>
-        <aside className="capsule__player">
-          <IpodPlayer onMenu={onClose} />
-        </aside>
-
-        <section
-          className="capsule__wall"
-          aria-label={`${capsule.countryName} ${capsule.year} tracks`}
-        >
-          <div className="capsule__wallhead">
-            <h2 className="capsule__wallhead-title">{capsule.era}</h2>
-            <p className="capsule__wallhead-sub">
-              {capsule.tracks.length} songs &middot; tap a cover to play
-            </p>
-          </div>
-          <AlbumWall tracks={capsule.tracks} />
-        </section>
+        {error ? (
+          <p className="capsule__status" role="alert">
+            Couldn't load this capsule. Go back to the map and try again.
+          </p>
+        ) : capsule ? (
+          <>
+            <aside className="capsule__player">
+              <IpodPlayer onMenu={onClose} />
+            </aside>
+            <section
+              className="capsule__wall"
+              aria-label={`${countryName} ${year} tracks`}
+            >
+              <div className="capsule__wallhead">
+                <h2 className="capsule__wallhead-title">{capsule.era}</h2>
+                <p className="capsule__wallhead-sub">
+                  {capsule.tracks.length} songs &middot; tap a cover to play
+                </p>
+              </div>
+              <AlbumWall tracks={capsule.tracks} />
+            </section>
+          </>
+        ) : (
+          <p className="capsule__status">Loading the capsule&hellip;</p>
+        )}
       </div>
     </main>
   );

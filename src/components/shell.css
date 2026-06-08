@@ -1,14 +1,14 @@
 .shell {
   min-height: 100dvh;
-  background: var(--field);
-  /* iPod-ad light bloom from the upper area. */
-  background-image: radial-gradient(
-    120% 80% at 50% -10%,
-    var(--field-glow) 0%,
-    var(--field) 55%,
-    var(--field-deep) 130%
-  );
-  color: var(--ink-on-field);
+  background-color: var(--chill-bg);
+  /* Soft pastel bubbles — light and airy. The loud part lives in the capsule. */
+  background-image:
+    radial-gradient(36rem 36rem at 12% 16%, var(--bubble-pink) 0%, transparent 66%),
+    radial-gradient(32rem 32rem at 88% 12%, var(--bubble-blue) 0%, transparent 66%),
+    radial-gradient(40rem 40rem at 84% 84%, var(--bubble-lime) 0%, transparent 66%),
+    radial-gradient(30rem 30rem at 14% 86%, var(--bubble-peach) 0%, transparent 66%),
+    radial-gradient(28rem 28rem at 50% 50%, var(--bubble-grape) 0%, transparent 70%);
+  color: var(--ink);
   display: flex;
   flex-direction: column;
   padding: clamp(1.25rem, 0.5rem + 3vw, 3rem) clamp(1rem, 0.4rem + 3vw, 3.5rem);
@@ -37,8 +37,7 @@
   font-size: var(--t-display);
   letter-spacing: -0.025em;
   line-height: 0.92;
-  color: var(--ink-on-field);
-  text-shadow: 0 1px 0 oklch(1 0 0 / 0.25);
+  color: var(--ink);
 }
 
 .shell__tld {
@@ -48,10 +47,9 @@
   margin-inline-start: 0.1em;
   padding: 0.18em 0.42em;
   border-radius: var(--r-pill);
-  color: var(--field-deep);
-  background: var(--paper);
-  background-image: var(--gloss);
-  box-shadow: 0 2px 6px oklch(0.2 0.06 350 / 0.3);
+  color: var(--paper);
+  background: var(--candy-1);
+  box-shadow: 0 3px 8px oklch(0.6 0.13 250 / 0.32);
   letter-spacing: 0;
 }
 
@@ -60,7 +58,7 @@
   font-family: var(--font-ms);
   font-size: var(--t-md);
   line-height: 1.4;
-  color: var(--ink-on-field);
+  color: var(--ink-soft);
   text-wrap: balance;
 }
 
@@ -73,7 +71,7 @@
   text-align: center;
   font-family: var(--font-ms);
   font-size: var(--t-sm);
-  color: var(--ink-on-field);
+  color: var(--ink-soft);
 }
 
 .shell__foot strong {
@@ -91,5 +89,24 @@
 @media (max-width: 600px) {
   .shell__tag {
     font-size: var(--t-base);
+  }
+}
+
+.shell__status {
+  text-align: center;
+  font-family: var(--font-ms);
+  font-size: var(--t-md);
+  color: var(--ink-soft);
+  padding: clamp(2rem, 6vw, 5rem) 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .shell__status {
+    animation: shell-pulse 1.4s var(--ease-out-quart) infinite alternate;
+  }
+  @keyframes shell-pulse {
+    from {
+      opacity: 0.55;
+    }
   }
 }

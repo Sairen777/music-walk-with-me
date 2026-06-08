@@ -1,28 +1,36 @@
+import { useMemo } from "react";
 import { usePlayer } from "../audio/player";
 import { WorldMap } from "./WorldMap";
-import { activeCountries, findCapsule, heroYearFor } from "../data/capsules";
+import { heroYearFor } from "../data/capsules";
+import type { CountryIndex } from "../types";
 import "./shell.css";
 
 interface ShellProps {
-  onOpen: (iso: string, year: number) => void;
+  countries: CountryIndex[] | null;
+  error: boolean;
+  onOpen: (iso: string, countryName: string, year: number) => void;
 }
 
-export function Shell({ onOpen }: ShellProps) {
-  const { playQueue } = usePlayer();
+export function Shell({ countries, error, onOpen }: ShellProps) {
+  const { unlock } = usePlayer();
+
+  const mapCountries = useMemo(
+    () => (countries ?? []).map((c) => ({ iso: c.iso, label: c.countryName })),
+    [countries],
+  );
 
   const open = (iso: string) => {
-    const year = heroYearFor(iso);
-    const capsule = findCapsule(iso, year);
-    if (!capsule || capsule.tracks.length === 0) return;
-    // Fire inside the click gesture so the browser permits audio.
-    playQueue(capsule.tracks, 0);
-    onOpen(iso, year);
+    const entry = countries?.find((c) => c.iso === iso);
+    if (!entry) return;
+    // Bless audio inside the click; the country's tracks load async, then autoplay.
+    unlock();
+    onOpen(iso, entry.countryName, heroYearFor(iso, entry.years));
   };
 
-  const names = activeCountries.map((c) => c.label).join(" and ");
+  const names = (countries ?? []).map((c) => c.countryName).join(" and ");
 
   return (
-    <main className="shell" data-on-field data-field="pink">
+    <main className="shell">
       <div className="shell__inner">
         <header className="shell__head">
           <h1 className="shell__wordmark">
@@ -35,19 +43,22 @@ export function Shell({ onOpen }: ShellProps) {
         </header>
 
         <section className="shell__stage" aria-label="Pick a place">
-          <WorldMap countries={activeCountries} onSelect={open} />
+          {error ? (
+            <p className="shell__status" role="alert">
+              Couldn't load the map. Refresh to try again.
+            </p>
+          ) : countries ? (
+            <WorldMap countries={mapCountries} onSelect={open} />
+          ) : (
+            <p className="shell__status">Loading the map&hellip;</p>
+          )}
         </section>
 
         <footer className="shell__foot">
-          {activeCountries.length ? (
+          {countries && countries.length > 0 && (
             <p>
               Lit up so far: <strong>{names}</strong>. Click one to drop in. More
               countries and years are on the way.
-            </p>
-          ) : (
-            <p className="shell__empty">
-              No music loaded yet. Run <code>node scripts/hydrate.mjs</code> to
-              fill the capsules.
             </p>
           )}
         </footer>
