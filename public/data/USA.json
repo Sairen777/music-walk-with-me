@@ -2,6 +2,1396 @@
   {
     "iso": "USA",
     "countryName": "USA",
+    "year": 1990,
+    "era": "boombox / MTV pop-rap",
+    "field": "lime",
+    "blurb": "A boombox, a blank tape, and every cafeteria trying the Hammer dance.",
+    "tracks": [
+      {
+        "id": "mc-hammer--u-can-t-touch-this",
+        "artist": "MC Hammer",
+        "title": "U Can't Touch This",
+        "album": "Please Hammer Don't Hurt 'Em",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/88/3d/74/883d74ea-aa53-99d8-e00c-f38fbba93d1d/13UABIM56742.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ba/5c/67/ba5c675d-9a98-df5e-3b3c-01564ac131b4/mzaf_10347004382794644877.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 257360
+      },
+      {
+        "id": "vanilla-ice--ice-ice-baby",
+        "artist": "Vanilla Ice",
+        "title": "Ice Ice Baby",
+        "album": "To the Extreme",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/6f/fb/a16ffb26-747f-5509-1233-2e472c293a89/13UABIM50850.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/e2/7c/2de27ce7-0673-f8e0-30e7-c79084ea5a11/mzaf_9504996243608700414.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 271467
+      },
+      {
+        "id": "bell-biv-devoe--poison",
+        "artist": "Bell Biv DeVoe",
+        "title": "Poison",
+        "album": "Poison",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d0/f5/e3/d0f5e334-65ab-4873-e9b0-aa3f11e76894/06UMGIM05576.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/1b/42/321b4236-9aa3-6430-ec74-541ae945bf7b/mzaf_713326778889943983.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 261853
+      },
+      {
+        "id": "deee-lite--groove-is-in-the-heart",
+        "artist": "Deee-Lite",
+        "title": "Groove Is In the Heart",
+        "album": "The Very Best of Deee-Lite",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/b9/85/ff/b985ff10-8301-4920-0e14-8352cae0aade/dj.scnjpwaf.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2b/11/98/2b11988f-5cdf-97b5-8cbd-8ed8d49fd6f0/mzaf_9425573898167217549.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 231787
+      },
+      {
+        "id": "madonna--vogue",
+        "artist": "Madonna",
+        "title": "Vogue",
+        "album": "The Immaculate Collection",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/32/fd/6e/32fd6e25-da2b-10e9-df38-2923c01b6c9b/dj.jaxugjvp.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/4d/26/f54d265c-1d43-6d64-7798-d1b8e6db2fda/mzaf_10996471418538527772.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 317080
+      },
+      {
+        "id": "wilson-phillips--hold-on",
+        "artist": "Wilson Phillips",
+        "title": "Hold On",
+        "album": "Wilson Phillips",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/56/aa/52/56aa52d0-e99b-c2fb-1bad-3403aea633f4/13UABIM53393.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/2f/60/d72f604f-bc19-2c5d-686e-2ce2876b6ae1/mzaf_6171953782431728191.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 266867
+      },
+      {
+        "id": "new-kids-on-the-block--step-by-step",
+        "artist": "New Kids On the Block",
+        "title": "Step By Step",
+        "album": "Step by Step",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/8f/c8/928fc84b-7125-41fc-a65d-1db0b2ff3db2/074644512922.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/fc/d5/1bfcd520-4ec8-0a35-ed32-403b34c1820c/mzaf_6225361367779742896.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 267293
+      },
+      {
+        "id": "digital-underground--the-humpty-dance",
+        "artist": "Digital Underground",
+        "title": "The Humpty Dance",
+        "album": "Sex Packets",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d3/92/29/d39229e0-9f86-4806-d310-4f290f415a63/081227883461.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/c0/84/1cc08424-2f11-ba00-61cc-86d554cf8a12/mzaf_8927935492997487065.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 391693
+      },
+      {
+        "id": "en-vogue--hold-on",
+        "artist": "En Vogue",
+        "title": "Hold On",
+        "album": "Born to Sing",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/93/4b/73/mzi.tktnmgcz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0d/0a/dc/0d0adc62-e68b-d84f-0c6f-36e335115ecd/mzaf_10967588673110574423.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 304380
+      },
+      {
+        "id": "jane-s-addiction--been-caught-stealing",
+        "artist": "Jane's Addiction",
+        "title": "Been Caught Stealing",
+        "album": "Ritual de lo Habitual",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a4/a4/de/a4a4ded4-671c-1068-3e90-58a594335b3e/mzi.qldnftzh.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d1/70/30/d1703020-dbbe-84e8-b164-bb720320686e/mzaf_10164651341743112623.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 214707
+      },
+      {
+        "id": "aerosmith--janie-s-got-a-gun",
+        "artist": "Aerosmith",
+        "title": "Janie's Got a Gun",
+        "album": "20th Century Masters - The Millennium Collection: The Best of Aerosmith",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/75/4a/e5/754ae506-e55a-b45c-f139-912e5102f30f/07UMGIM14958.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c1/f1/d3/c1f1d31b-5b31-dd48-d2c2-f4389893e129/mzaf_14527498740147461090.plus.aac.p.m4a",
+        "releaseYear": 1989,
+        "durationMs": 328600
+      },
+      {
+        "id": "they-might-be-giants--birdhouse-in-your-soul",
+        "artist": "They Might Be Giants",
+        "title": "Birdhouse In Your Soul",
+        "album": "Flood",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/c7/51/0ec7518d-d16c-5050-be47-151e8de12bd5/mzi.gpjneslv.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/44/ac/35/44ac359d-99ac-5829-fad6-6317cffba745/mzaf_1783717417710622090.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 198920
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1991,
+    "era": "grunge breaks / school dance",
+    "field": "blue",
+    "blurb": "The locker-door pivot: grunge on MTV, dance-pop at the gym, rap in the bus seats.",
+    "tracks": [
+      {
+        "id": "nirvana--smells-like-teen-spirit",
+        "artist": "Nirvana",
+        "title": "Smells Like Teen Spirit",
+        "album": "Nevermind",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a6/53/1e/a6531efa-397c-eb73-ecab-9b2790c1471e/mzaf_16440344883389407474.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 301096
+      },
+      {
+        "id": "pearl-jam--alive",
+        "artist": "Pearl Jam",
+        "title": "Alive",
+        "album": "Ten",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e0/e1/7c/e0e17cf0-62e5-6312-f3df-2462960cc8f1/884977724745.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/7f/14/377f14d3-61d3-471f-d21b-2f11f49467cc/mzaf_6667861949058372764.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 340907
+      },
+      {
+        "id": "r-e-m--losing-my-religion",
+        "artist": "R.E.M.",
+        "title": "Losing My Religion",
+        "album": "In Time: The Best of R.E.M. 1988-2003",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d4/9c/f6/d49cf63f-a412-5737-9392-1576c297b475/00888072396272.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/af/be/f5/afbef592-8f00-fe28-8ab4-5c070827b2f8/mzaf_4959761764791628207.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 268833
+      },
+      {
+        "id": "metallica--enter-sandman",
+        "artist": "Metallica",
+        "title": "Enter Sandman",
+        "album": "Metallica (Remastered)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9e/80/1b/9e801b06-67fa-0990-2d15-85480ad3cd46/850007452025.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5e/2a/9f/5e2a9f3e-8428-2503-d5f1-7dac7e28d1c4/mzaf_6337827541016910036.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 331560
+      },
+      {
+        "id": "boyz-ii-men--motownphilly",
+        "artist": "Boyz II Men",
+        "title": "Motownphilly",
+        "album": "CooleyHighHarmony (Bonus Track Version)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/b7/35/f7b7352e-3d60-0f2b-e7c1-d0e792ad2b14/06UMGIM04522.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/97/c5/6b/97c56bbf-c650-b5e0-1f38-d8d9f876dd80/mzaf_205735172703309381.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 235227
+      },
+      {
+        "id": "marky-mark-and-the-funky-bunch--good-vibrations-feat-loleatta-holloway",
+        "artist": "Marky Mark and the Funky Bunch",
+        "title": "Good Vibrations (feat. Loleatta Holloway)",
+        "album": "Good Vibrations - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/13/d9/c8/13d9c8a0-328e-a0d3-9122-4c5f0844e316/19UMGIM67872.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/c4/07/afc407f7-76c1-32bc-0207-5bb7c5190540/mzaf_17100846900819032840.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 270360
+      },
+      {
+        "id": "c-c-music-factory--gonna-make-you-sweat-everybody-dance-now",
+        "artist": "C+C Music Factory",
+        "title": "Gonna Make You Sweat (Everybody Dance Now)",
+        "album": "Super Hits",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/c6/b8/c5/mzi.qjqcuifc.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/ab/99/61/ab9961ca-290e-825b-7cb3-f8febd2a4ba9/mzaf_11904123724290956295.plus.aac.p.m4a",
+        "releaseYear": 1990,
+        "durationMs": 244093
+      },
+      {
+        "id": "color-me-badd--i-wanna-sex-you-up-mixed",
+        "artist": "Color Me Badd",
+        "title": "I Wanna Sex You Up",
+        "album": "R&B and RIBS Radio: J.RICH (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ec/57/ca/ec57ca3e-b65a-b766-5c55-bb7999ace69a/b577e626-0d84-4156-a460-2185ebdb2416.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ee/16/2a/ee162af0-b29d-a2b6-0fa0-0d637e1dfa4c/mzaf_3009614910790634234.plus.aac.p.m4a",
+        "releaseYear": 2026,
+        "durationMs": 84730
+      },
+      {
+        "id": "emf--unbelievable-2013-remastered",
+        "artist": "EMF",
+        "title": "Unbelievable (2013 Remastered)",
+        "album": "Schubert Dip (2013 Remastered)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/a8/e4/10/a8e41051-863a-6c86-a201-5650b85def62/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/28/fd/1c/28fd1c21-7722-cd0f-798a-2e71f1ddb7ff/mzaf_5454518272925218486.plus.aac.p.m4a",
+        "releaseYear": 2020,
+        "durationMs": 209907
+      },
+      {
+        "id": "naughty-by-nature--o-p-p",
+        "artist": "Naughty By Nature",
+        "title": "O.P.P",
+        "album": "Naughty by Nature",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/18/0d/16/180d1658-965f-dba0-c1d6-632c3d5c3905/081227921965.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/31/6b/57/316b57cb-1a48-574a-a68f-56cbea19b666/mzaf_14369383952781520622.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 271067
+      },
+      {
+        "id": "2pac--brenda-s-got-a-baby",
+        "artist": "2Pac",
+        "title": "Brenda's Got a Baby",
+        "album": "The Best of 2Pac, Pt. 2: Life",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/e8/af/78/e8af7802-7d95-e418-60fb-96ab15312384/00602547283474.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/29/90/e2299034-8c20-344d-3bd9-7cfadf4b0f5a/mzaf_7257968787947689137.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 233680
+      },
+      {
+        "id": "michael-jackson--black-or-white",
+        "artist": "Michael Jackson",
+        "title": "Black or White",
+        "album": "Dangerous",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/e4/5a/7be45aee-69a0-c6d3-102c-6658ab463b22/mzaf_5458873194560250720.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 256018
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1992,
+    "era": "MTV alt / G-funk",
+    "field": "orange",
+    "blurb": "Grunge, G-funk, and big R&B choruses fighting for the same mixtape.",
+    "tracks": [
+      {
+        "id": "sir-mix-a-lot--baby-got-back",
+        "artist": "Sir Mix-A-Lot",
+        "title": "Baby Got Back",
+        "album": "NOW That's What I Call the 90's",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d9/cd/37/d9cd3736-ce1d-f118-c02d-cb7b04893785/05099962637053.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview62/v4/51/1f/4a/511f4a13-5f2c-51da-c6d4-d84feef1af4a/mzaf_7177890414283063323.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 261947
+      },
+      {
+        "id": "house-of-pain--jump-around",
+        "artist": "House of Pain",
+        "title": "Jump Around",
+        "album": "House of Pain (Fine Malt Lyrics)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c5/b7/2f/c5b72ff4-d593-ed4c-f7ed-080fb4d224aa/081227911560.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/ff/46/1bff4615-9327-bc85-fef3-b9334bf55c89/mzaf_4586239461601648720.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 214947
+      },
+      {
+        "id": "arrested-development--tennessee",
+        "artist": "Arrested Development",
+        "title": "Tennessee",
+        "album": "3 Years, 5 Months and 2 Days In the Life Of...",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/10/08/32/1008321b-2add-f6cd-c62a-d2f4f680ddf6/05099907076251.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/a1/0f/28a10f0b-c67d-27e3-04f0-233545ad7518/mzaf_9718242329503479383.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 272707
+      },
+      {
+        "id": "nirvana--come-as-you-are",
+        "artist": "Nirvana",
+        "title": "Come As You Are",
+        "album": "Nevermind",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/f4/3e/86/f43e8664-bdd9-bc56-8d2b-76064c865920/mzaf_15456055651529260945.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 218971
+      },
+      {
+        "id": "red-hot-chili-peppers--under-the-bridge",
+        "artist": "Red Hot Chili Peppers",
+        "title": "Under the Bridge",
+        "album": "What Hits!? Best of Red Hot Chili Peppers",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/de/9d/37/de9d3730-3833-48f7-7184-76acae5954b0/00602547033123.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/31/4f/55314f44-83c2-f362-2e85-4d5094dc05ea/mzaf_9714487562243615234.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 265036
+      },
+      {
+        "id": "the-black-crowes--remedy",
+        "artist": "The Black Crowes",
+        "title": "Remedy",
+        "album": "The Southern Harmony and Musical Companion",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0f/a3/5e/0fa35e21-4117-c246-6b8b-fefda10f31d5/00602537350872.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/7a/27/0b/7a270b6b-69ed-52ea-8659-50fd21533909/mzaf_16091669085429938689.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 322640
+      },
+      {
+        "id": "tlc--ain-t-2-proud-2-beg",
+        "artist": "TLC",
+        "title": "Ain't 2 Proud 2 Beg",
+        "album": "Ooooooohhh... On the TLC Tip",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/04/57/ff/0457ff48-ed0b-ea8f-c793-e23877e3517a/730082600323.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/b5/09/52b5097a-fc0e-aa9d-21d3-c59e5cf9dffb/mzaf_13685667595061342732.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 336560
+      },
+      {
+        "id": "boyz-ii-men--end-of-the-road",
+        "artist": "Boyz II Men",
+        "title": "End of the Road",
+        "album": "CooleyHighHarmony (Bonus Track Version)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/b7/35/f7b7352e-3d60-0f2b-e7c1-d0e792ad2b14/06UMGIM04522.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/86/e1/5c86e11f-8301-abca-2d04-45465e5366a1/mzaf_16178094805615995720.plus.aac.p.m4a",
+        "releaseYear": 1991,
+        "durationMs": 351467
+      },
+      {
+        "id": "en-vogue--my-lovin-you-re-never-gonna-get-it",
+        "artist": "En Vogue",
+        "title": "My Lovin' (You're Never Gonna Get It)",
+        "album": "Funky Divas",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/13/2e/49/mzi.ofwalqeo.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/95/31/0b95313a-70be-77b6-fa57-1281cc86741f/mzaf_6311474214554491225.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 281613
+      },
+      {
+        "id": "kris-kross--jump",
+        "artist": "Kris Kross",
+        "title": "Jump",
+        "album": "Totally Krossed Out",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ea/03/30/ea033079-3254-3a3c-e2a6-504b30095ca6/dj.wutawrld.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e2/dd/53/e2dd53ce-6d2b-7f61-4f44-69602b600b4f/mzaf_1661278229444540244.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 195107
+      },
+      {
+        "id": "the-lemonheads--it-s-a-shame-about-ray",
+        "artist": "The Lemonheads",
+        "title": "It's a Shame About Ray",
+        "album": "It's a Shame About Ray - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/77/e6/8a/77e68a79-c9ff-6e06-469d-fab4441dd602/809236001047_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/85/1c/22/851c229b-dfd0-caf0-4068-b8babe0cd213/mzaf_10874712681388668044.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 186067
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1993,
+    "era": "CD-store mixtape",
+    "field": "pink",
+    "blurb": "Soundtrack singles, backpack rap, and alt-rock videos after school.",
+    "tracks": [
+      {
+        "id": "snoop-dogg--gin-and-juice",
+        "artist": "Snoop Dogg",
+        "title": "Gin and Juice",
+        "album": "The Very Best of Death Row",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/59/5c/49/595c49ca-20af-1a27-3716-fe1fe481c45e/617513535860_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/65/a7/9d/65a79dff-19d0-302d-87dc-989e14a484e1/mzaf_4549683202494535027.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 211507
+      },
+      {
+        "id": "wu-tang-clan--c-r-e-a-m-cash-rules-everything-around-me-radio-edit",
+        "artist": "Wu-Tang Clan",
+        "title": "C.R.E.A.M. (Cash Rules Everything Around Me) [Radio Edit]",
+        "album": "C.R.E.A.M. (Cash Rules Everything Around Me) - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ab/93/61/ab93616a-e4ec-6976-180e-01d4bb32af6b/886446512969.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/55/e4/ab55e45e-57e7-14a5-fc8a-328db6902615/mzaf_13093576392304646646.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 244680
+      },
+      {
+        "id": "the-smashing-pumpkins--today",
+        "artist": "The Smashing Pumpkins",
+        "title": "Today",
+        "album": "Siamese Dream",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3a/dc/08/3adc08b0-e98c-b5dd-943e-a37c7ed06205/13UABIM03615.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/07/91/ef/0791ef55-40c7-47e0-f94e-7a309cb7967e/mzaf_13853768609724405792.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 201196
+      },
+      {
+        "id": "pearl-jam--daughter-remastered",
+        "artist": "Pearl Jam",
+        "title": "Daughter",
+        "album": "Vs.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/a1/f7/60a1f7ee-72d8-0096-ac20-fe9c453211c7/dj.nyndmalc.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/70/93/e8/7093e886-d2e0-b87d-38e7-9cd41dc6e440/mzaf_10135859842921467404.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 235137
+      },
+      {
+        "id": "nirvana--heart-shaped-box",
+        "artist": "Nirvana",
+        "title": "Heart-Shaped Box",
+        "album": "Nirvana",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7b/58/c2/7b58c21a-2b51-2bb2-e59a-9bb9b96ad8c3/00602567924166.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/03/bf/0d/03bf0d57-b5d2-a1b4-6f24-d41967a0d9d7/mzaf_7857380435210835605.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 279187
+      },
+      {
+        "id": "cypress-hill--insane-in-the-brain-mixed",
+        "artist": "Cypress Hill",
+        "title": "Insane in the Brain",
+        "album": "Culture Kings: 50 Years of Hip Hop, Full 50 Year (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/24/d1/bb/24d1bb72-2478-4275-fd47-ce2ffe653755/182cfa85-27c5-45f3-ab89-0b1f8620a3af.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ab/2f/3d/ab2f3d06-5b64-cf50-c25f-6c5ba4e2ca98/mzaf_514282422140494763.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 98124
+      },
+      {
+        "id": "a-tribe-called-quest--award-tour",
+        "artist": "A Tribe Called Quest",
+        "title": "Award Tour",
+        "album": "Hits, Rarities & Remixes",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/97/b0/f9/97b0f94f-cffc-e4e3-fb70-34be518a3af1/dj.rgkkvazm.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/fe/78/c9/fe78c938-8ce2-3a97-46de-442b8a0763cc/mzaf_5107832412988196960.plus.aac.p.m4a",
+        "releaseYear": 2003,
+        "durationMs": 207587
+      },
+      {
+        "id": "counting-crows--mr-jones",
+        "artist": "Counting Crows",
+        "title": "Mr. Jones",
+        "album": "August and Everything After",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3b/dc/90/3bdc90a2-3697-0c5e-3265-65ccaa7dcbb3/14UMGIM00847.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/b0/2a/f3b02a56-a5bf-e940-4370-2e0a609f1cb4/mzaf_16264556580562087321.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 272279
+      },
+      {
+        "id": "the-breeders--cannonball",
+        "artist": "The Breeders",
+        "title": "Cannonball",
+        "album": "Last Splash",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/c7/f2/9c/c7f29c36-434e-3e40-b517-dce503eb2d5c/652637301458.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ba/87/50/ba8750e4-02a3-c4da-285d-e35091e131f0/mzaf_8573149686237400465.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 213693
+      },
+      {
+        "id": "tag-team--whoomp-there-it-is",
+        "artist": "Tag Team",
+        "title": "Whoomp! There It Is",
+        "album": "Twice as Nice",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/bf/88/33/bf88335b-e75a-66e3-009d-744010bbe1ac/5055373531441.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ec/cf/e0/eccfe076-b4d3-13a4-c3db-0f49a142009c/mzaf_6159684481729306529.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 272933
+      },
+      {
+        "id": "4-non-blondes--what-s-up",
+        "artist": "4 Non Blondes",
+        "title": "What's Up?",
+        "album": "Bigger, Better, Faster, More!",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/aa/44/d2aa4418-7e74-7e6d-4247-9b9c1cba9e64/06UMGIM01654.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/5e/61/0d5e612a-78a7-388a-79b8-c0c0cbb87a59/mzaf_16167981556861077252.plus.aac.p.m4a",
+        "releaseYear": 1992,
+        "durationMs": 295533
+      },
+      {
+        "id": "mariah-carey--dreamlover",
+        "artist": "Mariah Carey",
+        "title": "Dreamlover",
+        "album": "Music Box",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1a/c7/08/1ac708ec-f080-71f5-0580-ff81bc48b0e6/196871356909.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9b/ee/a9/9beea967-1b6e-0d52-ba4b-ce76ba5da2a8/mzaf_4056252249542690388.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 233642
+      },
+      {
+        "id": "the-cranberries--linger",
+        "artist": "The Cranberries",
+        "title": "Linger",
+        "album": "The Treasure Box for Boys and Girls",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d7/83/51/d7835106-ae7c-17ba-075f-54ef5b63a033/06UMGIM08683.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/10/8e/49108e6c-0892-fc70-78db-9206a87acb59/mzaf_7704978342827913697.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 274760
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1994,
+    "era": "alt-rock takeover",
+    "field": "cyan",
+    "blurb": "Dookie, Weezer, Sabotage, and a little G-funk in the same backpack.",
+    "tracks": [
+      {
+        "id": "green-day--basket-case",
+        "artist": "Green Day",
+        "title": "Basket Case",
+        "album": "Dookie",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/83/e7/8883e74b-1b7c-0725-09de-21e4e00d54b5/093624915713.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/c2/c9/0f/c2c90fef-f994-111d-2afc-17747de6bc03/mzaf_8917420879191568081.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 182916
+      },
+      {
+        "id": "weezer--buddy-holly",
+        "artist": "Weezer",
+        "title": "Buddy Holly",
+        "album": "Blue / Green / Red",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c7/4f/eb/c74feb4e-fa62-4086-2793-b987eac9777d/09UMGIM41719.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/44/78/03/4478034e-ab18-05d7-d191-19bd2a76a63a/mzaf_3248905697310152252.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 159267
+      },
+      {
+        "id": "the-offspring--come-out-and-play-keep-em-separated",
+        "artist": "The Offspring",
+        "title": "Come Out and Play (Keep 'Em Separated)",
+        "album": "Smash",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/0a/a7/73/0aa773c6-b990-b2c8-6654-cc162501d0f3/0045778643264.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/92/9c/52/929c5211-de34-4bf9-f201-bc1408712c6a/mzaf_6230281224881942937.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 197800
+      },
+      {
+        "id": "beastie-boys--sabotage",
+        "artist": "Beastie Boys",
+        "title": "Sabotage",
+        "album": "Solid Gold Hits",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/39/af/7c/39af7ceb-b3ad-9ce1-e29b-ffe77f549a65/00094634627153.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ae/dd/9c/aedd9c37-f6ff-c992-ed3f-f30d34b16dfe/mzaf_4834247799336829203.plus.aac.p.m4a",
+        "releaseYear": 2005,
+        "durationMs": 178373
+      },
+      {
+        "id": "beck--loser",
+        "artist": "Beck",
+        "title": "Loser",
+        "album": "Mellow Gold",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/35/a5/a8/35a5a83a-7a68-2390-c069-6bee759f047a/00075021017924.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ab/95/d1/ab95d11b-9c9d-4653-8acb-24818f4fb3c3/mzaf_18407472333512369789.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 235000
+      },
+      {
+        "id": "soundgarden--black-hole-sun",
+        "artist": "Soundgarden",
+        "title": "Black Hole Sun",
+        "album": "Telephantasm",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/fa/b9/81/fab9811c-a2e2-e4ef-e48f-29dd40881deb/00602527923710.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/50/74/f55074b9-c0f5-243b-2d51-e601ea51960f/mzaf_7279118866812446238.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 319133
+      },
+      {
+        "id": "nine-inch-nails--closer-mixed",
+        "artist": "Nine Inch Nails",
+        "title": "Closer",
+        "album": "Akuma No Chi Ga Odoru (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b5/50/12/b5501267-ff09-cb1e-c5bf-7a4287a936b3/THE_GASLAMP_KILLER_-_AKUMA_NO_CHI_GA_ODORU_MIX.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/69/08/ae/6908aeab-e858-fe2c-f372-1a45b6cea7c3/mzaf_5197688026311528065.plus.aac.p.m4a",
+        "releaseYear": 2021,
+        "durationMs": 52892
+      },
+      {
+        "id": "tlc--creep",
+        "artist": "TLC",
+        "title": "Creep",
+        "album": "CrazySexyCool",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/4d/1a/854d1ab6-85be-65d4-0c9a-6439800676be/mzaf_784336923403827515.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 268533
+      },
+      {
+        "id": "aaliyah--back-and-forth",
+        "artist": "Aaliyah",
+        "title": "Back & Forth",
+        "album": "I Care 4 U",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/72/61/b0/7261b044-c728-aec2-a463-11efbbbb51e4/5034644712833.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ad/66/31/ad663196-5de4-0d6b-e504-1085466410c7/mzaf_4668550997201157399.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 229933
+      },
+      {
+        "id": "the-notorious-b-i-g--juicy",
+        "artist": "The Notorious B.I.G.",
+        "title": "Juicy",
+        "album": "Ready To Die the Remaster",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f8/6a/3d/f86a3db0-d518-cd49-c0c9-25e767ae0a6d/075679456861.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5b/81/21/5b8121d4-1b2b-511a-1f38-0ef4346909b0/mzaf_4190278176982078552.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 286000
+      },
+      {
+        "id": "lisa-loeb-and-nine-stories--stay-i-missed-you",
+        "artist": "Lisa Loeb & Nine Stories",
+        "title": "Stay (I Missed You)",
+        "album": "Tails",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/76/5b/a5/765ba522-c63e-ab3c-c25c-f29cc522021e/00720642473429.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/06/ae/5c/06ae5cb1-8d6f-ae5d-2667-101061068eab/mzaf_17169234052865253202.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 183760
+      },
+      {
+        "id": "ace-of-base--the-sign",
+        "artist": "Ace of Base",
+        "title": "The Sign",
+        "album": "The Sign (The Remixes) - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/14/ea/87/14ea87fa-fc85-4b1f-472f-43c3e694ec8c/cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/d1/8f/50d18f80-466d-3044-3045-769cd045b582/mzaf_145168018015310017.plus.aac.p.m4a",
+        "releaseYear": 1993,
+        "durationMs": 191240
+      },
+      {
+        "id": "coolio--fantastic-voyage-mixed",
+        "artist": "Coolio",
+        "title": "Fantastic Voyage",
+        "album": "Loungin' At The BBQ (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/21/bc/d4/21bcd4f3-68fd-ab51-bc80-c7b538f35f64/41c28719-80b5-4566-8f0b-b189598c6489.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/37/88/193788db-ad51-2823-4724-930758fa881e/mzaf_8127108163766616635.plus.aac.p.m4a",
+        "releaseYear": 2025,
+        "durationMs": 54613
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1995,
+    "era": "mall radio / post-grunge",
+    "field": "lime",
+    "blurb": "Friends on TV, Jagged Little Pill in the car, and every chorus enormous.",
+    "tracks": [
+      {
+        "id": "coolio--gangsta-s-paradise-feat-l-v",
+        "artist": "Coolio",
+        "title": "Gangsta's Paradise (feat. L.V.)",
+        "album": "Gangsta's Paradise",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/92/f7/88/92f7884b-d115-5d5f-1eb5-85128af2d58f/081227882365.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/91/8f/60/918f605a-f8a9-e976-f43a-1bb5f0a8199d/mzaf_11718273018999451377.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 241933
+      },
+      {
+        "id": "tlc--waterfalls",
+        "artist": "TLC",
+        "title": "Waterfalls",
+        "album": "CrazySexyCool",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/14/a8/69/14a86912-841d-3cb8-cf55-0439b15c6cab/dj.mjduepez.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e9/81/4e/e9814ecd-7282-e0cf-6a19-70ea78117382/mzaf_10928185948311762507.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 279507
+      },
+      {
+        "id": "no-doubt--just-a-girl",
+        "artist": "No Doubt",
+        "title": "Just a Girl",
+        "album": "Tragic Kingdom",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fe/0a/68/fe0a687a-537e-e902-0778-90465c118f77/00602547870575.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/34/c2/72/34c27293-0cdf-a7cc-a354-52f5a601b336/mzaf_5323950264219890652.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 209107
+      },
+      {
+        "id": "montell-jordan--this-is-how-we-do-it",
+        "artist": "Montell Jordan",
+        "title": "This Is How We Do It",
+        "album": "This Is How We Do It",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e7/94/47/e7944769-34bb-1ee3-e1d9-b819e3497caa/06UMGIM03760.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d7/13/51/d713513c-307f-9089-84b0-b16f396000a8/mzaf_11362731170022474166.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 277293
+      },
+      {
+        "id": "luniz--i-got-5-on-it",
+        "artist": "Luniz",
+        "title": "I Got 5 On It",
+        "album": "The Lost Tapes 2",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/64/2d/4b/642d4b74-f54a-75bb-02a5-3a4f9809fd1f/881034251602_cover.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/20/59/f6205938-0e32-eed8-771a-f736311c086b/mzaf_11570715096899125150.plus.aac.p.m4a",
+        "releaseYear": 2008,
+        "durationMs": 245693
+      },
+      {
+        "id": "mariah-carey--fantasy",
+        "artist": "Mariah Carey",
+        "title": "Fantasy",
+        "album": "Daydream",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/78/4f/2c/784f2c84-b5ba-0e7e-58b1-715143b2f199/mzi.vippwwob.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/5f/8d/295f8dd7-a0f0-9a36-b999-37160221a70b/mzaf_3984242691109056031.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 243493
+      },
+      {
+        "id": "the-rembrandts--i-ll-be-there-for-you-theme-from-friends",
+        "artist": "The Rembrandts",
+        "title": "I'll Be There for You (Theme from Friends)",
+        "album": "The Rembrandts: L.P.",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/10/b0/d0/10b0d0fd-008c-b493-b9e2-ac579eb87393/mzi.unizvawf.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/64/8e/84/648e84d9-d491-a92d-5a06-b4c1e6457671/mzaf_18405791090191220886.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 188360
+      },
+      {
+        "id": "the-goo-goo-dolls--name",
+        "artist": "The Goo Goo Dolls",
+        "title": "Name",
+        "album": "A Boy Named Goo",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/9d/a3/30/9da3309b-75ff-eaea-c2a9-3534eb8e5e23/093624918820.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e6/ca/ff/e6caffe2-fbbb-b7bb-6935-9ce2f903167a/mzaf_18268301126678620528.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 269968
+      },
+      {
+        "id": "blues-traveler--run-around",
+        "artist": "Blues Traveler",
+        "title": "Run-Around",
+        "album": "Four",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/af/d3/00/afd3003b-68f8-ff86-299f-a30024e9354f/06UMGIM06749.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/66/84/4366849a-5fbd-205e-e2cd-c9cb5886776b/mzaf_17548577827328077661.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 279800
+      },
+      {
+        "id": "collective-soul--december",
+        "artist": "Collective Soul",
+        "title": "December",
+        "album": "Collective Soul",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/d1/3e/1bd13ea1-3110-95e6-e1ed-c5ee266c2701/18CRGIM05998.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a1/d8/d2/a1d8d279-b52a-4f06-de24-556bcb748911/mzaf_17908739833298129728.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 285000
+      },
+      {
+        "id": "seal--kiss-from-a-rose",
+        "artist": "Seal",
+        "title": "Kiss from a Rose",
+        "album": "Seal II",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/34/b5/2f/34b52f15-c64a-6971-78d3-277d08d9779d/dj.bxnijqdz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6c/67/8b/6c678b0a-068d-5649-f489-9cf150c30634/mzaf_7788754598776247867.plus.aac.p.m4a",
+        "releaseYear": 1994,
+        "durationMs": 288427
+      },
+      {
+        "id": "bone-thugs-n-harmony--1st-of-tha-month",
+        "artist": "Bone Thugs-n-Harmony",
+        "title": "1st of Tha Month",
+        "album": "E. 1999 Eternal",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9f/fa/13/9ffa13d8-7855-c7d7-c522-464ed4c38a5d/191018283247.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/14/4e/83/144e83c6-b867-cfbb-08a8-e0b52fa80958/mzaf_15323493555908832702.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 273933
+      },
+      {
+        "id": "oasis--wonderwall",
+        "artist": "Oasis",
+        "title": "Wonderwall",
+        "album": "(What's the Story) Morning Glory?",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/04/92/e0/0492e08b-cbcc-9969-9ad6-8f5a0888068c/5051961007107.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/16/93/ab16933c-6203-3db9-9da9-513ff1c8496d/mzaf_16993612140334549994.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 258907
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1996,
+    "era": "cafeteria MTV mix",
+    "field": "blue",
+    "blurb": "Alt one-hit staples, R&B radio, and the Macarena inescapably everywhere.",
+    "tracks": [
+      {
+        "id": "no-doubt--don-t-speak",
+        "artist": "No Doubt",
+        "title": "Don't Speak",
+        "album": "Tragic Kingdom",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fe/0a/68/fe0a687a-537e-e902-0778-90465c118f77/00602547870575.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/eb/d3/dd/ebd3dd7b-ef82-0855-54b0-3c978e7f1594/mzaf_13350123702531292562.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 263533
+      },
+      {
+        "id": "2pac--california-love-feat-roger-troutman-and-dr-dre-mixed",
+        "artist": "2Pac",
+        "title": "California Love (feat. Roger Troutman & Dr. Dre) [Mixed]",
+        "album": "NYE 2024 (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/b3/84/3bb384a1-20f5-8409-68f6-4697de2ff623/3563fd8b-9e2b-4b4b-9e97-7a66f18f80c5.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/53/af/a5/53afa5be-f403-282b-5afc-1da88c8da01b/mzaf_3468622737767644188.plus.aac.p.m4a",
+        "releaseYear": 2023,
+        "durationMs": 118250
+      },
+      {
+        "id": "fugees--killing-me-softly-with-his-song",
+        "artist": "Fugees",
+        "title": "Killing Me Softly with His Song",
+        "album": "The Score",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0e/d1/5b/0ed15b14-271c-35d5-5909-49f18fbfb32b/886445600605.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/fa/27/9e/fa279e3c-c344-ff8d-58d2-5db3c7f5c7d6/mzaf_3011910104000614995.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 298733
+      },
+      {
+        "id": "blackstreet--no-diggity-feat-dr-dre-and-queen-pen",
+        "artist": "Blackstreet",
+        "title": "No Diggity (feat. Dr. Dre & Queen Pen)",
+        "album": "Another Level",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/9f/b4/45/9fb4457e-7ab5-0484-a81f-4666ba8fae80/06UMGIM01977.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/d7/27/96d727a5-e22b-a526-cec5-5d185180c8a0/mzaf_8685114639537905202.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 304600
+      },
+      {
+        "id": "sublime--what-i-got-kahne-radio-edit",
+        "artist": "Sublime",
+        "title": "What I Got (Kahne Radio Edit)",
+        "album": "What I Got... - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/07/10/b2/0710b228-7c9f-ab5a-df06-f47918164341/10UMGIM27084.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/3a/90/453a90a0-a017-d893-5890-5eb0be1b7fd0/mzaf_14695275228566454328.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 166600
+      },
+      {
+        "id": "beck--where-it-s-at",
+        "artist": "Beck",
+        "title": "Where It's At",
+        "album": "Odelay",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/7f/cd/e2/7fcde2a5-93be-d7ed-a015-6969298b5d96/19UM1IM00477.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/64/14/0c64147c-5188-8ac6-5089-e9b520507f28/mzaf_15152162840102890646.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 330949
+      },
+      {
+        "id": "the-smashing-pumpkins--1979",
+        "artist": "The Smashing Pumpkins",
+        "title": "1979",
+        "album": "The Aeroplane Flies High",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/0e/80/43/0e804357-95fa-acc0-fc60-d1dfe5f861bf/00602537460809.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/b2/fb/77b2fba9-9e3d-252c-b06f-83d3613011c3/mzaf_10968288152546910105.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 267623
+      },
+      {
+        "id": "alanis-morissette--ironic",
+        "artist": "Alanis Morissette",
+        "title": "Ironic",
+        "album": "Jagged Little Pill",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/5f/3b/ca/5f3bca60-024c-d4aa-d638-6d58e7e81461/mza_1406686761081396977.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ac/0b/16/ac0b16ef-6a3f-dbee-412f-633252a05000/mzaf_16331196908993730585.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 227533
+      },
+      {
+        "id": "jewel--who-will-save-your-soul",
+        "artist": "Jewel",
+        "title": "Who Will Save Your Soul",
+        "album": "Pieces Of You",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/31/82/ff/3182ffe1-92f1-4762-d6e8-5abc8b01fd91/18CRGIM06161.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/87/d0/9c/87d09c43-e4c1-373a-da77-35f0f266c301/mzaf_10040302331043025261.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 239293
+      },
+      {
+        "id": "butthole-surfers--pepper",
+        "artist": "Butthole Surfers",
+        "title": "Pepper",
+        "album": "Electriclarryland",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/33/79/3d/33793d49-2b29-73d7-6916-74f5fadddd09/00724382984252.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/42/b5/38/42b5383e-7bdc-2698-7c28-cbc0416cdaa7/mzaf_2651028825715965819.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 297267
+      },
+      {
+        "id": "primitive-radio-gods--standing-outside-a-broken-phone-booth-with-money-in-my-hand",
+        "artist": "Primitive Radio Gods",
+        "title": "Standing Outside a Broken Phone Booth with Money in My Hand",
+        "album": "Rocket",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/84/f7/4684f7a2-d80d-6cae-8d64-fc5870543583/mzi.merokpoi.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1e/af/7f/1eaf7fe0-07ec-663c-238e-4a6322764c6a/mzaf_10598579244242517686.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 336800
+      },
+      {
+        "id": "donna-lewis--i-love-you-always-forever",
+        "artist": "Donna Lewis",
+        "title": "I Love You Always Forever",
+        "album": "Now In a Minute",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/79/1b/ae/791bae6a-09aa-28f9-e819-7a1c2813b576/mzi.uchcimod.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4c/d8/23/4cd823af-1f46-ee24-ccef-12b29fdc0a68/mzaf_7093239451571714634.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 239960
+      },
+      {
+        "id": "quad-city-dj-s--c-mon-n-ride-it-the-train",
+        "artist": "Quad City DJ's",
+        "title": "C'mon N' Ride It (The Train)",
+        "album": "Get On Up and Dance",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/b4/e1/49/b4e1495d-50a1-d151-e9db-5c2e1ea18610/mzi.ejtgilth.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/19/e6/7b/19e67b9f-06bd-db77-4b75-cc0a91fe28ad/mzaf_4519106166539798582.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 451440
+      },
+      {
+        "id": "los-del-rio--macarena-original-version",
+        "artist": "Los del Río",
+        "title": "Macarena",
+        "album": "Fiesta Macarena",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/a1/2d/6a/a12d6a7b-6173-ed2e-9682-a30d245ed7fe/mzi.ndplymif.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/e8/56/fe/e856fefa-4f3c-af1b-e139-d24f9a4393d4/mzaf_14984303703611477855.plus.aac.p.m4a",
+        "releaseYear": 1995,
+        "durationMs": 249507
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1997,
+    "era": "Spice / alt-radio",
+    "field": "orange",
+    "blurb": "Spice Girls, Hanson, alt-radio one-hit staples, and movie-single energy.",
+    "tracks": [
+      {
+        "id": "spice-girls--wannabe",
+        "artist": "Spice Girls",
+        "title": "Wannabe",
+        "album": "Wannabe 25 - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e1/92/8f/e1928fcb-0204-ca19-597a-6edaf8e6ebc8/21UMGIM16233.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/db/cb/c6/dbcbc688-8277-b365-8deb-1da3c30da079/mzaf_7842872759474974048.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 176480
+      },
+      {
+        "id": "hanson--mmmbop",
+        "artist": "Hanson",
+        "title": "MMMBop",
+        "album": "Middle of Nowhere",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2d/00/8c/2d008c91-a13d-c60a-9ed1-ed715c583f7c/06UMGIM20991.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/6d/db/8c6ddba0-e5ba-977e-5258-1512a1fbb1cd/mzaf_7353445484288718038.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 268653
+      },
+      {
+        "id": "third-eye-blind--semi-charmed-life",
+        "artist": "Third Eye Blind",
+        "title": "Semi-Charmed Life",
+        "album": "A Collection (Remastered)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/fc/42/21/mzi.uiahpqeo.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/66/4f/d5/664fd561-0029-9716-332f-f803d5c62c88/mzaf_11204203960647499555.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 268640
+      },
+      {
+        "id": "sugar-ray--fly",
+        "artist": "Sugar Ray",
+        "title": "Fly",
+        "album": "Floored",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/98/b0/63/mzi.jxkcjulv.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5f/cd/38/5fcd38ae-6dc8-8e69-1430-970e3f197840/mzaf_9999763054753827295.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 244640
+      },
+      {
+        "id": "aqua--barbie-girl",
+        "artist": "Aqua",
+        "title": "Barbie Girl",
+        "album": "Barbie Girl - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/57/ba/7757ba77-0163-a195-950b-95786aa7a90e/17UMGIM98492.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/b7/7d/3db77df0-d9a3-b60e-0714-41fd79b9ebff/mzaf_3692738463507322199.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 197907
+      },
+      {
+        "id": "backstreet-boys--quit-playing-games-with-my-heart",
+        "artist": "Backstreet Boys",
+        "title": "Quit Playing Games (With My Heart)",
+        "album": "Backstreet Boys",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/59/00/53/59005338-772d-2dd7-e2ff-674484629337/012414158925.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/58/48/c9/5848c987-b16c-4274-f780-e34b7cbd4fef/mzaf_14022747201675979300.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 233533
+      },
+      {
+        "id": "meredith-brooks--bitch",
+        "artist": "Meredith Brooks",
+        "title": "Bitch",
+        "album": "Blurring the Edges",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/83/f9/0f/83f90f81-57c9-e611-22b1-c4ca3ddf1335/13UABIM59258.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f8/66/2c/f8662c47-e963-e15c-cbc4-b0c89575692b/mzaf_1646085608445664.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 252760
+      },
+      {
+        "id": "the-verve-pipe--the-freshmen",
+        "artist": "The Verve Pipe",
+        "title": "The Freshmen",
+        "album": "Villains",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/3a/e2/82/3ae282e7-4699-2c5b-4d94-edd22e631d02/dj.lwjyqxep.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/33/bd/ec/33bdec7f-a587-6937-a263-d172ed10a5f0/mzaf_7417307075124840663.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 269467
+      },
+      {
+        "id": "smash-mouth--walkin-on-the-sun",
+        "artist": "Smash Mouth",
+        "title": "Walkin' On the Sun",
+        "album": "All Star Smash Hits",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f0/8e/8c/f08e8c35-ff42-1a9e-00cb-31e54b712a0a/06UMGIM12975.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f5/2d/c6/f52dc633-5340-2a5c-ca08-61e4fda7b7f6/mzaf_9805622455620984930.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 206413
+      },
+      {
+        "id": "foo-fighters--everlong",
+        "artist": "Foo Fighters",
+        "title": "Everlong",
+        "album": "The Colour And The Shape",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/68/f5/86/68f586ca-a375-9965-a864-9e227e77ef5b/884977570328.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d0/77/17/d07717cb-9977-1cbb-6634-3e598d0c4da6/mzaf_15769952961470333318.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 250547
+      },
+      {
+        "id": "the-notorious-b-i-g--hypnotize-mixed",
+        "artist": "The Notorious B.I.G.",
+        "title": "Hypnotize",
+        "album": "GROOV3: Nonstop Hip-Hop by DJ Stereotheif (DJ Mix)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/28/28/ed/2828ed7c-470e-c489-b7f1-5a369f119fda/29990e9f-7819-416b-b385-cc58856663b5.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/50/02/d3500239-2f02-b6ee-ec87-86fbc1fb9212/mzaf_339042943540665060.plus.aac.p.m4a",
+        "releaseYear": 2018,
+        "durationMs": 62973
+      },
+      {
+        "id": "will-smith--men-in-black",
+        "artist": "Will Smith",
+        "title": "Men In Black",
+        "album": "Big Willie Style",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/96/47/9d/96479d49-1ccd-ea1a-7bee-6750a73f363f/mzi.haxmzhnz.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/9e/96/c1/9e96c1e4-f56b-58e6-5c86-efacf4595397/mzaf_7299046879243850750.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 227267
+      },
+      {
+        "id": "marcy-playground--sex-and-candy",
+        "artist": "Marcy Playground",
+        "title": "Sex & Candy",
+        "album": "Marcy Playground",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/57/ce/c3/57cec344-c03a-db04-c03f-c387bbcacae5/13UABIM59219.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5c/c6/56/5cc65626-7557-ae52-1a8a-b8fa5ff8158d/mzaf_2198035177177381110.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 173493
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1998,
+    "era": "pre-TRL / graduation radio",
+    "field": "pink",
+    "blurb": "TRL was arriving, graduation songs were everywhere, and CDs lived in binders.",
+    "tracks": [
+      {
+        "id": "britney-spears--baby-one-more-time",
+        "artist": "Britney Spears",
+        "title": "...Baby One More Time",
+        "album": "...Baby One More Time",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/78/83/a3788355-9932-b0b0-8314-f0717a13b8a6/888880333476.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/49/2d/12/492d127a-ae83-a0cd-97b6-10d34d4a56f5/mzaf_694336938043858459.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 210707
+      },
+      {
+        "id": "nsync--i-want-you-back-radio-edit",
+        "artist": "*NSYNC",
+        "title": "I Want You Back (Radio Edit)",
+        "album": "'N Sync (UK Bonus Track Edition)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/9a/c9/02/9ac90284-2079-8533-acb9-fbe99cc68e2f/dj.edrxjxzn.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/53/34/e2/5334e252-fcac-0644-ca3f-c7d1a0bf048f/mzaf_4223172437370932652.plus.aac.p.m4a",
+        "releaseYear": 1996,
+        "durationMs": 200440
+      },
+      {
+        "id": "backstreet-boys--everybody-backstreet-s-back-extended-version",
+        "artist": "Backstreet Boys",
+        "title": "Everybody (Backstreet's Back) [Extended Version]",
+        "album": "Backstreet Boys",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/59/00/53/59005338-772d-2dd7-e2ff-674484629337/012414158925.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/a6/73/ed/a673ed8c-2bfe-3bb8-81f8-2ac31eac2509/mzaf_2457090091947801648.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 287293
+      },
+      {
+        "id": "brandy-and-monica--the-boy-is-mine",
+        "artist": "Brandy & Monica",
+        "title": "The Boy Is Mine",
+        "album": "Never Say Never",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/b1/52/c5/b152c569-f81f-4005-7b61-5b54b855564d/s06.hfdwpdak.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ff/c0/66/ffc0668d-c729-d051-2db1-e45d78bbb759/mzaf_16323944837925495080.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 294787
+      },
+      {
+        "id": "the-goo-goo-dolls--iris",
+        "artist": "The Goo Goo Dolls",
+        "title": "Iris",
+        "album": "Dizzy Up the Girl",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2c/13/18/2c131801-00af-58b1-3cc2-13abf4ad5416/093624919162.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/60/17/35/60173512-3d5c-1d6f-549e-d8ddafa93e07/mzaf_5281658494050788067.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 289559
+      },
+      {
+        "id": "semisonic--closing-time",
+        "artist": "Semisonic",
+        "title": "Closing Time",
+        "album": "20th Century Masters - The Millennium Collection: The Best of Semisonic",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/92/a3/28/92a32865-96f4-c32a-b95e-4215667bbfc2/00008811310325.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/ca/df/f2cadf78-fff4-ac7b-ed9c-6ce2cb8f575c/mzaf_13782598360150534572.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 274160
+      },
+      {
+        "id": "barenaked-ladies--one-week",
+        "artist": "Barenaked Ladies",
+        "title": "One Week",
+        "album": "Hits from Yesterday & the Day Before",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/06/d3/0c/dj.iaxwwtyf.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/94/1e/97/941e9759-69ea-d490-4eb7-7f03c8ae2411/mzaf_6412106687154381828.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 169760
+      },
+      {
+        "id": "eve-6--inside-out",
+        "artist": "Eve 6",
+        "title": "Inside Out",
+        "album": "Eve 6",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/c7/c0/3d/c7c03dff-b1ba-a502-c5d0-284544d6229a/dj.yoouhfua.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/98/41/b29841c3-0b45-d07e-02d0-a2de8390b429/mzaf_13798063216524982165.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 219467
+      },
+      {
+        "id": "harvey-danger--flagpole-sitta",
+        "artist": "Harvey Danger",
+        "title": "Flagpole Sitta",
+        "album": "Where Have All the Merrymakers Gone?",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/47/e9/37/47e937d8-a54a-ddb2-0f0a-459c94782f1f/06UMGIM58976.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/30/64/433064e8-7e34-e257-d4a5-0d230cdccd1b/mzaf_8678036031483705203.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 217267
+      },
+      {
+        "id": "beastie-boys--intergalactic",
+        "artist": "Beastie Boys",
+        "title": "Intergalactic",
+        "album": "Anthology: The Sounds of Science",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3e/2e/d4/3e2ed421-dbc4-a027-060d-1625daa3bbb4/00724352294053.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/4e/df/3b4edff8-5bc8-f5bc-63e9-1f4f71b4d12b/mzaf_11404149616338948990.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 212467
+      },
+      {
+        "id": "lauryn-hill--doo-wop-that-thing",
+        "artist": "Lauryn Hill",
+        "title": "Doo Wop (That Thing)",
+        "album": "The Miseducation of Lauryn Hill",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/09/6b/55/096b55c4-ee8f-23bd-df8f-0ca0821f3028/886446727189.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/2c/70/d92c708f-1a4a-d022-e188-a75ecd762b75/mzaf_926740419110213225.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 320267
+      },
+      {
+        "id": "jay-z--hard-knock-life-ghetto-anthem",
+        "artist": "JAŸ-Z",
+        "title": "Hard Knock Life (Ghetto Anthem)",
+        "album": "Vol.2... Hard Knock Life",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/b9/77/4eb9779b-073e-5e77-29de-ef98514bec6b/00731455890525.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/94/57/55/94575585-b96a-ce3e-711e-edf82d8d0b8a/mzaf_6871215524717019213.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 238560
+      },
+      {
+        "id": "dmx--ruff-ryders-anthem",
+        "artist": "DMX",
+        "title": "Ruff Ryders Anthem",
+        "album": "It's Dark and Hell Is Hot",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/13/34/46/13344685-5091-63b1-a1e1-d4eedd80867d/14UMGIM37102.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4a/f6/0e/4af60eb1-1a21-4735-cc01-1f94f8786f49/mzaf_6613141070557975112.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 214773
+      },
+      {
+        "id": "fatboy-slim--the-rockafeller-skank",
+        "artist": "Fatboy Slim",
+        "title": "The Rockafeller Skank",
+        "album": "You've Come a Long Way Baby",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/45/1a/16/451a1673-1aa4-63e7-cfca-8a44ce9d0779/14ULAIM03599.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/d4/84/d0d484fe-a26e-024d-d2e3-89af7a8ddc5b/mzaf_2374636317364850310.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 413880
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
+    "year": 1999,
+    "era": "peak TRL / Y2K hallway",
+    "field": "cyan",
+    "blurb": "Teen-pop saturation, nu-metal sneaking in, and Y2K hallway gossip.",
+    "tracks": [
+      {
+        "id": "backstreet-boys--i-want-it-that-way",
+        "artist": "Backstreet Boys",
+        "title": "I Want It That Way",
+        "album": "Millennium",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/6b/e9/5f6be919-1b9e-30ef-45b7-cc27fc428fd5/012414167224.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/cd/f8/12cdf81c-f174-cd45-9a56-9b2388df9e63/mzaf_2642298639219088626.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 213307
+      },
+      {
+        "id": "christina-aguilera--genie-in-a-bottle",
+        "artist": "Christina Aguilera",
+        "title": "Genie In a Bottle",
+        "album": "Keeps Gettin' Better: A Decade of Hits",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/0d/9e/5c/mzi.yevukdna.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/31/00/50/310050ea-285e-faf2-2d95-73ae6c692059/mzaf_3740788443119941805.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 218267
+      },
+      {
+        "id": "tlc--no-scrubs",
+        "artist": "TLC",
+        "title": "No Scrubs",
+        "album": "FanMail",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/19/0c/2d190ce6-a157-6364-b5b4-e9b00265d313/mzi.ucefobwj.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c9/64/38/c964385e-f18a-fd99-638c-76d4f9bdd4e2/mzaf_4744709234124158764.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 214400
+      },
+      {
+        "id": "destiny-s-child--bills-bills-bills",
+        "artist": "Destiny's Child",
+        "title": "Bills, Bills, Bills",
+        "album": "Bills, Bills, Bills - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/2c/31/b7/2c31b727-6a3f-889e-4131-0218bc1c9e68/mzi.pgllanik.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/9a/07/52/9a07522c-297c-282e-f044-313494454098/mzaf_4114134810017415291.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 254533
+      },
+      {
+        "id": "eminem--my-name-is",
+        "artist": "Eminem",
+        "title": "My Name Is",
+        "album": "The Slim Shady LP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/40/c4/a8/40c4a821-1d37-9c62-a2b1-56624fc1da64/15UMGIM55233.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/d3/ef/9f/d3ef9f2e-5624-fe12-eb1e-fdd766ddf306/mzaf_17328581322395694558.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 268440
+      },
+      {
+        "id": "blink-182--what-s-my-age-again",
+        "artist": "blink-182",
+        "title": "What's My Age Again?",
+        "album": "Enema of the State",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d0/54/b8/d054b82b-981e-6834-6d47-09d00faad533/16UMGIM35659.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fa/47/05/fa4705d6-c6cd-e8af-c2de-3658ebcfc93f/mzaf_11023782226348954802.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 148366
+      },
+      {
+        "id": "limp-bizkit--nookie",
+        "artist": "Limp Bizkit",
+        "title": "Nookie",
+        "album": "Significant Other",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/29/88/4e/29884eeb-b26e-fd69-943d-8d6f24a0ec88/00602517735651.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/29/55/57/295557a0-801b-4263-d92d-54240b5b8b49/mzaf_7265233619651269525.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 266093
+      },
+      {
+        "id": "korn--freak-on-a-leash-freakin-bitch-mix",
+        "artist": "Korn",
+        "title": "Freak On a Leash (Freakin' Bitch Mix)",
+        "album": "Freak On a Leash: The Remixes - EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/72/52/6e/72526e0e-57c9-dc2f-0654-770df6acfb59/886446099378.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/96/9a/40/969a4003-5eab-dc42-e392-5e608d83e699/mzaf_9382349065103187020.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 241800
+      },
+      {
+        "id": "smash-mouth--all-star",
+        "artist": "Smash Mouth",
+        "title": "All Star",
+        "album": "Astro Lounge",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ab/6f/5f/ab6f5f79-fe60-a6b9-c47c-cecf0e491be0/06UMGIM04334.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b0/03/ef/b003ef4c-1a22-6b15-e851-fb106ad96a3b/mzaf_3320656447657988367.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 200373
+      },
+      {
+        "id": "len--steal-my-sunshine",
+        "artist": "LEN",
+        "title": "Steal My Sunshine",
+        "album": "Steal My Sunshine - Single",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/05/5d/2c055dd5-d368-6762-4ad8-5b1fce635f5d/886443168640.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/50/54/79/505479ba-b758-cef6-a0da-eb67afb59608/mzaf_16366018089288144037.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 211467
+      },
+      {
+        "id": "sugar-ray--every-morning",
+        "artist": "Sugar Ray",
+        "title": "Every Morning",
+        "album": "The Best of Sugar Ray",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e9/dc/5c/e9dc5c8f-7781-f34f-bfd3-b453284cb696/s07.wpkzoumo.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ff/bd/fc/ffbdfc90-b9cd-a855-fa3e-fe36ad77e4b1/mzaf_6535767968000428866.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 220200
+      },
+      {
+        "id": "red-hot-chili-peppers--scar-tissue",
+        "artist": "Red Hot Chili Peppers",
+        "title": "Scar Tissue",
+        "album": "Californication (Remastered)",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/86/1d/4c861dab-5428-f3b7-8068-82bb69db5e89/093624932130.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/72/6b/81/726b81ba-51ce-a834-a7e7-f63ef188ba5e/mzaf_3878585649506778971.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 217360
+      },
+      {
+        "id": "lou-bega--mambo-no-5-a-little-bit-of",
+        "artist": "Lou Bega",
+        "title": "Mambo No. 5 (a Little Bit of...)",
+        "album": "A Little Bit of Mambo",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/68/59/96/68599610-92f1-4400-8db3-4e794e2f2757/886446819020.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/95/12/14/951214ff-a3f2-7b9c-094c-385b382b5a14/mzaf_6010878480642586774.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 220293
+      },
+      {
+        "id": "sixpence-none-the-richer--kiss-me",
+        "artist": "Sixpence None the Richer",
+        "title": "Kiss Me",
+        "album": "Sixpence None the Richer",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0f/6b/92/0f6b92f7-52e1-67e4-6a7b-7196ef793cdc/080688551261.png/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/5d/2a/235d2ab1-5412-c512-b004-01a7a69f5050/mzaf_6048540383318221725.plus.aac.p.m4a",
+        "releaseYear": 1997,
+        "durationMs": 208680
+      }
+    ]
+  },
+  {
+    "iso": "USA",
+    "countryName": "USA",
     "year": 2000,
     "era": "TRL / mall-punk",
     "field": "cyan",

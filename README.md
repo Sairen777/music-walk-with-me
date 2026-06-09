@@ -1,7 +1,7 @@
 # Back in My Days
 
 Click a country, pick a year, and hear what teenagers were actually listening to.
-Two capsules ship today, **USA** and **Russia** (2000-2007 each): the landing is a
+Current coverage is **USA 1990-2007** and **Russia 2000-2007**: the landing is a
 calm, bubbly world map; click a country and you drop into a period capsule where a
 30-second preview is already playing over a wall of real album covers, framed in the
 web of the time (a click-wheel iPod, a Web 2.0 profile).
@@ -42,9 +42,9 @@ If a track can't be matched to a previewable studio recording, the script prints
 `MISS` and leaves it out; fix or substitute it in `seed.mjs` and rerun. (iTunes rate-
 limits aggressive runs; the script backs off and retries.)
 
-The current first backward slice reaches **2000**. For pre-iTunes years, the seed list
-is curated from chart/radio/MTV/local-memory signals, then still hydrated through
-iTunes where Apple has retroactive catalog previews and artwork.
+The USA catalog now reaches **1990**. For pre-iTunes years, the seed list is curated
+from chart/radio/MTV/local-memory signals, then still hydrated through iTunes where
+Apple has retroactive catalog previews and artwork.
 
 ## How it's built
 
