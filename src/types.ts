@@ -1,11 +1,11 @@
 /** The vivid iPod-ad color field each era owns. */
 export type FieldKey = "pink" | "lime" | "cyan" | "orange" | "blue";
 
-/** Editorial seed: what teens actually blasted. Authored by hand. */
+/** A track candidate emitted by a ranking source before hydration. */
 export interface SeedTrack {
   artist: string;
   title: string;
-  /** Optional iTunes search hint when the plain "artist title" query is ambiguous. */
+  /** Optional iTunes search hint for ambiguous queries. */
   hint?: string;
 }
 

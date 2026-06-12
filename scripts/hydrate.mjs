@@ -1,20 +1,23 @@
 /**
- * Build-time hydration: resolve every seed track to real iTunes artwork
- * + a 30s preview, then write per-country shard files + a tiny index to
- * public/data/ (the app fetches one country file on demand).
+ * Build-time hydration: rank candidates from historical sources, resolve
+ * the top-ranked tracks to real iTunes artwork + 30s previews, then write
+ * per-country shard files + a tiny index to public/data/ (the app fetches
+ * one country file on demand).
  *
- * Run: node scripts/hydrate.mjs
- * No API key, no auth. Be polite to the endpoint (throttled below).
+ * Run: npm run data   (or: node scripts/hydrate.mjs)
+ * No API key needed for default generation. Be polite to iTunes (throttled below).
  */
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
-import { seeds } from "./seed.mjs";
+import { norm, slug, coreOf, canonicalName, leadArtistKey, trackKey } from "./music-normalize.mjs";
+import { buildRankedSeeds } from "./rank.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, "../public/data");
 const TRACK_CACHE = resolve(__dirname, "../.cache/itunes-track-cache.json");
 const HERO_YEAR_BY_ISO = { USA: 2005, RUS: 2006 };
+const STOREFRONTS_BY_ISO = { USA: ["US"], RUS: ["RU", "US"] };
 const ENDPOINT = "https://itunes.apple.com/search";
 
 const BAD =
@@ -24,38 +27,11 @@ const BAD =
 const COMP =
   /\b(now thats|now that s|kidz bop|punk goes|emo bangers|\bemo\b|feelgood|classic rock|pop punk|love songs|bad news|various|greatest hits|the hits|number ones|essentials?|speed pop|pop party|party hits|workout|running|throwbacks?|\d{2,4}s hits|hits of|best of the|ultimate|mega ?hits|compilation|playlist|karaoke|tribute|guitar tribute|string quartet|made famous|originally performed|as made famous|soundtrack|drum and bass|covers? of|in the style|road trip)\b/i;
 
-// Russian Cyrillic -> Latin so a Cyrillic seed matches whether iTunes returns
-// the track in Cyrillic ("Звери") or transliterated ("Zveri"). Both sides run
-// through this, so the scheme only has to be internally consistent.
-const RU = {
-  а: "a", б: "b", в: "v", г: "g", д: "d", е: "e", ё: "e", ж: "zh", з: "z", и: "i",
-  й: "i", к: "k", л: "l", м: "m", н: "n", о: "o", п: "p", р: "r", с: "s",
-  т: "t", у: "u", ф: "f", х: "kh", ц: "ts", ч: "ch", ш: "sh", щ: "sch",
-  ъ: "", ы: "y", ь: "", э: "e", ю: "yu", я: "ya",
-};
-
-const norm = (s) =>
-  s
-    .toLowerCase()
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/&/g, "and")
-    .replace(/[\u0400-\u04ff]/g, (ch) => RU[ch] ?? "")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-
-const slug = (s) =>
-  norm(s)
-    .replace(/\s+/g, "-")
-    .slice(0, 60);
-
-/** Title core: drop parenthetical/bracketed qualifiers, then normalize. */
-const coreOf = (s) => norm(s.replace(/[([{][^)\]}]*[)\]}]/g, " "));
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function search(term) {
-  const url = `${ENDPOINT}?term=${encodeURIComponent(term)}&media=music&entity=song&limit=25&country=US`;
+async function search(term, country = "US") {
+  const url = `${ENDPOINT}?term=${encodeURIComponent(term)}&media=music&entity=song&limit=25&country=${country}`;
   for (let attempt = 0; attempt < 6; attempt++) {
     const res = await fetch(url);
     if (res.status === 403 || res.status === 429) {
@@ -70,7 +46,7 @@ async function search(term) {
 }
 
 function bestMatch(results, artist, title) {
-  const at = norm(artist);
+  const at = canonicalName(artist);
   const tt = norm(title);
   // Strip parenthetical qualifiers from the seed title for looser comparison.
   const ttCore = coreOf(title);
@@ -79,7 +55,7 @@ function bestMatch(results, artist, title) {
 
   for (const r of results) {
     if (r.kind !== "song" || !r.previewUrl) continue;
-    const ra = norm(r.artistName);
+    const ra = canonicalName(r.artistName);
     // Treat "(Album Version)" / "(Single Version)" etc. as the canonical title.
     const rt = norm(r.trackName.replace(/\((?:album|single|lp|stereo|original|mono|mixed|remaster(?:ed)?)(?: version)?\)/gi, " "));
     const rtCore = coreOf(r.trackName);
@@ -164,14 +140,14 @@ async function saveTrackCache(tracks) {
 }
 
 function bestCachedMatch(cache, artist, title) {
-  const at = norm(artist);
+  const at = canonicalName(artist);
   const tt = norm(title);
   const ttCore = coreOf(title);
   let best = null;
   let bestScore = -Infinity;
 
   for (const r of cache) {
-    const ra = norm(r.artist);
+    const ra = canonicalName(r.artist);
     const rt = norm(r.title.replace(/\((?:album|single|lp|stereo|original|mono|mixed|remaster(?:ed)?)(?: version)?\)/gi, " "));
     const rtCore = coreOf(r.title);
 
@@ -195,22 +171,39 @@ function bestCachedMatch(cache, artist, title) {
 }
 
 async function main() {
-  const capsules = [];
-  const misses = [];
   const existing = await loadExistingTrackCache();
   if (existing.length) process.stdout.write(`Using ${existing.length} cached tracks from public/data\n`);
 
+  const filterIso = process.argv.includes("--iso") ? process.argv[process.argv.indexOf("--iso") + 1] : null;
+  const rankedSeeds = await buildRankedSeeds(filterIso ? { iso: filterIso } : {});
+  const capsules = [];
 
-  for (const seed of seeds) {
+  for (const seed of rankedSeeds) {
     const tracks = [];
-    const seen = new Set();
-    process.stdout.write(`\n${seed.countryName} ${seed.year} (${seed.tracks.length} tracks)\n`);
+    const seenIds = new Set();
+    const seenKeys = new Set();
+    const seenArtists = new Set();
+
+    const storefronts = STOREFRONTS_BY_ISO[seed.iso] || ["US"];
+    process.stdout.write(`\n${seed.countryName} ${seed.year} (target ${seed.targetTracks})\n`);
 
     for (const t of seed.tracks) {
+      if (tracks.length >= seed.targetTracks) break;
+
+      const candidateArtistKey = leadArtistKey(t.artist);
+      const tKey = trackKey(t.artist, t.title);
+
+      if (seenKeys.has(tKey)) continue;
+
       let hydrated = bestCachedMatch(existing, t.artist, t.title);
       if (hydrated) {
-        if (seen.has(hydrated.id)) continue;
-        seen.add(hydrated.id);
+        if (seenIds.has(hydrated.id)) continue;
+        const hydratedArtistKey = leadArtistKey(hydrated.artist);
+        if (seenArtists.has(candidateArtistKey) || seenArtists.has(hydratedArtistKey)) continue;
+        seenIds.add(hydrated.id);
+        seenKeys.add(tKey);
+        if (candidateArtistKey) seenArtists.add(candidateArtistKey);
+        if (hydratedArtistKey) seenArtists.add(hydratedArtistKey);
         tracks.push(hydrated);
         process.stdout.write(`  ↺ ${hydrated.artist} - ${hydrated.title}\n`);
         continue;
@@ -219,33 +212,50 @@ async function main() {
       const term = t.hint ?? `${t.artist} ${t.title}`;
       let match = null;
       try {
-        match = bestMatch(await search(term), t.artist, t.title);
-        // Retry with a tightened query if the broad one missed.
+        for (const sf of storefronts) {
+          match = bestMatch(await search(term, sf), t.artist, t.title);
+          if (match) break;
+        }
         if (!match) {
-          match = bestMatch(await search(`${t.artist} ${t.title.replace(/\s*\(.*?\)\s*/g, " ").trim()}`), t.artist, t.title);
+          const strippedTerm = `${t.artist} ${t.title.replace(/\s*\(.*?\)\s*/g, " ").trim()}`;
+          for (const sf of storefronts) {
+            match = bestMatch(await search(strippedTerm, sf), t.artist, t.title);
+            if (match) break;
+          }
         }
       } catch (err) {
         process.stdout.write(`  ! error ${t.artist} - ${t.title}: ${err.message}\n`);
       }
 
       if (!match) {
-        misses.push(`${seed.year}  ${t.artist} - ${t.title}`);
         process.stdout.write(`  · MISS  ${t.artist} - ${t.title}\n`);
         await sleep(320);
         continue;
       }
 
       hydrated = hydrateTrack(match);
-      if (seen.has(hydrated.id)) {
+      if (seenIds.has(hydrated.id)) {
         await sleep(320);
         continue;
       }
-      seen.add(hydrated.id);
+      const hydratedArtistKey = leadArtistKey(hydrated.artist);
+      if (seenArtists.has(candidateArtistKey) || seenArtists.has(hydratedArtistKey)) {
+        await sleep(320);
+        continue;
+      }
+      seenIds.add(hydrated.id);
+      seenKeys.add(tKey);
+      if (candidateArtistKey) seenArtists.add(candidateArtistKey);
+      if (hydratedArtistKey) seenArtists.add(hydratedArtistKey);
       tracks.push(hydrated);
       existing.push(hydrated);
       await saveTrackCache(existing);
       process.stdout.write(`  ✓ ${hydrated.artist} - ${hydrated.title}\n`);
       await sleep(320);
+    }
+
+    if (tracks.length < seed.targetTracks) {
+      throw new Error(`UNDERFILLED ${seed.iso} ${seed.year}: wanted ${seed.targetTracks}, got ${tracks.length}`);
     }
 
     capsules.push({
@@ -260,11 +270,21 @@ async function main() {
   }
 
   // Shard by country: one file per ISO, plus a tiny index for the map.
+  // Also include any pre-existing country shards that weren't regenerated.
   await mkdir(OUT_DIR, { recursive: true });
   const byCountry = new Map();
   for (const c of capsules) {
     if (!byCountry.has(c.iso)) byCountry.set(c.iso, []);
     byCountry.get(c.iso).push(c);
+  }
+  // Check for existing shard files not in this run
+  for (const file of await readdir(OUT_DIR)) {
+    if (!file.endsWith(".json") || file === "index.json") continue;
+    const iso = file.replace(".json", "");
+    if (!byCountry.has(iso)) {
+      const list = JSON.parse(await readFile(resolve(OUT_DIR, file), "utf8"));
+      byCountry.set(iso, list);
+    }
   }
   const index = [];
   for (const [iso, list] of byCountry) {
@@ -279,7 +299,7 @@ async function main() {
       countryName: list[0].countryName,
       years: list.map((c) => c.year),
       heroYear,
-      heroTrack: hero?.tracks[0],
+      heroTrack: hero?.tracks.find((t) => t.tags?.includes("rock")) || hero?.tracks[0],
     });
   }
   await writeFile(resolve(OUT_DIR, "index.json"), JSON.stringify(index, null, 2) + "\n", "utf8");
@@ -288,9 +308,6 @@ async function main() {
   process.stdout.write(
     `\nWrote ${total} tracks -> ${byCountry.size} country files + index.json in ${OUT_DIR}\n`,
   );
-  if (misses.length) {
-    process.stdout.write(`\n${misses.length} misses to fix in seed.mjs:\n${misses.map((m) => "  " + m).join("\n")}\n`);
-  }
 }
 
 main().catch((err) => {

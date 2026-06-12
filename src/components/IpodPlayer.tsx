@@ -37,14 +37,21 @@ export function IpodPlayer({ onMenu }: IpodPlayerProps) {
       <div className="ipod__shell">
         <div className="ipod__screen" data-status={status}>
           <div className="ipod__statusbar">
-            <span className={`ipod__eq${isPlaying ? " is-on" : ""}`} aria-hidden="true">
+            <span
+              className={`ipod__eq${isPlaying ? " is-on" : ""}`}
+              aria-hidden="true"
+            >
               <i />
               <i />
               <i />
               <i />
             </span>
             <span className="ipod__np">
-              {status === "error" ? "Can't load" : isPlaying ? "Now Playing" : "Paused"}
+              {status === "error"
+                ? "Can't load"
+                : isPlaying
+                  ? "Now Playing"
+                  : "Paused"}
             </span>
             <span className="ipod__count">
               {queue.length ? `${index + 1} of ${queue.length}` : "—"}
@@ -102,7 +109,11 @@ export function IpodPlayer({ onMenu }: IpodPlayerProps) {
         </div>
 
         <div className="ipod__wheel" role="group" aria-label="Player controls">
-          <button className="ipod__btn ipod__btn--menu" type="button" onClick={onMenu}>
+          <button
+            className="ipod__btn ipod__btn--menu"
+            type="button"
+            onClick={onMenu}
+          >
             MENU
           </button>
           <button
