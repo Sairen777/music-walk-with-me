@@ -1,53 +1,126 @@
-import { useEffect, useState } from "react";
-import { PlayerProvider } from "./audio/player";
-import { Shell } from "./components/Shell";
+import { useCallback, useEffect, useState } from "react";
+import { PlayerProvider, usePlayer } from "./audio/player";
 import { CapsuleScene } from "./components/CapsuleScene";
-import { loadIndex } from "./data/capsules";
-import type { CountryIndex } from "./types";
+import { YearLanding } from "./components/YearLanding";
+import { NostalgiaStickers } from "./components/NostalgiaStickers";
+import { loadCountry } from "./data/capsules";
+import type { Capsule } from "./types";
 
-interface OpenState {
-  iso: string;
-  countryName: string;
+interface SelectedYear {
   year: number;
   initialPlaybackKey?: string;
 }
 
-export function App() {
-  const [index, setIndex] = useState<CountryIndex[] | null>(null);
-  const [indexError, setIndexError] = useState(false);
-  const [open, setOpen] = useState<OpenState | null>(null);
+const KONAMI = [
+  "ArrowUp",
+  "ArrowUp",
+  "ArrowDown",
+  "ArrowDown",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowLeft",
+  "ArrowRight",
+  "b",
+  "a",
+] as const;
 
+function UsaExperience() {
+  const [capsules, setCapsules] = useState<Capsule[] | null>(null);
+  const [loadError, setLoadError] = useState(false);
+  const [selected, setSelected] = useState<SelectedYear | null>(null);
+  const [stickerMode, setStickerMode] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+
+  const { playQueue, unlock } = usePlayer();
+
+  // Konami code Easter egg
+  const [konamiIdx, setKonamiIdx] = useState(0);
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      const expected = KONAMI[konamiIdx];
+      const matches =
+        (expected === "ArrowUp" && e.key === "ArrowUp") ||
+        (expected === "ArrowDown" && e.key === "ArrowDown") ||
+        (expected === "ArrowLeft" && e.key === "ArrowLeft") ||
+        (expected === "ArrowRight" && e.key === "ArrowRight") ||
+        (expected === "b" && e.key.toLowerCase() === "b") ||
+        (expected === "a" && e.key.toLowerCase() === "a");
+      if (matches) {
+        const next = konamiIdx + 1;
+        if (next === KONAMI.length) {
+          setStickerMode(true);
+          setKonamiIdx(0);
+          setToast("Cheat code accepted: stickers unlocked");
+          setTimeout(() => setToast(null), 2200);
+        } else {
+          setKonamiIdx(next);
+        }
+      } else {
+        setKonamiIdx(0);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [konamiIdx]);
+
+  // Load USA capsules once
   useEffect(() => {
     let alive = true;
-    loadIndex().then(
-      (data) => alive && setIndex(data),
-      () => alive && setIndexError(true),
+    loadCountry("USA").then(
+      (data) => alive && setCapsules(data),
+      () => alive && setLoadError(true),
     );
     return () => {
       alive = false;
     };
   }, []);
 
+  const pickYear = useCallback(
+    (year: number) => {
+      const capsule = capsules?.find((c) => c.year === year);
+      if (!capsule) {
+        unlock();
+        return;
+      }
+      playQueue(capsule.tracks, 0);
+      setSelected({ year, initialPlaybackKey: `${capsule.iso}-${capsule.year}` });
+    },
+    [capsules, playQueue, unlock],
+  );
+
   return (
-    <PlayerProvider>
-      {open ? (
+    <>
+      {selected ? (
         <CapsuleScene
-          iso={open.iso}
-          countryName={open.countryName}
-          year={open.year}
-          initialPlaybackKey={open.initialPlaybackKey}
-          onYear={(year) => setOpen({ ...open, year })}
-          onClose={() => setOpen(null)}
+          capsules={capsules ?? []}
+          year={selected.year}
+          initialPlaybackKey={selected.initialPlaybackKey}
+          stickerMode={stickerMode}
+          onYear={(year) => setSelected({ year })}
+          onBack={() => setSelected(null)}
         />
       ) : (
-        <Shell
-          countries={index}
-          error={indexError}
-          onOpen={(iso, countryName, year, initialPlaybackKey) =>
-            setOpen({ iso, countryName, year, initialPlaybackKey })
-          }
+        <YearLanding
+          capsules={capsules}
+          error={loadError}
+          stickerMode={stickerMode}
+          onPickYear={pickYear}
         />
       )}
+      <NostalgiaStickers active={stickerMode} />
+      {toast && (
+        <div className="app-toast" role="status">
+          {toast}
+        </div>
+      )}
+    </>
+  );
+}
+
+export function App() {
+  return (
+    <PlayerProvider>
+      <UsaExperience />
     </PlayerProvider>
   );
 }

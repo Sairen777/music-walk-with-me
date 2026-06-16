@@ -207,7 +207,79 @@
         "releaseYear": 2003,
         "durationMs": 233868
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Kill Bill: Vol. 1",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Kill_Bill_Volume_1.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kill_Bill%3A_Volume_1"
+        },
+        {
+          "title": "Pirates of the Caribbean",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_The_Curse_of_the_Black_Pearl"
+        },
+        {
+          "title": "Terminator 3",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Terminator_3_Rise_of_the_Machines_movie.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Terminator_3%3A_Rise_of_the_Machines"
+        },
+        {
+          "title": "Брат 2",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Brother2.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Brother_2"
+        }
+      ],
+      "games": [
+        {
+          "title": "Counter-Strike 1.6",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Counter-Strike_screenshot.png/330px-Counter-Strike_screenshot.png",
+              "alt": "The player standing in the terrorist starting zone (spawn point) of de_dust using a CV-47 (AK-47)",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Counter-Strike_(video_game)",
+              "caption": "The player standing in the terrorist starting zone (spawn point) of de_dust using a CV-47 (AK-47)"
+            }
+          ]
+        },
+        {
+          "title": "Warcraft III: The Frozen Throne",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Warcraftiii-frozen-throne-boxcover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Warcraft_III%3A_The_Frozen_Throne",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/ce/Warcraft_III_-_The_Frozen_Throne_-_Naga_base.jpg/330px-Warcraft_III_-_The_Frozen_Throne_-_Naga_base.jpg",
+              "alt": "Naga units standing in a Naga base complete with production and defense buildings.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Warcraft_III%3A_The_Frozen_Throne",
+              "caption": "Naga units standing in a Naga base complete with production and defense buildings."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Nokia 3310",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Nokia3310Logo.png/330px-Nokia3310Logo.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_3310",
+          "description": "The Nokia 3310 is a discontinued GSM mobile phone announced on 1 September 2000, and released in the fourth quarter of the year, replacing the popular Nokia 3210."
+        },
+        {
+          "title": "Siemens C55",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Siemens_Mobile_Logo.svg/330px-Siemens_Mobile_Logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Siemens_Mobile",
+          "description": "Siemens Mobile was a German mobile phone manufacturer and a division of Siemens AG."
+        },
+        {
+          "title": "Polyphonic ringtones",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bell_of_the_1900.jpg/1280px-Bell_of_the_1900.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ringtone",
+          "description": "A ringtone is the sound made by a telephone to indicate an incoming telephone call."
+        }
+      ]
+    }
   },
   {
     "iso": "RUS",
@@ -417,7 +489,90 @@
         "releaseYear": 2004,
         "durationMs": 235547
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Night Watch (Ночной дозор)",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Night_Watch_%282004_film%29_theatrical_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Night_Watch_(2004_film)"
+        },
+        {
+          "title": "Shrek 2",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/b9/Shrek_2_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shrek_2"
+        },
+        {
+          "title": "The Day After Tomorrow",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/The_Day_After_Tomorrow_movie.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Day_After_Tomorrow"
+        },
+        {
+          "title": "Бумер",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Bummer_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bimmer_(film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Half-Life 2",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Half-Life_2",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/Antlions1HL2.jpg/330px-Antlions1HL2.jpg",
+              "alt": "A screenshot of the player engaging enemy antlions",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Half-Life_2",
+              "caption": "A screenshot of the player engaging enemy antlions"
+            }
+          ]
+        },
+        {
+          "title": "Grand Theft Auto: San Andreas",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Gta-sa-screen1.jpg/330px-Gta-sa-screen1.jpg",
+              "alt": "The game is played from a third-person view and its open world can be navigated using cars and other vehicles.[2][3]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+              "caption": "The game is played from a third-person view and its open world can be navigated using cars and other vehicles.[2][3]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Gta-sa-screen2.jpg",
+              "alt": "Players can fight members from enemy gangs to earn their territory.[9]: 196 ",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+              "caption": "Players can fight members from enemy gangs to earn their territory.[9]: 196 "
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leslie_Benzies_%40_Everywhere_Game.jpg/500px-Leslie_Benzies_%40_Everywhere_Game.jpg",
+              "alt": "Grand Theft Auto: San Andreas screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Motorola RAZR V3",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Motorola_Razr_V3_montage_closed_open.png/330px-Motorola_Razr_V3_montage_closed_open.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Motorola_Razr_V3",
+          "description": "The Motorola Razr V3, popularly called simply the Razr, is a clamshell style cell phone developed by Motorola."
+        },
+        {
+          "title": "Nokia 6230",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Nokia_6230_01.jpg/330px-Nokia_6230_01.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_6230",
+          "description": "The Nokia 6230 is a mobile phone based on the Nokia Series 40 platform."
+        },
+        {
+          "title": "IR port file swaps",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Infrared_Data_Association_logo.svg/330px-Infrared_Data_Association_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IrDA",
+          "description": "IrDA is a wireless standard designed for data transmission using infrared (IR)."
+        }
+      ]
+    }
   },
   {
     "iso": "RUS",
@@ -627,7 +782,78 @@
         "releaseYear": 2005,
         "durationMs": 233920
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "The 9th Company (9 рота)",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/9th-company.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/9th_Company"
+        },
+        {
+          "title": "Star Wars: Episode III",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_Episode_III_%E2%80%93_Revenge_of_the_Sith"
+        },
+        {
+          "title": "War of the Worlds",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/The_War_of_the_Worlds_first_edition.jpg/330px-The_War_of_the_Worlds_first_edition.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_War_of_the_Worlds"
+        },
+        {
+          "title": "Ночной базар",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/28/Night_Watch_%282004_film%29_theatrical_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Night_Watch_(2004_film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "World of Warcraft",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/World_of_Warcraft",
+          "screenshots": []
+        },
+        {
+          "title": "Need for Speed: Most Wanted",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Need_for_Speed%3A_Most_Wanted_(2005_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Need_for_Speed_Most_Wanted_%282005_game_-_screenshot%29.jpg/330px-Need_for_Speed_Most_Wanted_%282005_game_-_screenshot%29.jpg",
+              "alt": "The player's car, a Porsche Carrera GT, is being pursued by several undercover state police cars and a police helicopter in Free Roam mode. This screen-shot depicts the use of simulated HDRR on the sunny sky and surface lighting.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Need_for_Speed%3A_Most_Wanted_(2005_video_game)",
+              "caption": "The player's car, a Porsche Carrera GT, is being pursued by several undercover state police cars and a police helicopter in Free Roam mode. This screen-shot depicts the use of simulated HDRR on the sunny sky and surface lighting."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/NFSMW360Screen.jpg",
+              "alt": "Promotional screenshot of Rockport's fall foliage of Most Wanted for the Xbox 360 with Porsche 911 Turbo S",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Need_for_Speed%3A_Most_Wanted_(2005_video_game)",
+              "caption": "Promotional screenshot of Rockport's fall foliage of Most Wanted for the Xbox 360 with Porsche 911 Turbo S"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPod Mini",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mini_iPod.svg/330px-Mini_iPod.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod_Mini",
+          "description": "The iPod Mini is a digital audio player that was designed and marketed by Apple."
+        },
+        {
+          "title": "Sony Ericsson K750i",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/K750.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sony_Ericsson_K750",
+          "description": "The Sony Ericsson K750, introduced in June 2005, is a high-end mobile phone, the successor to the now discontinued K700, and which was succeeded by the K800i in Q2 2006."
+        },
+        {
+          "title": "ICQ",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Logo_ICQ.svg/330px-Logo_ICQ.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/ICQ",
+          "description": "ICQ was a cross-platform instant messaging (IM) and VoIP client founded in June 1996 by Yair Goldfinger, Sefi Vigiser, Amnon Amir, Arik Vardi, and Arik's father, Yossi…"
+        }
+      ]
+    }
   },
   {
     "iso": "RUS",
@@ -837,7 +1063,91 @@
         "releaseYear": 2005,
         "durationMs": 240893
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Day Watch (Дневной дозор)",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/4d/Day_Watch_theatrical_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Day_Watch_(film)"
+        },
+        {
+          "title": "Pirates of the Caribbean: Dead Man's Chest",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Pirates_of_the_caribbean_2_poster_b.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_Dead_Man's_Chest"
+        },
+        {
+          "title": "The Devil Wears Prada",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Devil_Wears_Prada_main_onesheet.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film)"
+        },
+        {
+          "title": "Питер FM",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Piter_FM_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Piter_FM"
+        }
+      ],
+      "games": [
+        {
+          "title": "The Elder Scrolls IV: Oblivion",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Elder_Scrolls_IV_Oblivion_cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/ElderScrollsOblivionScreenshot11.jpg/330px-ElderScrollsOblivionScreenshot11.jpg",
+              "alt": "An in-game screenshot showing Oblivion's graphical user interface, HDR lighting, and long draw distance, improvements made as part of a goal to create \"cutting-edge graphics\"[31]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+              "caption": "An in-game screenshot showing Oblivion's graphical user interface, HDR lighting, and long draw distance, improvements made as part of a goal to create \"cutting-edge graphics\"[31]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Standard_inventory_interface%2C_Oblivion_2006-12-27.jpg/330px-Standard_inventory_interface%2C_Oblivion_2006-12-27.jpg",
+              "alt": "The inventory interface, where the player garbs armor and equips their character",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+              "caption": "The inventory interface, where the player garbs armor and equips their character"
+            }
+          ]
+        },
+        {
+          "title": "Heroes of Might and Magic V",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/H5boxshot.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/HeroesV_Gameplay.png/330px-HeroesV_Gameplay.png",
+              "alt": "Map view of a bastioned bridge across a river.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V",
+              "caption": "Map view of a bastioned bridge across a river."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/HeroesV_ElfTown.png/330px-HeroesV_ElfTown.png",
+              "alt": "View of the Sylvan town. During the game, the camera flies through the 3D environment.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Heroes_of_Might_and_Magic_V",
+              "caption": "View of the Sylvan town. During the game, the camera flies through the 3D environment."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Motorola RAZR V3i",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Motorola_Razr_V3_montage_closed_open.png/330px-Motorola_Razr_V3_montage_closed_open.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Motorola_Razr_V3",
+          "description": "The Motorola Razr V3, popularly called simply the Razr, is a clamshell style cell phone developed by Motorola."
+        },
+        {
+          "title": "Nokia N73",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Nokia-N73.jpg/330px-Nokia-N73.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_N73",
+          "description": "The Nokia N73 is a mobile phone announced by Nokia in 2006 as part of the N series and started shipping on 15 July."
+        },
+        {
+          "title": "VKontakte",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/VK%27s_home_page_%28February_2026%29.png/330px-VK%27s_home_page_%28February_2026%29.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/VK_(service)",
+          "description": "VK is a Russian online social media and social networking service based in Saint Petersburg."
+        }
+      ]
+    }
   },
   {
     "iso": "RUS",
@@ -926,6 +1236,16 @@
         "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/48/78/7e/48787e46-b403-cf1e-78d6-e5af402e8da4/mzaf_13082197092974293622.plus.aac.p.m4a",
         "releaseYear": 2007,
         "durationMs": 202213
+      },
+      {
+        "id": "gwen-stefani--4-in-the-morning",
+        "artist": "Gwen Stefani",
+        "title": "4 In the Morning",
+        "album": "The Sweet Escape",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c6/0b/23/c60b23f8-98d3-aa35-3a93-a4abc849e4df/06UMGIM73605.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/c2/e8/64c2e834-5da0-3032-3dad-b99a10de88e0/mzaf_3345418744136275493.plus.aac.p.m4a",
+        "releaseYear": 2006,
+        "durationMs": 291107
       },
       {
         "id": "lexter--freedom-to-love",
@@ -1036,17 +1356,97 @@
         "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/47/ff/8d/47ff8da0-289a-62a4-9cc5-c35ed56a3af5/mzaf_14974518424447766955.plus.aac.p.m4a",
         "releaseYear": 2009,
         "durationMs": 181400
-      },
-      {
-        "id": "nadiya--amies-ennemies",
-        "artist": "Nâdiya",
-        "title": "Amies ennemies",
-        "album": "Nâdiya",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features/f6/25/e9/dj.jwetgusl.jpg/600x600bb.jpg",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/65/75/2d65752a-8b1a-895c-065e-14482f53ed9d/mzaf_9144497687890383629.plus.aac.p.m4a",
-        "releaseYear": 2006,
-        "durationMs": 227333
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "The Irony of Fate 2 (Ирония судьбы 2)",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/f1/The_Irony_of_Fate_2.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Irony_of_Fate_2"
+        },
+        {
+          "title": "Transformers",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/66/Transformers07.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Transformers_(film)"
+        },
+        {
+          "title": "Spider-Man 3",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7a/Spider-Man_3%2C_International_Poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Spider-Man_3"
+        },
+        {
+          "title": "ЖARA",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/4f/Zhara_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Heat_(2006_film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Crysis",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/e/e9/Crysis_Cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Crysis_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Crysis_lighting.jpg/330px-Crysis_lighting.jpg",
+              "alt": "Gameplay screenshot showing Crysis' volumetric lighting effects. The game's graphics drew considerable praise.[13][14]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Crysis_(video_game)",
+              "caption": "Gameplay screenshot showing Crysis' volumetric lighting effects. The game's graphics drew considerable praise.[13][14]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/Crysis_Engine.png/330px-Crysis_Engine.png",
+              "alt": "A day/night cycle operates during the course of the single-player campaign.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Crysis_(video_game)",
+              "caption": "A day/night cycle operates during the course of the single-player campaign."
+            }
+          ]
+        },
+        {
+          "title": "Assassin's Creed",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Assassin%27s_Creed.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Assassin's_Creed_(video_game)",
+          "screenshots": []
+        },
+        {
+          "title": "Call of Duty 4: Modern Warfare",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Call_Of_Duty_4_MP_Screenshot.jpg",
+              "alt": "A player completes the objective of a \"Domination\" multiplayer game by capturing and defending three flags.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+              "caption": "A player completes the objective of a \"Domination\" multiplayer game by capturing and defending three flags."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Pripjat_Panorama.jpg/500px-Pripjat_Panorama.jpg",
+              "alt": "The level \"All Ghillied Up\" takes place in Pripyat, Ukraine, featuring several iconic aspects of the abandoned city, such as this square.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+              "caption": "The level \"All Ghillied Up\" takes place in Pripyat, Ukraine, featuring several iconic aspects of the abandoned city, such as this square."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPhone",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/330px-IPhone_17_Pro_Vector.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPhone",
+          "description": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system."
+        },
+        {
+          "title": "Motorola RAZR2",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4d/MotoRazr2logo.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Motorola_Razr2",
+          "description": "The Motorola Razr2, stylized as Motorola RAZR2, is a clamshell mobile phone designed and developed by Motorola, announced on May 16, 2007."
+        },
+        {
+          "title": "Odnoklassniki",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Logo_Odnoklassniki_2023.svg/330px-Logo_Odnoklassniki_2023.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Odnoklassniki",
+          "description": "Odnoklassniki, abbreviated as OK or OK."
+        }
+      ]
+    }
   }
 ]

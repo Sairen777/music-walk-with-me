@@ -159,6 +159,7 @@ export async function buildRankedSeeds(filter = {}) {
         blurb: meta.blurb,
         targetTracks: capsule.targetTracks,
         tracks: scored.map((s) => ({ artist: s.artist, title: s.title, tags: s.tags })),
+        artifacts: meta.artifacts,
       });
     }
   }

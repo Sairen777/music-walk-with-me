@@ -4,18 +4,17 @@ Visual system for **Back in My Days** (backinmydays.lol). Period-accurate web no
 
 ## Theme
 
-A toy that reproduces the interface language of 2004-2007. Not "retro" mood, but the literal devices and sites of the era. The experience moves through two visual worlds:
+A toy that reproduces the interface language of 1990-2007. Not "retro" mood, but the literal devices and sites of each era. The experience moves through two visual worlds:
 
-1. **The Shell (iPod-ad world).** The landing + world map. Drenched in a single vivid iPod-silhouette-ad color field, black "ink", white device + earbud-cable motifs. Clean Helvetica. This is the poster.
-2. **The Capsule (MySpace / Web 2.0 world).** Opens when you pick a country + year. A period content surface: light panels, glossy aqua headers, beveled buttons, Tahoma/Verdana, the cluttered-charming profile frame. Holds the iPod player + album-cover wall.
+1. **The Landing (USA yearbook picker).** Dark glossy year-card grid. Year cards reuse the era's capsule skin colors, with overlapping album-cover stacks. This is the menu.
+2. **The Capsule (MySpace / Web 2.0 world).** Opens when you pick a year. A period content surface: light panels, glossy aqua headers, beveled buttons, Tahoma/Verdana, the cluttered-charming profile frame. Holds the device player + souvenir panel + album-cover wall. Capsule skins are year-specific.
 
 Art direction differs between the two worlds on purpose (brand register permits per-section worlds); voice and warmth stay constant.
 
-Default theme is **light** (the era's web and the iPod UI were overwhelmingly light/white); the Shell's vivid field provides the drama, not a dark mode.
 
 ## Color
 
-Strategy: **Drenched** for the Shell, **Full palette** for the Capsule. OKLCH throughout.
+Strategy: **Dark glossy** for the Landing, **Full palette** for the Capsule. OKLCH throughout.
 
 ### Era color fields (iPod-ad chroma)
 Each era owns one saturated field. 2005 = hot pink. Others reserved for future years; the active field is exposed as `--field`.
@@ -61,25 +60,28 @@ Scale: fluid `clamp()`, ratio >= 1.25. Wordmark ceiling clamp max <= 6rem. Displ
 
 ## Layout
 
-- **Shell:** single full-viewport field. The world map sits center/lower, the wordmark upper. One dominant idea per fold; deliberate, poster-like.
-- **Capsule:** a two-column period layout at >= 900px (iPod player left/sticky, album wall right), collapsing to a single stack on mobile. Album wall is a responsive grid `repeat(auto-fill, minmax(132px, 1fr))` of cover tiles, never identical cards with icon+title chrome; the cover *is* the tile.
+- **Landing:** dark glossy full-viewport with centered year-card grid. Cards use period skin variables, stagger-in on load. This is the menu; one dominant idea per fold, deliberate and poster-like.
+- **Capsule:** a two-column period layout at >= 900px (skinned device player left/sticky, album wall right), collapsing to a single stack on mobile. The desktop player column uses `minmax(280px, 380px)` to accommodate wider controller, desktop, phone, and remote player silhouettes. Album wall is a responsive grid `repeat(auto-fill, minmax(132px, 1fr))` of cover tiles, never identical cards with icon+title chrome; the cover *is* the tile.
 - Fluid spacing via `clamp()`; tight groupings inside panels, generous separation between worlds.
 - Border radius stays period-correct: iPod corners ~`18-22px` (device), panels/buttons `4-8px` (Web 2.0 was barely rounded). No 32px+ card rounding.
 
 ## Components
 
-- **WorldMap** — `d3-geo` rendered SVG. USA is the lit, clickable, hoverable hero (white silhouette on the field, the iPod-ad inversion); every other country is dimmed and tagged "more soon". Keyboard-focusable.
-- **YearDial** — skeuomorphic selector for the available years (2004-2007), default 2005. Reads as a physical click-wheel/tuner, drives `--field` + the capsule contents.
-- **IpodPlayer** — click-wheel iPod (white, color-screen era). Now-playing screen (cover thumb, track, artist, scrubber, timecodes), real transport (play/pause, next/prev, seek), wheel as a real control. The aesthetic centerpiece.
+- **YearLanding** — the USA-only yearbook picker. Responsive grid of year-card buttons (1990-2007), each showing the year number, skin label, overlapping track cover stack, era tag, blurb, and track/artifact counts. Includes an AIM-style away-message Easter egg and a mini player strip.
+- **CapsuleScene** — the period capsule view. Receives pre-loaded USA capsules as props; the glossy header bar shows "USA Yearbook" and the current year, with the YearDial for switching years inside the loaded data. Contains the DevicePlayer, YearSouvenirPanel, AlbumWall, and ArtifactsPanel.
+- **YearSouvenirPanel** — a nostalgia-note panel listing the first track, device skin label, and first film/game/gadget from the capsule's artifact data.
+- **NostalgiaStickers** — Easter-egg sticker overlay (BRB, AIM, TRL, Top 8, burned CD, Kazaa?) activated via the Konami code. Fixed-position, non-interactive, with floating animation.
+- **DevicePlayer** — one audio/control implementation that CSS skins per year via `data-device` and `data-layout` attributes. Renders the now-playing screen (cover thumb, track, artist, scrubber, timecodes), real transport (play/pause, next/prev, seek), and a control area whose silhouette changes per layout (touchwheel, cassette, controller, desktop, disc, handheld, phone, remote, glass-phone, winamp).
+- **YearDial** — skeuomorphic selector for the available years in a capsule. Reads as a physical click-wheel/tuner.
 - **AlbumWall** — grid of real album covers (iTunes artwork, upscaled 600px). Hover = lift + title; click = play that track + set queue. Currently-playing tile marked with an equalizer bob.
-- **CapsuleFrame** — the MySpace/Web 2.0 chrome (glossy header bar with "Homeroom, 2005", panels) that houses player + wall, with the boot-up reveal.
+- **ArtifactsPanel** — pop-culture shelf showing films, games, and gadgets from the capsule's artifact data, with staggered card layouts and trailer links.
 
 ## Motion
 
 Materials: transform, opacity, clip-path (capsule boot wipe), filter/blur (field bloom), box-shadow (gloss). No layout-property animation.
 
-- **Capsule boot:** an iPod-style power-on — quick screen-wipe + contents staggering in (album wall tiles cascade). Ease-out-expo, ~320-520ms.
-- **Map hover/select:** USA lifts/brightens; selecting zooms-punches into the capsule.
+- **Year-card hover/select:** card lifts with shadow and accent border; selecting opens the capsule.
+- **Landing card stagger:** cards animate in with staggered delays on load. Konami sticker layer floats gently.
 - **Click wheel:** tactile press feedback; scrubber + equalizer animate with playback.
 - **Reduced motion:** all of the above degrade to instant/crossfade via `prefers-reduced-motion: reduce`. Content is visible by default; reveals only enhance.
 
@@ -87,4 +89,4 @@ Materials: transform, opacity, clip-path (capsule boot wipe), filter/blur (field
 
 - Curated seed: `{ country, year, era, tracks: [{ artist, title }] }` (the editorial "what teens blasted" layer).
 - Build-time hydration script queries iTunes Search API per track, writing `previewUrl` + `artworkUrl` (600px) into static `tracks.json`. No runtime API, no keys, no CORS.
-- Playback: single `HTMLAudioElement`, autoplay permitted on the country-click gesture, always pausable, queue advances through the wall.
+- Playback: single `HTMLAudioElement`, autoplay permitted on the year-click gesture, always pausable, queue advances through the wall.

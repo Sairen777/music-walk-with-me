@@ -8,7 +8,7 @@ brand
 People roughly 25 to 40 who grew up online, now nostalgic for the music of their teenage years. They arrive curious and a little sentimental, usually on a whim ("what did I actually listen to back then?"), often sharing it with friends who went to school at the same time. Context is casual: a phone on the couch, a laptop tab between tasks. They are not researching charts; they want the feeling back.
 
 ## Product Purpose
-Back in My Days lets you click a country and a year and immediately *hear and see* what teenagers there were actually listening to. The first release is a single, perfected loop for the United States, mid-2000s: click USA, land in the 2005 capsule, and a 30-second preview of the era's pop-punk / emo / scene anthems is already playing over a wall of album covers, framed in the web of the time.
+Back in My Days lets you pick a year and immediately *hear and see* what American teenagers were listening to then. The first release is a single, perfected loop for the United States, 1990-2007: pick a year, land in the capsule, and a 30-second preview of the era's anthems is already playing over a wall of album covers, framed in the device of the time (iPod, Winamp, Nokia, RAZR, iPhone).
 
 Success is the gut-punch of recognition in under two seconds. If a visitor's first reaction is "oh my god, this song," the product worked. Charts-accuracy is explicitly *not* the goal; curated teenage memory is.
 
@@ -33,4 +33,4 @@ Three words: nostalgic, tactile, joyful.
 5. **A toy, addressed to you.** Second-person, warm, a little silly. Every label should sound like a friend, never like a chart.
 
 ## Accessibility & Inclusion
-Target WCAG 2.1 AA. The skeuomorphic, period-accurate look must not cost usability: real semantics (landmarks, headings, button/link roles, accessible names), full keyboard operation of the map, year selector, and player, and visible focus styling that fits the skin. Audio never autoplays without the user's initiating gesture (clicking a country counts) and is always pausable. Every animation, including the capsule "boot-up," has a `prefers-reduced-motion` crossfade/instant alternative. Color contrast is verified against the neon fields; text on vivid backgrounds uses black or white at AA, never mid-gray.
+Target WCAG 2.1 AA. The skeuomorphic, period-accurate look must not cost usability: real semantics (landmarks, headings, button/link roles, accessible names), full keyboard operation of the year picker, year selector, and player, and visible focus styling that fits the skin. Audio never autoplays without the user's initiating gesture (clicking a year counts) and is always pausable. Every animation, including the capsule "boot-up," has a `prefers-reduced-motion` crossfade/instant alternative. Color contrast is verified against the neon fields; text on vivid backgrounds uses black or white at AA, never mid-gray.

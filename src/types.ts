@@ -37,6 +37,41 @@ export interface HydratedTrack {
   durationMs: number;
 }
 
+export interface ArtifactScreenshot {
+  imageUrl: string;
+  alt: string;
+  sourceUrl: string;
+  caption?: string;
+}
+
+export interface FilmArtifact {
+  title: string;
+  posterUrl: string;
+  sourceUrl: string;
+  trailerUrl?: string;
+}
+
+export interface GameArtifact {
+  title: string;
+  coverUrl: string;
+  sourceUrl: string;
+  screenshots: ArtifactScreenshot[];
+  trailerUrl?: string;
+}
+
+export interface GadgetArtifact {
+  title: string;
+  imageUrl: string;
+  sourceUrl: string;
+  description: string;
+}
+
+export interface EraArtifacts {
+  films: FilmArtifact[];
+  games: GameArtifact[];
+  gadgets: GadgetArtifact[];
+}
+
 /** A fully hydrated, ready-to-play capsule. Shape of each entry in a per-country shard. */
 export interface Capsule {
   iso: string;
@@ -46,13 +81,6 @@ export interface Capsule {
   field: FieldKey;
   blurb: string;
   tracks: HydratedTrack[];
+  artifacts?: EraArtifacts;
 }
 
-/** Lightweight map entry from public/data/index.json (only one hero track, no full shard). */
-export interface CountryIndex {
-  iso: string;
-  countryName: string;
-  years: number[];
-  heroYear: number;
-  heroTrack?: HydratedTrack;
-}

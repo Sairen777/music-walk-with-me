@@ -1,10 +1,10 @@
-.ipod {
+.device-player {
   --ipod-w: clamp(248px, 78vw, 308px);
   width: var(--ipod-w);
   margin-inline: auto;
 }
 
-.ipod__shell {
+.device-player__shell {
   width: 100%;
   padding: clamp(0.9rem, 0.6rem + 1vw, 1.25rem);
   border-radius: var(--r-pod);
@@ -22,8 +22,20 @@
   gap: clamp(0.9rem, 0.5rem + 2vw, 1.5rem);
 }
 
+/* ---------- Device label badge ---------- */
+.device-player__device-label {
+  font-family: var(--font-ms);
+  font-weight: 700;
+  font-size: 0.68rem;
+  color: var(--ms-text-soft);
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  order: -1;
+}
+
 /* ---------- Screen ---------- */
-.ipod__screen {
+.device-player__screen {
   border-radius: var(--r-screen);
   background: linear-gradient(180deg, var(--pod-screen-0), var(--pod-screen-1));
   box-shadow:
@@ -34,7 +46,7 @@
   font-family: var(--font-ipod);
 }
 
-.ipod__statusbar {
+.device-player__statusbar {
   display: flex;
   align-items: center;
   gap: 0.4rem;
@@ -46,17 +58,17 @@
   letter-spacing: 0.01em;
 }
 
-.ipod__np {
+.device-player__np {
   flex: 1;
   white-space: nowrap;
 }
 
-.ipod__count {
+.device-player__count {
   font-variant-numeric: tabular-nums;
   opacity: 0.92;
 }
 
-.ipod__batt {
+.device-player__batt {
   width: 18px;
   height: 9px;
   border: 1.5px solid var(--paper);
@@ -64,7 +76,7 @@
   position: relative;
   background: linear-gradient(90deg, var(--paper) 70%, transparent 70%);
 }
-.ipod__batt::after {
+.device-player__batt::after {
   content: "";
   position: absolute;
   right: -3px;
@@ -75,28 +87,28 @@
   border-radius: 0 1px 1px 0;
 }
 
-.ipod__eq {
+.device-player__eq {
   display: inline-flex;
   align-items: flex-end;
   gap: 1.5px;
   height: 11px;
 }
-.ipod__eq i {
+.device-player__eq i {
   width: 2.5px;
   height: 30%;
   background: var(--paper);
   border-radius: 1px;
 }
-.ipod__eq.is-on i {
+.device-player__eq.is-on i {
   animation: eq 0.9s ease-in-out infinite;
 }
-.ipod__eq.is-on i:nth-child(2) {
+.device-player__eq.is-on i:nth-child(2) {
   animation-delay: 0.18s;
 }
-.ipod__eq.is-on i:nth-child(3) {
+.device-player__eq.is-on i:nth-child(3) {
   animation-delay: 0.36s;
 }
-.ipod__eq.is-on i:nth-child(4) {
+.device-player__eq.is-on i:nth-child(4) {
   animation-delay: 0.54s;
 }
 @keyframes eq {
@@ -109,7 +121,7 @@
   }
 }
 
-.ipod__np-body {
+.device-player__np-body {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 0.7rem;
@@ -117,7 +129,7 @@
   align-items: start;
 }
 
-.ipod__cover {
+.device-player__cover {
   width: clamp(86px, 28vw, 112px);
   height: clamp(86px, 28vw, 112px);
   object-fit: cover;
@@ -128,14 +140,14 @@
   background: var(--pod-screen-1);
 }
 
-.ipod__meta {
+.device-player__meta {
   min-width: 0;
   display: grid;
   gap: 0.1rem;
   align-content: start;
 }
 
-.ipod__title {
+.device-player__title {
   font-weight: 700;
   font-size: 0.92rem;
   line-height: 1.15;
@@ -145,14 +157,14 @@
   line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.ipod__artist {
+.device-player__artist {
   font-size: 0.82rem;
   line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.ipod__album {
+.device-player__album {
   font-size: 0.74rem;
   color: oklch(0.4 0.03 250);
   white-space: nowrap;
@@ -160,14 +172,14 @@
   text-overflow: ellipsis;
 }
 
-.ipod__scrubrow {
+.device-player__scrubrow {
   grid-column: 1 / -1;
   margin-top: 0.55rem;
   display: grid;
   gap: 0.2rem;
 }
 
-.ipod__scrub {
+.device-player__scrub {
   -webkit-appearance: none;
   appearance: none;
   width: 100%;
@@ -181,7 +193,7 @@
   box-shadow: inset 0 1px 2px oklch(0.4 0.02 250 / 0.4);
   cursor: pointer;
 }
-.ipod__scrub::-webkit-slider-thumb {
+.device-player__scrub::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 13px;
@@ -191,7 +203,7 @@
   border: 1px solid var(--ms-blue);
   box-shadow: 0 1px 2px oklch(0.3 0.02 250 / 0.5);
 }
-.ipod__scrub::-moz-range-thumb {
+.device-player__scrub::-moz-range-thumb {
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -199,7 +211,7 @@
   border: 1px solid var(--ms-blue);
 }
 
-.ipod__times {
+.device-player__times {
   display: flex;
   justify-content: space-between;
   font-family: var(--font-mono);
@@ -208,7 +220,7 @@
   color: oklch(0.4 0.03 250);
 }
 
-.ipod__preview-note {
+.device-player__preview-note {
   text-align: center;
   font-size: 0.64rem;
   letter-spacing: 0.04em;
@@ -216,7 +228,7 @@
   color: oklch(0.5 0.03 250);
 }
 
-.ipod__idle {
+.device-player__idle {
   display: grid;
   place-items: center;
   gap: 0.3rem;
@@ -224,17 +236,17 @@
   text-align: center;
   padding: 1rem;
 }
-.ipod__idle-big {
+.device-player__idle-big {
   font-weight: 800;
   font-size: 1.1rem;
   letter-spacing: -0.02em;
 }
-.ipod__idle-small {
+.device-player__idle-small {
   font-size: 0.8rem;
   color: oklch(0.45 0.03 250);
 }
 
-.ipod__screen[data-status="loading"] .ipod__cover {
+.device-player__screen[data-status="loading"] .device-player__cover {
   animation: cover-pulse 1.1s ease-in-out infinite;
 }
 @keyframes cover-pulse {
@@ -244,7 +256,7 @@
 }
 
 /* ---------- Click wheel ---------- */
-.ipod__wheel {
+.device-player__wheel {
   position: relative;
   width: min(74%, 224px);
   aspect-ratio: 1;
@@ -261,7 +273,7 @@
     0 1px 2px oklch(0.6 0.01 250 / 0.4);
 }
 
-.ipod__btn {
+.device-player__btn {
   color: var(--ms-text-soft);
   font-weight: 700;
   font-size: 0.7rem;
@@ -270,38 +282,47 @@
   place-items: center;
   padding: 0.4rem;
   border-radius: var(--r-btn);
-  transition: color var(--dur-fast) ease;
+  transition:
+    color var(--dur-fast) ease,
+    background var(--dur-fast) ease,
+    transform var(--dur-fast) ease,
+    box-shadow var(--dur-fast) ease;
+  cursor: pointer;
 }
-.ipod__btn:hover {
+.device-player__btn:hover {
   color: var(--ink);
 }
-.ipod__btn:active {
+.device-player__btn:focus-visible {
+  outline: 2px solid var(--ms-blue);
+  outline-offset: 2px;
+}
+.device-player__btn:active {
   color: var(--ms-blue);
   transform: scale(0.94);
 }
 
-.ipod__btn--menu {
+.device-player__btn--menu {
   grid-area: 1 / 2 / 2 / 3;
   align-self: start;
   padding-top: 0.7rem;
 }
-.ipod__btn--prev {
+.device-player__btn--prev {
   grid-area: 2 / 1 / 3 / 2;
   justify-self: start;
   padding-left: 0.7rem;
 }
-.ipod__btn--next {
+.device-player__btn--next {
   grid-area: 2 / 3 / 3 / 4;
   justify-self: end;
   padding-right: 0.7rem;
 }
-.ipod__btn--play {
+.device-player__btn--play {
   grid-area: 3 / 2 / 4 / 3;
   align-self: end;
   padding-bottom: 0.7rem;
 }
 
-.ipod__center {
+.device-player__center {
   grid-area: 2 / 2 / 3 / 3;
   width: 38%;
   aspect-ratio: 1;
@@ -311,19 +332,32 @@
     inset 0 1px 2px oklch(1 0 0 / 0.95),
     inset 0 -2px 5px oklch(0.7 0.01 250 / 0.5),
     0 1px 3px oklch(0.5 0.01 250 / 0.45);
-  transition: transform var(--dur-fast) ease;
+  transition:
+    transform var(--dur-fast) ease,
+    box-shadow var(--dur-fast) ease;
+  cursor: pointer;
 }
-.ipod__center:active {
+.device-player__center:hover {
+  box-shadow:
+    inset 0 1px 2px oklch(1 0 0 / 0.95),
+    inset 0 -2px 5px oklch(0.7 0.01 250 / 0.5),
+    0 2px 8px oklch(0.4 0.02 250 / 0.4);
+}
+.device-player__center:focus-visible {
+  outline: 2px solid var(--ms-blue);
+  outline-offset: 2px;
+}
+.device-player__center:active {
   transform: scale(0.95);
   box-shadow: inset 0 2px 5px oklch(0.7 0.01 250 / 0.6);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ipod__eq.is-on i,
-  .ipod__screen[data-status="loading"] .ipod__cover {
+  .device-player__eq.is-on i,
+  .device-player__screen[data-status="loading"] .device-player__cover {
     animation: none;
   }
-  .ipod__eq.is-on i {
+  .device-player__eq.is-on i {
     height: 60%;
   }
 }

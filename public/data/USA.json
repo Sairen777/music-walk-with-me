@@ -207,7 +207,97 @@
         "releaseYear": 1990,
         "durationMs": 310893
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Home Alone",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/76/Home_alone_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Home_Alone"
+        },
+        {
+          "title": "Pretty Woman",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Pretty_woman_movie.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pretty_Woman"
+        },
+        {
+          "title": "Ghost",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Ghost_%281990_movie_poster%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Ghost_(1990_film)"
+        },
+        {
+          "title": "Goodfellas",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Goodfellas.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Goodfellas"
+        }
+      ],
+      "games": [
+        {
+          "title": "Super Mario World",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Super_Mario_World_Coverart.png/330px-Super_Mario_World_Coverart.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_World",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Super_Mario_World.png",
+              "alt": "Mario riding Yoshi during the second course. From left to right, the HUD displays the number of lives, how many Yoshi Coins the player has collected, the player's number of Bonus Stars, the item box storing a power-up, the time remaining in the level, the player's number of coins, and the total score.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_World",
+              "caption": "Mario riding Yoshi during the second course. From left to right, the HUD displays the number of lives, how many Yoshi Coins the player has collected, the player's number of Bonus Stars, the item box storing a power-up, the time remaining in the level, the player's number of coins, and the total score."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/SupermarioworldGBA.png/330px-SupermarioworldGBA.png",
+              "alt": "Luigi riding Yoshi during one of the game's early stages in the GBA re-release Super Mario World: Super Mario Advance 2. This version of the game features unique sprites for Luigi.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_World",
+              "caption": "Luigi riding Yoshi during one of the game's early stages in the GBA re-release Super Mario World: Super Mario Advance 2. This version of the game features unique sprites for Luigi."
+            }
+          ]
+        },
+        {
+          "title": "The Secret of Monkey Island",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/The_Secret_of_Monkey_Island_artwork.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/LOOM_advert_in_Monkey_Island.png/330px-LOOM_advert_in_Monkey_Island.png",
+              "alt": "The developers included a character from Loom (another 1990 Lucasfilm Games title). When approached for conversation, the character encourages the player to purchase Loom.[21]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island",
+              "caption": "The developers included a character from Loom (another 1990 Lucasfilm Games title). When approached for conversation, the character encourages the player to purchase Loom.[21]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/RonGilbert_2011_adjusted.jpg/330px-RonGilbert_2011_adjusted.jpg",
+              "alt": "Ron Gilbert led the game's development and conceived its plot (2011 photo).",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island",
+              "caption": "Ron Gilbert led the game's development and conceived its plot (2011 photo)."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/The_Art_of_Video_Games_2012_%286994361925%29.jpg/1280px-The_Art_of_Video_Games_2012_%286994361925%29.jpg",
+              "alt": "The Secret of Monkey Island displayed at The Art of Video Games",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Secret_of_Monkey_Island",
+              "caption": "The Secret of Monkey Island displayed at The Art of Video Games"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Game Boy",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Game-Boy-FL.png/330px-Game-Boy-FL.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Game_Boy",
+          "description": "The Game Boy is a handheld game console developed and marketed by Nintendo."
+        },
+        {
+          "title": "Sega Genesis",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/330px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sega_Genesis",
+          "description": "The Sega Genesis, known as the Mega Drive outside North America, is a 16-bit fourth generation home video game console developed and sold by Sega."
+        },
+        {
+          "title": "Sony Walkman",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Walkman_logo_%282000%29.svg/330px-Walkman_logo_%282000%29.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Walkman",
+          "description": "Walkman  is a brand of portable audio players manufactured by Sony since 1979."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -417,7 +507,90 @@
         "releaseYear": 1991,
         "durationMs": 242627
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Terminator 2: Judgment Day",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5e/Terminator_2-Judgment_Day.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Terminator_2%3A_Judgment_Day"
+        },
+        {
+          "title": "The Silence of the Lambs",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/The_Silence_of_the_Lambs_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs_(film)"
+        },
+        {
+          "title": "Beauty and the Beast",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Batten_-_Europa%27sFairyTales.jpg/330px-Batten_-_Europa%27sFairyTales.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast"
+        },
+        {
+          "title": "Point Break",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Pointbreaktheatrical.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Point_Break"
+        }
+      ],
+      "games": [
+        {
+          "title": "Sonic the Hedgehog",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sonic_The_Hedgehog.svg/330px-Sonic_The_Hedgehog.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Sonic2Gameplay.gif",
+              "alt": "Sonic the Hedgehog screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hirokazu_yasuhara_gdc_2018.jpg/330px-Hirokazu_yasuhara_gdc_2018.jpg",
+              "alt": "Hirokazu Yasuhara (pictured in 2018) designed most of the Genesis Sonic games.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog",
+              "caption": "Hirokazu Yasuhara (pictured in 2018) designed most of the Genesis Sonic games."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Sega-Saturn-JP-Mk1-Console-Set.jpg/1280px-Sega-Saturn-JP-Mk1-Console-Set.jpg",
+              "alt": "Few Sonic games were released for the Saturn. The cancellation of Sonic X-treme is considered a significant factor in the Saturn's commercial failure.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog",
+              "caption": "Few Sonic games were released for the Saturn. The cancellation of Sonic X-treme is considered a significant factor in the Saturn's commercial failure."
+            }
+          ]
+        },
+        {
+          "title": "Street Fighter II",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Street_Fighter_II_%28arcade%29_screenshot.png/330px-Street_Fighter_II_%28arcade%29_screenshot.png",
+              "alt": "Guile defeats Ken with his Flash Kick on the arcade version.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Street_Fighter_II",
+              "caption": "Guile defeats Ken with his Flash Kick on the arcade version."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "SNES",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SNES-Mod1-Console-Set.png/330px-SNES-Mod1-Console-Set.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+          "description": "The Super Nintendo Entertainment System (Super NES or SNES) is a home video game console developed and marketed by Nintendo."
+        },
+        {
+          "title": "Sega CD",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sega-CD-Model1-Set.jpg/330px-Sega-CD-Model1-Set.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sega_CD",
+          "description": "The Sega CD, known as Mega-CD in most regions outside North America and Brazil, is a CD-ROM peripheral and format for the Sega Genesis produced by Sega as part of the…"
+        },
+        {
+          "title": "Motorola MicroTAC",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Motorola_MicroTAC_9800x.jpg/330px-Motorola_MicroTAC_9800x.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/MicroTAC",
+          "description": "The MicroTAC is a series of cellular phones that was marketed by Motorola from 1989 until approximately 2000."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -627,7 +800,121 @@
         "releaseYear": 2001,
         "durationMs": 299717
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Aladdin",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/bd/Aladdin_%281992_Disney_film%29_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Aladdin_(1992_Disney_film)"
+        },
+        {
+          "title": "Wayne's World",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wayne%27s_World.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wayne's_World_(film)"
+        },
+        {
+          "title": "Reservoir Dogs",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Reservoir_Dogs.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Reservoir_Dogs"
+        },
+        {
+          "title": "A League of Their Own",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/League_of_their_own_ver2.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/A_League_of_Their_Own"
+        }
+      ],
+      "games": [
+        {
+          "title": "Mortal Kombat",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/33/Mortal_Kombat_cover.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Mortal_Kombat.png/330px-Mortal_Kombat.png",
+              "alt": "Screenshot of a fight between Johnny Cage and Raiden",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+              "caption": "Screenshot of a fight between Johnny Cage and Raiden"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/MK_character_select.png/330px-MK_character_select.png",
+              "alt": "Mortal Kombat character selection screen, showing Kano (left) and Sub-Zero (right)",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+              "caption": "Mortal Kombat character selection screen, showing Kano (left) and Sub-Zero (right)"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/f/f3/MK1_SNES_vs_MD.png",
+              "alt": "Sub-Zero's Fatality move in the SNES (top) and Genesis (bottom, with blood cheat applied) ports of Mortal Kombat, showcasing the difference in violence levels",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Mortal_Kombat_(1992_video_game)",
+              "caption": "Sub-Zero's Fatality move in the SNES (top) and Genesis (bottom, with blood cheat applied) ports of Mortal Kombat, showcasing the difference in violence levels"
+            }
+          ]
+        },
+        {
+          "title": "Wolfenstein 3D",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/05/Wolfenstein-3d.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Wolf3d_pc.png",
+              "alt": "In-game screenshot of the DOS version, showing the player character firing a submachine gun at guards",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+              "caption": "In-game screenshot of the DOS version, showing the player character firing a submachine gun at guards"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Simple_raycasting_with_fisheye_correction.gif/500px-Simple_raycasting_with_fisheye_correction.gif",
+              "alt": "A simple ray casting rendering similar to the Wolfenstein 3D engine. The red dot is the player's location. The orange area represents the player's field of view.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Wolfenstein_3D",
+              "caption": "A simple ray casting rendering similar to the Wolfenstein 3D engine. The red dot is the player's location. The orange area represents the player's field of view."
+            }
+          ]
+        },
+        {
+          "title": "Sonic the Hedgehog 2",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Hidden_Palace_Sonic_2.png/330px-Hidden_Palace_Sonic_2.png",
+              "alt": "A screenshot of Hidden Palace Zone, one of the cut Sonic 2 levels. It featured extensively in prerelease advertisements and was restored in the 2013 Sonic 2 remake.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+              "caption": "A screenshot of Hidden Palace Zone, one of the cut Sonic 2 levels. It featured extensively in prerelease advertisements and was restored in the 2013 Sonic 2 remake."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/79/Sonic_2_SpecialStage.gif",
+              "alt": "The special stages, in which the player collects rings to obtain a Chaos Emerald, are presented in 3D, unlike the rest of the game.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2",
+              "caption": "The special stages, in which the player collects rings to obtain a Chaos Emerald, are presented in 3D, unlike the rest of the game."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Mark_Cerny%2C_Gamelab_2018_%28cropped%29.jpg/1280px-Mark_Cerny%2C_Gamelab_2018_%28cropped%29.jpg",
+              "alt": "Sonic the Hedgehog 2 screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_2"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Sega Genesis",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Sega-Mega-Drive-JP-Mk1-Console-Set.jpg/330px-Sega-Mega-Drive-JP-Mk1-Console-Set.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sega_Genesis",
+          "description": "The Sega Genesis, known as the Mega Drive outside North America, is a 16-bit fourth generation home video game console developed and sold by Sega."
+        },
+        {
+          "title": "Super Nintendo",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/SNES-Mod1-Console-Set.png/330px-SNES-Mod1-Console-Set.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System",
+          "description": "The Super Nintendo Entertainment System (Super NES or SNES) is a home video game console developed and marketed by Nintendo."
+        },
+        {
+          "title": "Discman",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sony_Discman_D-145_face_20160921b.jpg/330px-Sony_Discman_D-145_face_20160921b.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Discman",
+          "description": "Discman  was a brand name used by Sony for their portable CD players."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -837,7 +1124,102 @@
         "releaseYear": 1993,
         "durationMs": 241467
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Jurassic Park",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/Jurassic_Park_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Jurassic_Park"
+        },
+        {
+          "title": "The Nightmare Before Christmas",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/9a/The_nightmare_before_christmas_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas"
+        },
+        {
+          "title": "Groundhog Day",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Groundhog_Day_%28movie_poster%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Groundhog_Day_(film)"
+        },
+        {
+          "title": "Dazed and Confused",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Dazed_and_Confused_%281993%29_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dazed_and_Confused_(film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Doom",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/d/de/Doom_ingame_1.png",
+              "alt": "Screenshot of the player armed with a chainsaw confronting an undead soldier with a shotgun on a bridge over a chemical waste storage in \"Knee-Deep in the Dead\"",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+              "caption": "Screenshot of the player armed with a chainsaw confronting an undead soldier with a shotgun on a bridge over a chemical waste storage in \"Knee-Deep in the Dead\""
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Doom_gibs.png/330px-Doom_gibs.png",
+              "alt": "Doom's intense level of graphic violence, as seen in this gory effect of a rocket hitting a group of demons, made the game highly controversial.[173]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+              "caption": "Doom's intense level of graphic violence, as seen in this gory effect of a rocket hitting a group of demons, made the game highly controversial.[173]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Spider_Mastermind_model.jpg/500px-Spider_Mastermind_model.jpg",
+              "alt": "Model of the Spider Mastermind created for the game by Gregor Punchatz",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Doom_(1993_video_game)",
+              "caption": "Model of the Spider Mastermind created for the game by Gregor Punchatz"
+            }
+          ]
+        },
+        {
+          "title": "Myst",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/6a/MystCover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Myst",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Myst-library_and_ship.jpg/330px-Myst-library_and_ship.jpg",
+              "alt": "Screenshot of the eponymous Myst Island. Solving a puzzle raises the ship in the foreground and allows the player to reach the Stoneship Age. The library in the background contains books that describe the different Ages the player can link to.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Myst",
+              "caption": "Screenshot of the eponymous Myst Island. Solving a puzzle raises the ship in the foreground and allows the player to reach the Stoneship Age. The library in the background contains books that describe the different Ages the player can link to."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Macintosh_Quadra_700.png/500px-Macintosh_Quadra_700.png",
+              "alt": "Macintosh computers such as the Quadra 700 were used to develop Myst. Slow single-speed CD-ROM drives and game console memory limitations proved to be constraints.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Myst",
+              "caption": "Macintosh computers such as the Quadra 700 were used to develop Myst. Slow single-speed CD-ROM drives and game console memory limitations proved to be constraints."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Realmyst_screen.png/330px-Realmyst_screen.png",
+              "alt": "Myst screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Myst"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Apple Newton",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/Apple_Newton_logo.svg/330px-Apple_Newton_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Apple_Newton",
+          "description": "The Newton is a series of personal digital assistants (PDAs) developed and marketed by Apple Computer, Inc."
+        },
+        {
+          "title": "Sega Saturn (JP)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sega-Saturn-Console-Set-Mk2.png/330px-Sega-Saturn-Console-Set-Mk2.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sega_Saturn",
+          "description": "The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994, in Japan, May 11, 1995, in North America, and July 8, 1995, in Europe."
+        },
+        {
+          "title": "Motorola StarTAC",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Motorola_StarTAC_Flip_Phone.jpg/330px-Motorola_StarTAC_Flip_Phone.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/StarTAC",
+          "description": "The StarTAC is a series of clamshell-style cellular mobile phones developed and marketed by Motorola beginning in 1996."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -1047,7 +1429,104 @@
         "releaseYear": 1994,
         "durationMs": 207507
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Pulp Fiction",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pulp_Fiction_%281994%29_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+        },
+        {
+          "title": "The Lion King",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/3d/The_Lion_King_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Lion_King"
+        },
+        {
+          "title": "Forrest Gump",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Forrest_Gump"
+        },
+        {
+          "title": "Clerks",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Clerks_movie_poster%3B_Just_because_they_serve_you_---_.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Clerks_(film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Super Metroid",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Smetroidbox.jpg/330px-Smetroidbox.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Metroid",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Super_Metroid_Grapple_Beam.png",
+              "alt": "Power-ups and abilities, such as the Grappling Beam, allow Samus to reach previously inaccessible areas. Her health, stock of weapons and a gridded mini-map are displayed on the top of the screen.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Metroid",
+              "caption": "Power-ups and abilities, such as the Grappling Beam, allow Samus to reach previously inaccessible areas. Her health, stock of weapons and a gridded mini-map are displayed on the top of the screen."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Yoshio_Sakamoto_-_Game_Developers_Conference_2010_-_Day_3_%282%29_cropped.jpg/500px-Yoshio_Sakamoto_-_Game_Developers_Conference_2010_-_Day_3_%282%29_cropped.jpg",
+              "alt": "Yoshio Sakamoto, the director and writer of Super Metroid, at the 2010 Game Developers Conference",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Metroid",
+              "caption": "Yoshio Sakamoto, the director and writer of Super Metroid, at the 2010 Game Developers Conference"
+            }
+          ]
+        },
+        {
+          "title": "Donkey Kong Country",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Donkey_Kong_Country_SNES_cover.png/330px-Donkey_Kong_Country_SNES_cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Donkey_Kong_Country",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/3/30/Donkey_Kong_Country_Shot_2.png",
+              "alt": "The player character, Diddy Kong (behind him there is Donkey Kong) jumps on a Kremling in the first level, Jungle Hijinks.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Donkey_Kong_Country",
+              "caption": "The player character, Diddy Kong (behind him there is Donkey Kong) jumps on a Kremling in the first level, Jungle Hijinks."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/DKCRereleaseComparison.png/330px-DKCRereleaseComparison.png",
+              "alt": "Different versions of Donkey Kong Country: the SNES original (top left), the Game Boy Color version (top right), and the Game Boy Advance version (bottom).",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Donkey_Kong_Country",
+              "caption": "Different versions of Donkey Kong Country: the SNES original (top left), the Game Boy Color version (top right), and the Game Boy Advance version (bottom)."
+            }
+          ]
+        },
+        {
+          "title": "Sonic & Knuckles",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_%26_Knuckles",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/57/Sonic_%26_Knuckles_gameplay_002.png",
+              "alt": "Knuckles explores Mushroom Hill, the first zone of Sonic & Knuckles.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Sonic_%26_Knuckles",
+              "caption": "Knuckles explores Mushroom Hill, the first zone of Sonic & Knuckles."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Sony PlayStation (JP)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/330px-Playstation_logo_colour.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "description": "The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment."
+        },
+        {
+          "title": "Sega Saturn (JP)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sega-Saturn-Console-Set-Mk2.png/330px-Sega-Saturn-Console-Set-Mk2.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Sega_Saturn",
+          "description": "The Sega Saturn is a home video game console developed by Sega and released on November 22, 1994, in Japan, May 11, 1995, in North America, and July 8, 1995, in Europe."
+        },
+        {
+          "title": "Discman",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Sony_Discman_D-145_face_20160921b.jpg/330px-Sony_Discman_D-145_face_20160921b.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Discman",
+          "description": "Discman  was a brand name used by Sony for their portable CD players."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -1257,7 +1736,72 @@
         "releaseYear": 1993,
         "durationMs": 239467
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Toy Story",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Toy_Story"
+        },
+        {
+          "title": "Clueless",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Clueless_film_poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Clueless"
+        },
+        {
+          "title": "Friday",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Fridayposter1995.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Friday_(1995_film)"
+        },
+        {
+          "title": "Braveheart",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/e1/Braveheart_film_poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Braveheart"
+        }
+      ],
+      "games": [
+        {
+          "title": "Chrono Trigger",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Chrono_Trigger.jpg/330px-Chrono_Trigger.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Chrono_Trigger",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/ChronoTriggerInside.PNG/330px-ChronoTriggerInside.PNG",
+              "alt": "Unlike most other role-playing games at the time, combat in Chrono Trigger occurs in the same area where general navigation occurs, with all enemies visible on screen.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Chrono_Trigger",
+              "caption": "Unlike most other role-playing games at the time, combat in Chrono Trigger occurs in the same area where general navigation occurs, with all enemies visible on screen."
+            }
+          ]
+        },
+        {
+          "title": "Command & Conquer",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/3/34/Command_%26_Conquer_1995_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game)",
+          "screenshots": []
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Sony PlayStation (US)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/330px-Playstation_logo_colour.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "description": "The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment."
+        },
+        {
+          "title": "Windows 95",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Windows_95_at_first_run.png/330px-Windows_95_at_first_run.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Windows_95",
+          "description": "Windows 95 is a consumer-oriented operating system developed by Microsoft, released to manufacturing on July 14, 1995, and to retail on August 24, 1995."
+        },
+        {
+          "title": "Palm Pilot",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Palm-IMG_7025.jpg/330px-Palm-IMG_7025.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PalmPilot",
+          "description": "The PalmPilot Personal and PalmPilot Professional are the second generation of Palm PDA devices produced by Palm Inc."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -1467,7 +2011,98 @@
         "releaseYear": 1995,
         "durationMs": 249507
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Scream",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/86/Scream_%281996_film%29_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Scream_(1996_film)"
+        },
+        {
+          "title": "Independence Day",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/Independence_day_movieposter.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Independence_Day_(1996_film)"
+        },
+        {
+          "title": "Space Jam",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/14/Space_jam.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Space_Jam"
+        },
+        {
+          "title": "Trainspotting",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Trainspotting_ver2.jpg/330px-Trainspotting_ver2.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Super Mario 64",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Super_Mario_64.png/330px-Super_Mario_64.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_64",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Super_Mario_64_camera_system_ai.png",
+              "alt": "From left to right clockwise, the interface shows the number of extra lives, health points remaining, coins obtained, Power Stars collected throughout the game, and the camera configuration. The three screenshots show the camera automatically rotating to show the path.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Mario_64",
+              "caption": "From left to right clockwise, the interface shows the number of extra lives, health points remaining, coins obtained, Power Stars collected throughout the game, and the camera configuration. The three screenshots show the camera automatically rotating to show the path."
+            }
+          ]
+        },
+        {
+          "title": "Tomb Raider",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Tomb_Raider_Tomb_of_Qualopec.png/330px-Tomb_Raider_Tomb_of_Qualopec.png",
+              "alt": "Lara Croft retrieves the first piece of the Scion in the Tomb of Qualopec.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)",
+              "caption": "Lara Croft retrieves the first piece of the Scion in the Tomb of Qualopec."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Toby_Gard_-_E3_2005.jpg/500px-Toby_Gard_-_E3_2005.jpg",
+              "alt": "Toby Gard at the 2005 Electronic Entertainment Expo",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Tomb_Raider_(1996_video_game)",
+              "caption": "Toby Gard at the 2005 Electronic Entertainment Expo"
+            }
+          ]
+        },
+        {
+          "title": "Resident Evil",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/Resident_Evil_1_cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Resident_Evil_original_version.png",
+              "alt": "Chris Redfield in the mansion's art room. With the exception of characters and interactible objects, all environments are pre-rendered.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_(1996_video_game)",
+              "caption": "Chris Redfield in the mansion's art room. With the exception of characters and interactible objects, all environments are pre-rendered."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Nintendo 64",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2d/Nintendo_64_%28logo%29.svg/330px-Nintendo_64_%28logo%29.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nintendo_64",
+          "description": "The Nintendo 64 (N64) is a home video game console developed and marketed by Nintendo."
+        },
+        {
+          "title": "Tamagotchi",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tamagotchi_0124_ubt.jpeg/330px-Tamagotchi_0124_ubt.jpeg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tamagotchi",
+          "description": "Tamagotchi  is a brand of handheld digital pets marketed since 1996 by Japanese toymaker Bandai, a division of Bandai Namco Holdings."
+        },
+        {
+          "title": "Palm Pilot",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Palm-IMG_7025.jpg/330px-Palm-IMG_7025.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PalmPilot",
+          "description": "The PalmPilot Personal and PalmPilot Professional are the second generation of Palm PDA devices produced by Palm Inc."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -1677,7 +2312,108 @@
         "releaseYear": 1996,
         "durationMs": 213093
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Titanic",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+        },
+        {
+          "title": "Men in Black",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/Men_in_Black_Poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Men_in_Black_(1997_film)"
+        },
+        {
+          "title": "Good Will Hunting",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Good_Will_Hunting.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Good_Will_Hunting"
+        },
+        {
+          "title": "Boogie Nights",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/dc/Boogie_Nights_poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Boogie_Nights"
+        }
+      ],
+      "games": [
+        {
+          "title": "Final Fantasy VII",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/FFVIIbattleexample.png",
+              "alt": "A battle scene with Cloud, Barret, and Tifa facing a dragon. At this point, the player must choose a command for Cloud to perform.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+              "caption": "A battle scene with Cloud, Barret, and Tifa facing a dragon. At this point, the player must choose a command for Cloud to perform."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hironobu_Sakaguchi_-_Tokyo_Game_Show_2006.jpg/1280px-Hironobu_Sakaguchi_-_Tokyo_Game_Show_2006.jpg",
+              "alt": "Final Fantasy VII screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_VII"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/FFVIIsephirothkillsaeris.png/330px-FFVIIsephirothkillsaeris.png",
+              "alt": "The cutscene of Sephiroth killing Aerith Gainsborough. This key story sequence has been called one of the most \"shocking\",[54] \"cinematic\",[55] and \"genre-defining\"[56] moments in video games.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Final_Fantasy_VII",
+              "caption": "The cutscene of Sephiroth killing Aerith Gainsborough. This key story sequence has been called one of the most \"shocking\",[54] \"cinematic\",[55] and \"genre-defining\"[56] moments in video games."
+            }
+          ]
+        },
+        {
+          "title": "GoldenEye 007",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/GoldenEye_007_N64_cover.jpg/330px-GoldenEye_007_N64_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/GoldenEye_007",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d8/Goldeneyeemulated4lw.jpg/330px-Goldeneyeemulated4lw.jpg",
+              "alt": "When the player takes damage, red and blue bars are displayed on the game's HUD, representing Bond's health and armour levels respectively. Ammunition information is displayed at the bottom right corner.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/GoldenEye_007",
+              "caption": "When the player takes damage, red and blue bars are displayed on the game's HUD, representing Bond's health and armour levels respectively. Ammunition information is displayed at the bottom right corner."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/60/GoldenEye_N64_Game_Photo.jpg",
+              "alt": "GoldenEye 007 screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/GoldenEye_007"
+            }
+          ]
+        },
+        {
+          "title": "Castlevania: Symphony of the Night",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Castlevania%3A_Symphony_of_the_Night",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a0/SotNGameplay.jpg/330px-SotNGameplay.jpg",
+              "alt": "The player, as Alucard, explores Dracula's castle – a large, interconnected area – and fights enemies on his way.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Castlevania%3A_Symphony_of_the_Night",
+              "caption": "The player, as Alucard, explores Dracula's castle – a large, interconnected area – and fights enemies on his way."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Nokia 6110 (Snake!)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Nokia_6110_blue-92107.jpg/330px-Nokia_6110_blue-92107.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_6110",
+          "description": "The Nokia 6110 is a GSM mobile phone from Nokia announced on 18 December 1997 and released in 1998."
+        },
+        {
+          "title": "PS1",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/330px-Playstation_logo_colour.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_(console)",
+          "description": "The PlayStation is a home video game console developed and marketed by Sony Computer Entertainment."
+        },
+        {
+          "title": "AOL Instant Messenger",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/AIM_logo.svg/330px-AIM_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/AIM_(software)",
+          "description": "AOL Instant Messenger was an instant messaging and presence information computer program created by AOL that operated from 1997 to 2017."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -1728,6 +2464,16 @@
         "durationMs": 257093
       },
       {
+        "id": "eve-6--inside-out",
+        "artist": "Eve 6",
+        "title": "Inside Out",
+        "album": "Eve 6",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/c7/c0/3d/c7c03dff-b1ba-a502-c5d0-284544d6229a/dj.yoouhfua.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/98/41/b29841c3-0b45-d07e-02d0-a2de8390b429/mzaf_13798063216524982165.plus.aac.p.m4a",
+        "releaseYear": 1998,
+        "durationMs": 219467
+      },
+      {
         "id": "semisonic--closing-time",
         "artist": "Semisonic",
         "title": "Closing Time",
@@ -1736,16 +2482,6 @@
         "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/ca/df/f2cadf78-fff4-ac7b-ed9c-6ce2cb8f575c/mzaf_13782598360150534572.plus.aac.p.m4a",
         "releaseYear": 1998,
         "durationMs": 274160
-      },
-      {
-        "id": "aerosmith--i-don-t-want-to-miss-a-thing-from-armageddon-soundtrack",
-        "artist": "Aerosmith",
-        "title": "I Don't Want To Miss A Thing (From \"Armageddon\" Soundtrack)",
-        "album": "I Don't Want To Miss A Thing EP",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/08/3f/fb/083ffb78-ce26-bd3f-d13d-e066b7eb708d/22UM1IM35761.rgb.jpg/600x600bb.jpg",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/72/06/e1/7206e197-c5c2-1976-769b-637df49b6b33/mzaf_12323156045477085314.plus.aac.p.m4a",
-        "releaseYear": 1998,
-        "durationMs": 299723
       },
       {
         "id": "natalie-imbruglia--torn",
@@ -1758,14 +2494,14 @@
         "durationMs": 244667
       },
       {
-        "id": "eve-6--inside-out",
-        "artist": "Eve 6",
-        "title": "Inside Out",
-        "album": "Eve 6",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/c7/c0/3d/c7c03dff-b1ba-a502-c5d0-284544d6229a/dj.yoouhfua.jpg/600x600bb.jpg",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/b2/98/41/b29841c3-0b45-d07e-02d0-a2de8390b429/mzaf_13798063216524982165.plus.aac.p.m4a",
+        "id": "aerosmith--i-don-t-want-to-miss-a-thing-from-armageddon-soundtrack",
+        "artist": "Aerosmith",
+        "title": "I Don't Want To Miss A Thing (From \"Armageddon\" Soundtrack)",
+        "album": "I Don't Want To Miss A Thing EP",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/08/3f/fb/083ffb78-ce26-bd3f-d13d-e066b7eb708d/22UM1IM35761.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/72/06/e1/7206e197-c5c2-1976-769b-637df49b6b33/mzaf_12323156045477085314.plus.aac.p.m4a",
         "releaseYear": 1998,
-        "durationMs": 219467
+        "durationMs": 299723
       },
       {
         "id": "eagle-eye-cherry--save-tonight",
@@ -1778,16 +2514,6 @@
         "durationMs": 239195
       },
       {
-        "id": "beastie-boys--intergalactic",
-        "artist": "Beastie Boys",
-        "title": "Intergalactic",
-        "album": "Anthology: The Sounds of Science",
-        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3e/2e/d4/3e2ed421-dbc4-a027-060d-1625daa3bbb4/00724352294053.rgb.jpg/600x600bb.jpg",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/4e/df/3b4edff8-5bc8-f5bc-63e9-1f4f71b4d12b/mzaf_11404149616338948990.plus.aac.p.m4a",
-        "releaseYear": 1999,
-        "durationMs": 212467
-      },
-      {
         "id": "ben-folds-five--brick",
         "artist": "Ben Folds Five",
         "title": "Brick",
@@ -1796,6 +2522,16 @@
         "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/97/80/92/978092ca-77ba-5bc5-14f5-58be9d274834/mzaf_17331897400938953519.plus.aac.p.m4a",
         "releaseYear": 1997,
         "durationMs": 271720
+      },
+      {
+        "id": "beastie-boys--intergalactic",
+        "artist": "Beastie Boys",
+        "title": "Intergalactic",
+        "album": "Anthology: The Sounds of Science",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/3e/2e/d4/3e2ed421-dbc4-a027-060d-1625daa3bbb4/00724352294053.rgb.jpg/600x600bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/3b/4e/df/3b4edff8-5bc8-f5bc-63e9-1f4f71b4d12b/mzaf_11404149616338948990.plus.aac.p.m4a",
+        "releaseYear": 1999,
+        "durationMs": 212467
       },
       {
         "id": "next--too-close-mixed",
@@ -1887,7 +2623,96 @@
         "releaseYear": 1997,
         "durationMs": 227933
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Saving Private Ryan",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Saving_Private_Ryan_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
+        },
+        {
+          "title": "The Big Lebowski",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/35/Biglebowskiposter.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Big_Lebowski"
+        },
+        {
+          "title": "Blade",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/19/Blade_movie.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Blade_(1998_film)"
+        },
+        {
+          "title": "Rushmore",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/42/Rushmoreposter.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Rushmore_(film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "The Legend of Zelda: Ocarina of Time",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg/330px-The_Legend_of_Zelda_Ocarina_of_Time.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/OcarinaOfTimeBattle.JPG/330px-OcarinaOfTimeBattle.JPG",
+              "alt": "The Legend of Zelda: Ocarina of Time screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Legend_of_Zelda%3A_Ocarina_of_Time"
+            }
+          ]
+        },
+        {
+          "title": "Metal Gear Solid",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Metal_Gear_Solid_cover_art.png/330px-Metal_Gear_Solid_cover_art.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/MGS_screen_psx.jpg/330px-MGS_screen_psx.jpg",
+              "alt": "Metal Gear Solid screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Hideo_Kojima_shows_Metal_Gear_for_PS_One.jpg/1280px-Hideo_Kojima_shows_Metal_Gear_for_PS_One.jpg",
+              "alt": "Hideo Kojima (with model Yumi Kikuchi) at the 2011 Tokyo Game Show holding an original Metal Gear Solid jewel case",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Metal_Gear_Solid_(video_game)",
+              "caption": "Hideo Kojima (with model Yumi Kikuchi) at the 2011 Tokyo Game Show holding an original Metal Gear Solid jewel case"
+            }
+          ]
+        },
+        {
+          "title": "Half-Life",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Half-Life_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/Halflife_ingame.jpg/330px-Halflife_ingame.jpg",
+              "alt": "An in-game screenshot of the player battling Marines, an AH-64 attack helicopter, and a gun turret in the chapter \"Surface Tension\"",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Half-Life_(video_game)",
+              "caption": "An in-game screenshot of the player battling Marines, an AH-64 attack helicopter, and a gun turret in the chapter \"Surface Tension\""
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iMac G3",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/IMac_G3_Bondi_Blue%2C_three-quarters_view.png/330px-IMac_G3_Bondi_Blue%2C_three-quarters_view.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IMac_G3",
+          "description": "The iMac G3, originally released as the iMac, is a series of Macintosh personal computers that Apple Computer sold from 1998 to 2003."
+        },
+        {
+          "title": "Dreamcast (JP)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dreamcast_logo_Japan.svg/330px-Dreamcast_logo_Japan.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dreamcast",
+          "description": "The Dreamcast is the final home video game console manufactured by Sega."
+        },
+        {
+          "title": "Nokia 5110",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Nokia_5110.jpg/330px-Nokia_5110.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_5110",
+          "description": "The Nokia 5110 is a GSM mobile phone that was introduced by Nokia on 12 April 1998."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -2097,7 +2922,98 @@
         "releaseYear": 1998,
         "durationMs": 273440
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "The Matrix",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/The_Matrix.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Matrix"
+        },
+        {
+          "title": "Fight Club",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Fight_Club"
+        },
+        {
+          "title": "American Pie",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/American_Pie1.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/American_Pie_(film)"
+        },
+        {
+          "title": "10 Things I Hate About You",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/95/10_Things_I_Hate_About_You_film.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/10_Things_I_Hate_About_You"
+        }
+      ],
+      "games": [
+        {
+          "title": "Pokémon Red & Blue",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/330px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/b1/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow_battle_screenshot.png",
+              "alt": "The player's Bulbasaur engaged in battle with a Charmander[5]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow",
+              "caption": "The player's Bulbasaur engaged in battle with a Charmander[5]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stockholms_Spelmuseum_by_BugWarp_%2817%29.jpg/1280px-Stockholms_Spelmuseum_by_BugWarp_%2817%29.jpg",
+              "alt": "Pocket Monsters Green (far right) in original packaging box on display at the Stockholm Game Museum",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Pok%C3%A9mon_Red%2C_Blue%2C_and_Yellow",
+              "caption": "Pocket Monsters Green (far right) in original packaging box on display at the Stockholm Game Museum"
+            }
+          ]
+        },
+        {
+          "title": "System Shock 2",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/91/Systemshock2box.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/System_Shock_2",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Systemshock2_ingame_final.jpg/330px-Systemshock2_ingame_final.jpg",
+              "alt": "The player, armed with a pistol, faces a protocol droid while in the interface mode. The inventory is at the top; health, psionic points, nanites, and cyber modules are at the bottom left; and the cyber interface and weapon information are at the bottom right.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/System_Shock_2",
+              "caption": "The player, armed with a pistol, faces a protocol droid while in the interface mode. The inventory is at the top; health, psionic points, nanites, and cyber modules are at the bottom left; and the cyber interface and weapon information are at the bottom right."
+            }
+          ]
+        },
+        {
+          "title": "Age of Empires II",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/56/Age_of_Empires_II_-_The_Age_of_Kings_Coverart.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Age_of_Empires_II",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Age_ii_feudal_age_celts.jpg/330px-Age_ii_feudal_age_celts.jpg",
+              "alt": "The Celtic civilization in the Feudal Age. The Town Center is visible and has several farms surrounding it; villagers of both sexes work there and elsewhere to gather resources. A scout on horseback is also at the ready. Military buildings such as the barracks, archery range, and stable are visible, as well as economic buildings—the market, blacksmith and mill. The right bottom corner of the screenshot shows the player's walls and a gate.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Age_of_Empires_II",
+              "caption": "The Celtic civilization in the Feudal Age. The Town Center is visible and has several farms surrounding it; villagers of both sexes work there and elsewhere to gather resources. A scout on horseback is also at the ready. Military buildings such as the barracks, archery range, and stable are visible, as well as economic buildings—the market, blacksmith and mill. The right bottom corner of the screenshot shows the player's walls and a gate."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Napster",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Napster_Unique_Users.svg/500px-Napster_Unique_Users.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Napster",
+          "description": "Napster was an American proprietary peer-to-peer (P2P) file sharing application primarily associated with digital audio file distribution."
+        },
+        {
+          "title": "Nokia 3210",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Nokia_3210_logo.svg/330px-Nokia_3210_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_3210",
+          "description": "The Nokia 3210 is a GSM cell phone, announced by Nokia at the CeBIT fair on March 18, 1999, alongside the Nokia 7110."
+        },
+        {
+          "title": "Sega Dreamcast (US)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dreamcast_logo_Japan.svg/330px-Dreamcast_logo_Japan.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Dreamcast",
+          "description": "The Dreamcast is the final home video game console manufactured by Sega."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -2307,7 +3223,98 @@
         "releaseYear": 2001,
         "durationMs": 264940
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Gladiator",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+        },
+        {
+          "title": "American Psycho",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/0/0c/American_Psycho.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
+        },
+        {
+          "title": "Bring It On",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fa/Bringitonmovieposter.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bring_It_On_(film)"
+        },
+        {
+          "title": "Almost Famous",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/Almost_famous_poster1.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Almost_Famous"
+        }
+      ],
+      "games": [
+        {
+          "title": "The Sims",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/22/The_Sims_Coverart.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Sims_NH.JPG/330px-Sims_NH.JPG",
+              "alt": "The original neighborhood in The Sims consists of a single screen displaying all playable lots.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Sims_(video_game)",
+              "caption": "The original neighborhood in The Sims consists of a single screen displaying all playable lots."
+            }
+          ]
+        },
+        {
+          "title": "Diablo II",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Diablo_II",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Diablo_II_characters.jpg/330px-Diablo_II_characters.jpg",
+              "alt": "The five character classes in Diablo II as seen during the opening selection animation. From left to right: the Amazon, Necromancer, Barbarian, Sorceress, and Paladin.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Diablo_II",
+              "caption": "The five character classes in Diablo II as seen during the opening selection animation. From left to right: the Amazon, Necromancer, Barbarian, Sorceress, and Paladin."
+            }
+          ]
+        },
+        {
+          "title": "Tony Hawk's Pro Skater 2",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Tony_Hawk%27s_Pro_Skater_2_cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_2",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/THPS2_Screenshot.jpg/330px-THPS2_Screenshot.jpg",
+              "alt": "The player, as Tony Hawk, performing a 900 aerial spin",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_2",
+              "caption": "The player, as Tony Hawk, performing a 900 aerial spin"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/THPS2_iOS.png/330px-THPS2_iOS.png",
+              "alt": "An in-game screenshot of Pro Skater 2 on the iPod Touch",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Tony_Hawk's_Pro_Skater_2",
+              "caption": "An in-game screenshot of Pro Skater 2 on the iPod Touch"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "PlayStation 2",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PS2-Versions.png/330px-PS2-Versions.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_2",
+          "description": "The PlayStation 2 (PS2) is a home video game console developed and marketed by Sony Computer Entertainment."
+        },
+        {
+          "title": "Nokia 3310",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Nokia3310Logo.png/330px-Nokia3310Logo.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nokia_3310",
+          "description": "The Nokia 3310 is a discontinued GSM mobile phone announced on 1 September 2000, and released in the fourth quarter of the year, replacing the popular Nokia 3210."
+        },
+        {
+          "title": "CD-RW drive",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/CDRW-Logo.svg/330px-CDRW-Logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/CD-RW",
+          "description": "CD-RW is a digital optical disc storage format introduced by Ricoh in 1997."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -2517,7 +3524,110 @@
         "releaseYear": 2000,
         "durationMs": 269208
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "The Lord of the Rings: The Fellowship of the Ring",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings%3A_The_Fellowship_of_the_Ring"
+        },
+        {
+          "title": "Shrek",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/7/7b/Shrek_%282001_animated_feature_film%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shrek"
+        },
+        {
+          "title": "Donnie Darko",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/d/db/Donnie_Darko_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Donnie_Darko"
+        },
+        {
+          "title": "The Fast and the Furious",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/54/Fast_and_the_furious_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "Halo: Combat Evolved",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Halo%3A_Combat_Evolved",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e2/First_official_halo_screenshot.jpg",
+              "alt": "The first official promotional image for Halo, depicting early versions of the shipping game's vehicles and protagonist Master Chief",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Halo%3A_Combat_Evolved",
+              "caption": "The first official promotional image for Halo, depicting early versions of the shipping game's vehicles and protagonist Master Chief"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Halo_-_Combat_Evolved_%28screencap%29.jpg/330px-Halo_-_Combat_Evolved_%28screencap%29.jpg",
+              "alt": "The Master Chief fires his assault rifle at a pack of enemy Grunts. Ammunition, health, and motion sensor displays are visible in the corners of the screen.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Halo%3A_Combat_Evolved",
+              "caption": "The Master Chief fires his assault rifle at a pack of enemy Grunts. Ammunition, health, and motion sensor displays are visible in the corners of the screen."
+            }
+          ]
+        },
+        {
+          "title": "Grand Theft Auto III",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/GTA3boxcover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Gta3-pc-walking.jpeg/330px-Gta3-pc-walking.jpeg",
+              "alt": "Players can freely roam the game's world and use weapons to accomplish tasks.[4]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+              "caption": "Players can freely roam the game's world and use weapons to accomplish tasks.[4]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/08/Gta3-pc-stealing.jpeg",
+              "alt": "Grand Theft Auto III is the first game in the series to use a third-person perspective view, positioning the camera closer to the player character.[31]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+              "caption": "Grand Theft Auto III is the first game in the series to use a third-person perspective view, positioning the camera closer to the player character.[31]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/GTAIII_PS2_Beta_Drive-by.jpg/330px-GTAIII_PS2_Beta_Drive-by.jpg",
+              "alt": "Combat in Grand Theft Auto III was reworked to allow players to perform drive-by shootings by viewing sideways in a car.[4]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto_III",
+              "caption": "Combat in Grand Theft Auto III was reworked to allow players to perform drive-by shootings by viewing sideways in a car.[4]"
+            }
+          ]
+        },
+        {
+          "title": "Super Smash Bros. Melee",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/bd/SpecialMelee.jpg",
+              "alt": "Bowser, Ness, Kirby, and Yoshi fight in a \"Sudden Death\" match on the Corneria stage, based on Star Fox.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Super_Smash_Bros._Melee",
+              "caption": "Bowser, Ness, Kirby, and Yoshi fight in a \"Sudden Death\" match on the Corneria stage, based on Star Fox."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPod (1st gen)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/330px-IPod_family.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod",
+          "description": "The iPod is a discontinued series of portable media players and multi-purpose mobile devices that were designed and marketed by Apple from 2001 to 2022."
+        },
+        {
+          "title": "Xbox",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Xbox-Console-wDuke-L.jpg/330px-Xbox-Console-wDuke-L.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Xbox_(console)",
+          "description": "The Xbox is a home video game console developed and marketed by Microsoft."
+        },
+        {
+          "title": "Game Boy Advance",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Nintendo-Game-Boy-Advance-Purple-FL.png/330px-Nintendo-Game-Boy-Advance-Purple-FL.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Game_Boy_Advance",
+          "description": "The Game Boy Advance (GBA) is a 32-bit handheld game console, manufactured by Nintendo, which was released in Japan on March 21, 2001, and to international markets that…"
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -2727,7 +3837,103 @@
         "releaseYear": 2001,
         "durationMs": 265867
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Spider-Man",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/6c/Spider-Man_%282002_film%29_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Spider-Man_(2002_film)"
+        },
+        {
+          "title": "The Lord of the Rings: The Two Towers",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/a/a1/Lord_Rings_Two_Towers.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings%3A_The_Two_Towers"
+        },
+        {
+          "title": "8 Mile",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/8_Mile_official_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/8_Mile_(film)"
+        },
+        {
+          "title": "Bend It Like Beckham",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/1c/Bend_It_Like_Beckham_movie.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Bend_It_Like_Beckham"
+        }
+      ],
+      "games": [
+        {
+          "title": "Grand Theft Auto: Vice City",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Grand_Theft_Auto_Vice_City_motorcycle_gameplay.jpg/330px-Grand_Theft_Auto_Vice_City_motorcycle_gameplay.jpg",
+              "alt": "The player can ride motorcycles in Vice City, unlike in its predecessor.[6]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City",
+              "caption": "The player can ride motorcycles in Vice City, unlike in its predecessor.[6]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/a/a6/GTAVC_PC_Gang_Attack.jpg",
+              "alt": "The game allows the player to fight immigrant gangs made up of Haitians (pictured) and Cubans, and missions involve fighting both gangs. Civil rights organisations accused the game of inviting ethnic violence, and of featuring discriminatory phrases.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City",
+              "caption": "The game allows the player to fight immigrant gangs made up of Haitians (pictured) and Cubans, and missions involve fighting both gangs. Civil rights organisations accused the game of inviting ethnic violence, and of featuring discriminatory phrases."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leslie_Benzies_%40_Everywhere_Game.jpg/500px-Leslie_Benzies_%40_Everywhere_Game.jpg",
+              "alt": "Grand Theft Auto: Vice City screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_Vice_City"
+            }
+          ]
+        },
+        {
+          "title": "Metroid Prime",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Metroid_Prime",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/M_screen017.jpg",
+              "alt": "Samus in battle with a Flying Pirate. The player character is controlled from a first-person perspective.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Metroid_Prime",
+              "caption": "Samus in battle with a Flying Pirate. The player character is controlled from a first-person perspective."
+            }
+          ]
+        },
+        {
+          "title": "Kingdom Hearts",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_Hearts_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/6/68/Kingdom_Hearts_Battle_Screenshot.png",
+              "alt": "The main character, Sora, fights against Heartless. The heads-up display consists of a command menu at the bottom left of the screen, and Sora's health and magic meters on the right side.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Kingdom_Hearts_(video_game)",
+              "caption": "The main character, Sora, fights against Heartless. The heads-up display consists of a command menu at the bottom left of the screen, and Sora's health and magic meters on the right side."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPod (touch wheel)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/330px-IPod_family.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod",
+          "description": "The iPod is a discontinued series of portable media players and multi-purpose mobile devices that were designed and marketed by Apple from 2001 to 2022."
+        },
+        {
+          "title": "Xbox Live",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Xbox_Live_availability_map.svg/500px-Xbox_Live_availability_map.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Xbox_network",
+          "description": "The Xbox network, formerly known and commonly referred to as Xbox Live, is an online multiplayer gaming and digital media delivery service created and operated by Xbox…"
+        },
+        {
+          "title": "Sidekick",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Sidekick_III_vs_Sidekick_II_%286292006%29.jpg/330px-Sidekick_III_vs_Sidekick_II_%286292006%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/T-Mobile_Sidekick",
+          "description": "The Danger Hiptop, also branded and sold as T-Mobile Sidekick, is a mobile smartphone and communicator series that was produced by Danger, Inc."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -2937,7 +4143,85 @@
         "releaseYear": 2002,
         "durationMs": 228707
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Pirates of the Caribbean",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/89/Pirates_of_the_Caribbean_-_The_Curse_of_the_Black_Pearl.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean%3A_The_Curse_of_the_Black_Pearl"
+        },
+        {
+          "title": "Finding Nemo",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Finding_Nemo"
+        },
+        {
+          "title": "Kill Bill: Vol. 1",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/2c/Kill_Bill_Volume_1.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Kill_Bill%3A_Volume_1"
+        },
+        {
+          "title": "School of Rock",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/School_of_Rock"
+        }
+      ],
+      "games": [
+        {
+          "title": "Call of Duty",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/7/7c/Call_Of_Duty_%282003%29%2CCover%2CUpdated.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/CallDuty1PC.jpg/330px-CallDuty1PC.jpg",
+              "alt": "In-game screenshot of Call of Duty on PC",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_(video_game)",
+              "caption": "In-game screenshot of Call of Duty on PC"
+            }
+          ]
+        },
+        {
+          "title": "Star Wars: Knights of the Old Republic",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Kotorbox.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_Knights_of_the_Old_Republic_(video_game)",
+          "screenshots": []
+        },
+        {
+          "title": "SSX 3",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/SSX_3_Coverart.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/SSX_3",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/SSX_3_Race_gameplay.png/330px-SSX_3_Race_gameplay.png",
+              "alt": "A screenshot from a  race event in SSX 3 showing the HUD, including the adrenaline meter on the right",
+              "sourceUrl": "https://en.wikipedia.org/wiki/SSX_3",
+              "caption": "A screenshot from a  race event in SSX 3 showing the HUD, including the adrenaline meter on the right"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPod (3rd gen)",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/330px-IPod_family.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod",
+          "description": "The iPod is a discontinued series of portable media players and multi-purpose mobile devices that were designed and marketed by Apple from 2001 to 2022."
+        },
+        {
+          "title": "Nokia N-Gage",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nokia-NGage-LL.png/330px-Nokia-NGage-LL.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/N-Gage",
+          "description": "The N-Gage is a mobile device combining features of a cellular phone and a handheld game system developed by Nokia, released on 7 October 2003."
+        },
+        {
+          "title": "Razer Diamondback",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Razer_snake_logo.svg/330px-Razer_snake_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Razer_Inc.",
+          "description": "Razer Inc."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -3147,7 +4431,96 @@
         "releaseYear": 2004,
         "durationMs": 242438
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Mean Girls",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/a/ac/Mean_Girls_film_poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Mean_Girls"
+        },
+        {
+          "title": "Napoleon Dynamite",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/Napoleon_dynamite_post.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Napoleon_Dynamite"
+        },
+        {
+          "title": "Shaun of the Dead",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8d/Shaun_of_the_Dead_film_poster.jpg/330px-Shaun_of_the_Dead_film_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Shaun_of_the_Dead"
+        },
+        {
+          "title": "The Incredibles",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/The_Incredibles_%282004_animated_feature_film%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Incredibles"
+        }
+      ],
+      "games": [
+        {
+          "title": "Grand Theft Auto: San Andreas",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Gta-sa-screen1.jpg/330px-Gta-sa-screen1.jpg",
+              "alt": "The game is played from a third-person view and its open world can be navigated using cars and other vehicles.[2][3]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+              "caption": "The game is played from a third-person view and its open world can be navigated using cars and other vehicles.[2][3]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/4/4e/Gta-sa-screen2.jpg",
+              "alt": "Players can fight members from enemy gangs to earn their territory.[9]: 196 ",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas",
+              "caption": "Players can fight members from enemy gangs to earn their territory.[9]: 196 "
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leslie_Benzies_%40_Everywhere_Game.jpg/500px-Leslie_Benzies_%40_Everywhere_Game.jpg",
+              "alt": "Grand Theft Auto: San Andreas screenshot",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Grand_Theft_Auto%3A_San_Andreas"
+            }
+          ]
+        },
+        {
+          "title": "World of Warcraft",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/World_of_Warcraft",
+          "screenshots": []
+        },
+        {
+          "title": "Halo 2",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/92/Halo2-cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Halo_2",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/0b/Halo_2_%28screenshot%29.jpg",
+              "alt": "In-game screenshot of Halo 2 for Xbox; the player character aims a shotgun at enemy Covenant.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Halo_2",
+              "caption": "In-game screenshot of Halo 2 for Xbox; the player character aims a shotgun at enemy Covenant."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Nintendo DS",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Nintendo-DS-Fat-Blue.png/330px-Nintendo-DS-Fat-Blue.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Nintendo_DS",
+          "description": "The Nintendo DS is a foldable handheld game console developed by Nintendo and released worldwide in 2004 and 2005."
+        },
+        {
+          "title": "Motorola RAZR V3",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Motorola_Razr_V3_montage_closed_open.png/330px-Motorola_Razr_V3_montage_closed_open.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Motorola_Razr_V3",
+          "description": "The Motorola Razr V3, popularly called simply the Razr, is a clamshell style cell phone developed by Motorola."
+        },
+        {
+          "title": "iPod Mini",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Mini_iPod.svg/330px-Mini_iPod.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod_Mini",
+          "description": "The iPod Mini is a digital audio player that was designed and marketed by Apple."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -3357,7 +4730,116 @@
         "releaseYear": 2004,
         "durationMs": 250760
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Batman Begins",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/a/af/Batman_Begins_Poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Batman_Begins"
+        },
+        {
+          "title": "Harry Potter and the Goblet of Fire",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg/330px-Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Goblet_of_Fire_(film)"
+        },
+        {
+          "title": "Star Wars: Episode III",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/9/93/Star_Wars_Episode_III_Revenge_of_the_Sith_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Star_Wars%3A_Episode_III_%E2%80%93_Revenge_of_the_Sith"
+        },
+        {
+          "title": "The 40-Year-Old Virgin",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/40-Year-OldVirginMoviePoster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_40-Year-Old_Virgin"
+        }
+      ],
+      "games": [
+        {
+          "title": "Resident Evil 4",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/d/d9/Resi4-gc-cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Re3.5hookman.png/330px-Re3.5hookman.png",
+              "alt": "This screenshot of a cancelled version depicts Leon fighting the hook man. Though this earlier revision still used fixed camera angles while exploring environments, the battles already employed the over-the-shoulder view seen in the final build.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+              "caption": "This screenshot of a cancelled version depicts Leon fighting the hook man. Though this earlier revision still used fixed camera angles while exploring environments, the battles already employed the over-the-shoulder view seen in the final build."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Resident_Evil_4_Ganado_village.png/330px-Resident_Evil_4_Ganado_village.png",
+              "alt": "Leon fighting a group of Ganados. Unlike previous entries in the series, Resident Evil 4 has the camera following directly behind the character. The laser sight enables the player to target key zones on enemies.[2]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+              "caption": "Leon fighting a group of Ganados. Unlike previous entries in the series, Resident Evil 4 has the camera following directly behind the character. The laser sight enables the player to target key zones on enemies.[2]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Resident_Evil_4_-_Quick_time_event.jpg/1280px-Resident_Evil_4_-_Quick_time_event.jpg",
+              "alt": "A quick time event in Resident Evil 4. The player is prompted to repeatedly press Y to make the character sprint.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Resident_Evil_4",
+              "caption": "A quick time event in Resident Evil 4. The player is prompted to repeatedly press Y to make the character sprint."
+            }
+          ]
+        },
+        {
+          "title": "God of War",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/b/b5/God_of_War_%282005%29_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/God_of_War_gameplay.jpg/330px-God_of_War_gameplay.jpg",
+              "alt": "Kratos (in air) attacks the Hydra with the Blades of Chaos. The HUD in the upper left corner displays the Health Meter. The number indicates the number of red orbs the player has collected.  The green meter at the bottom of the screen shows the opponent's health.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+              "caption": "Kratos (in air) attacks the Hydra with the Blades of Chaos. The HUD in the upper left corner displays the Health Meter. The number indicates the number of red orbs the player has collected.  The green meter at the bottom of the screen shows the opponent's health."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/97/Ares_God_of_War_game.jpg",
+              "alt": "Artwork of Ares, the main antagonist",
+              "sourceUrl": "https://en.wikipedia.org/wiki/God_of_War_(2005_video_game)",
+              "caption": "Artwork of Ares, the main antagonist"
+            }
+          ]
+        },
+        {
+          "title": "Guitar Hero",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Guitarhero-cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Guitar_Hero_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Guitarhero-screen.jpg/330px-Guitarhero-screen.jpg",
+              "alt": "To play a note, the fret button and strum bar must be pressed when the solid note scrolls through the corresponding ring at the bottom. The interface shows the player's score and score multiplier (left), Star Power meter (right), and Rock Meter (bottom right).",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Guitar_Hero_(video_game)",
+              "caption": "To play a note, the fret button and strum bar must be pressed when the solid note scrolls through the corresponding ring at the bottom. The interface shows the player's score and score multiplier (left), Star Power meter (right), and Rock Meter (bottom right)."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Guitar-hero-controller.png/500px-Guitar-hero-controller.png",
+              "alt": "The controller that was packaged with the game, an approximately 3/4-scale reproduction of a Gibson SG",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Guitar_Hero_(video_game)",
+              "caption": "The controller that was packaged with the game, an approximately 3/4-scale reproduction of a Gibson SG"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPod Video",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/IPod_family.png/330px-IPod_family.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod",
+          "description": "The iPod is a discontinued series of portable media players and multi-purpose mobile devices that were designed and marketed by Apple from 2001 to 2022."
+        },
+        {
+          "title": "Xbox 360",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Xbox_360_full_logo.svg/500px-Xbox_360_full_logo.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Xbox_360",
+          "description": "The Xbox 360 is a home video game console developed by Microsoft, being the successor to the original Xbox and the second console in the Xbox series."
+        },
+        {
+          "title": "Motorola RAZR",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Motorola_RAZR_V3i_01.JPG/330px-Motorola_RAZR_V3i_01.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Motorola_Razr",
+          "description": "The Motorola Razr, sometimes stylized motorola razr, is a brand of mobile phones manufactured by Motorola Mobility, currently consisting of foldable clamshell…"
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -3567,7 +5049,110 @@
         "releaseYear": 2004,
         "durationMs": 213947
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Borat",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/39/Borat_ver2.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Borat"
+        },
+        {
+          "title": "The Devil Wears Prada",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Devil_Wears_Prada_main_onesheet.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(film)"
+        },
+        {
+          "title": "Pan's Labyrinth",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/6/67/Pan%27s_Labyrinth.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Pan's_Labyrinth"
+        },
+        {
+          "title": "Casino Royale",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Casino_Royale_%282006_film_poster%29.jpg/330px-Casino_Royale_%282006_film_poster%29.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)"
+        }
+      ],
+      "games": [
+        {
+          "title": "The Elder Scrolls IV: Oblivion",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/4/4b/The_Elder_Scrolls_IV_Oblivion_cover.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/90/ElderScrollsOblivionScreenshot11.jpg/330px-ElderScrollsOblivionScreenshot11.jpg",
+              "alt": "An in-game screenshot showing Oblivion's graphical user interface, HDR lighting, and long draw distance, improvements made as part of a goal to create \"cutting-edge graphics\"[31]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+              "caption": "An in-game screenshot showing Oblivion's graphical user interface, HDR lighting, and long draw distance, improvements made as part of a goal to create \"cutting-edge graphics\"[31]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d9/Standard_inventory_interface%2C_Oblivion_2006-12-27.jpg/330px-Standard_inventory_interface%2C_Oblivion_2006-12-27.jpg",
+              "alt": "The inventory interface, where the player garbs armor and equips their character",
+              "sourceUrl": "https://en.wikipedia.org/wiki/The_Elder_Scrolls_IV%3A_Oblivion",
+              "caption": "The inventory interface, where the player garbs armor and equips their character"
+            }
+          ]
+        },
+        {
+          "title": "Gears of War",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/0/01/Gears-of-War-Logo-2006.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Gears_of_War",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/Gearsofwar108.jpg/330px-Gearsofwar108.jpg",
+              "alt": "Marcus Fenix, the player-controlled character, takes aim at a Locust Drone with a Lancer from behind cover. The game uses an over-the-shoulder camera angle when displaying the targeting reticle.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Gears_of_War",
+              "caption": "Marcus Fenix, the player-controlled character, takes aim at a Locust Drone with a Lancer from behind cover. The game uses an over-the-shoulder camera angle when displaying the targeting reticle."
+            }
+          ]
+        },
+        {
+          "title": "Wii Sports",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wii_Sports",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Duo_playing_Wii_Sports.jpg/1280px-Duo_playing_Wii_Sports.jpg",
+              "alt": "Two people playing boxing; the Wii Remote and Nunchuk attachment are used here to control punches.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Wii_Sports",
+              "caption": "Two people playing boxing; the Wii Remote and Nunchuk attachment are used here to control punches."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Iwata-e3-2006.jpg/1280px-Iwata-e3-2006.jpg",
+              "alt": "Satoru Iwata at Nintendo's 2006 E3 press conference",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Wii_Sports",
+              "caption": "Satoru Iwata at Nintendo's 2006 E3 press conference"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Wii_Remote_Straps.jpg/500px-Wii_Remote_Straps.jpg",
+              "alt": "The new Wii Remote strap (left) compared to the original strap (right)",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Wii_Sports",
+              "caption": "The new Wii Remote strap (left) compared to the original strap (right)"
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "Nintendo Wii",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/330px-Wii-Console.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wii",
+          "description": "The Wii is a home video game console developed and marketed by Nintendo."
+        },
+        {
+          "title": "PS3",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/PS3_consoles_montage.png/330px-PS3_consoles_montage.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/PlayStation_3",
+          "description": "The PlayStation 3 (PS3) is a home video game console developed and marketed by Sony Computer Entertainment (SCE)."
+        },
+        {
+          "title": "iPod Nano 2G",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/7th_Generation_iPod_Nano.svg/330px-7th_Generation_iPod_Nano.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod_Nano",
+          "description": "The iPod Nano is a discontinued portable media player designed and formerly marketed by Apple."
+        }
+      ]
+    }
   },
   {
     "iso": "USA",
@@ -3777,6 +5362,116 @@
         "releaseYear": 2006,
         "durationMs": 206520
       }
-    ]
+    ],
+    "artifacts": {
+      "films": [
+        {
+          "title": "Superbad",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Superbad_Poster.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Superbad"
+        },
+        {
+          "title": "Juno",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/3/36/Junoposter2007.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Juno_(film)"
+        },
+        {
+          "title": "Knocked Up",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/5/51/Knockedupmp.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Knocked_Up"
+        },
+        {
+          "title": "No Country for Old Men",
+          "posterUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/No_Country_for_Old_Men_poster.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
+        }
+      ],
+      "games": [
+        {
+          "title": "Halo 3",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Halo_3_final_boxshot.JPG",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Halo_3",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Halo3-gameplay.png/330px-Halo3-gameplay.png",
+              "alt": "Master Chief aims his assault rifle at a group of Covenant Grunts. A piece of activated equipment, called the bubble shield, is shown.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Halo_3",
+              "caption": "Master Chief aims his assault rifle at a group of Covenant Grunts. A piece of activated equipment, called the bubble shield, is shown."
+            }
+          ]
+        },
+        {
+          "title": "BioShock",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/6/6d/BioShock_cover.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/BioShock",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Chrysler_Building_spire%2C_Manhattan%2C_by_Carol_Highsmith_%28LOC_highsm.04444%29.jpg/1280px-Chrysler_Building_spire%2C_Manhattan%2C_by_Carol_Highsmith_%28LOC_highsm.04444%29.jpg",
+              "alt": "BioShock's game design drew on art deco for much of its imagery.[6]",
+              "sourceUrl": "https://en.wikipedia.org/wiki/BioShock",
+              "caption": "BioShock's game design drew on art deco for much of its imagery.[6]"
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Bioshock_enemies.jpg/330px-Bioshock_enemies.jpg",
+              "alt": "A Big Daddy defends a Little Sister (both on the right) from two Splicers, while the player watches.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/BioShock",
+              "caption": "A Big Daddy defends a Little Sister (both on the right) from two Splicers, while the player watches."
+            }
+          ]
+        },
+        {
+          "title": "Portal",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Portal_standalonebox.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Portal_(video_game)",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/7/7e/Portalgame.jpg",
+              "alt": "A typical Portal test chamber, with both of the player's colored portals opened, and the Weighted Companion Cube present. The clean, spartan look of the chambers was influenced by the film The Island.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Portal_(video_game)",
+              "caption": "A typical Portal test chamber, with both of the player's colored portals opened, and the Weighted Companion Cube present. The clean, spartan look of the chambers was influenced by the film The Island."
+            }
+          ]
+        },
+        {
+          "title": "Call of Duty 4: Modern Warfare",
+          "coverUrl": "https://upload.wikimedia.org/wikipedia/en/5/5f/Call_of_Duty_4_Modern_Warfare.jpg",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+          "screenshots": [
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Call_Of_Duty_4_MP_Screenshot.jpg",
+              "alt": "A player completes the objective of a \"Domination\" multiplayer game by capturing and defending three flags.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+              "caption": "A player completes the objective of a \"Domination\" multiplayer game by capturing and defending three flags."
+            },
+            {
+              "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Pripjat_Panorama.jpg/500px-Pripjat_Panorama.jpg",
+              "alt": "The level \"All Ghillied Up\" takes place in Pripyat, Ukraine, featuring several iconic aspects of the abandoned city, such as this square.",
+              "sourceUrl": "https://en.wikipedia.org/wiki/Call_of_Duty_4%3A_Modern_Warfare",
+              "caption": "The level \"All Ghillied Up\" takes place in Pripyat, Ukraine, featuring several iconic aspects of the abandoned city, such as this square."
+            }
+          ]
+        }
+      ],
+      "gadgets": [
+        {
+          "title": "iPhone",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/IPhone_17_Pro_Vector.svg/330px-IPhone_17_Pro_Vector.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPhone",
+          "description": "The iPhone is a line of smartphones developed and marketed by Apple that run iOS, the company's own mobile operating system."
+        },
+        {
+          "title": "iPod Touch",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pink_iPod_touch_6th_generation.svg/330px-Pink_iPod_touch_6th_generation.svg.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/IPod_Touch",
+          "description": "The iPod Touch is a discontinued line of iOS-based mobile devices designed and formerly marketed by Apple with a touchscreen-controlled user interface."
+        },
+        {
+          "title": "Nintendo Wii",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wii-Console.png/330px-Wii-Console.png",
+          "sourceUrl": "https://en.wikipedia.org/wiki/Wii",
+          "description": "The Wii is a home video game console developed and marketed by Nintendo."
+        }
+      ]
+    }
   }
 ]

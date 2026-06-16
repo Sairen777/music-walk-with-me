@@ -26,6 +26,7 @@
 }
 .wall__btn:hover {
   transform: translateY(-3px);
+  box-shadow: 0 6px 16px oklch(0 0 0 / 0.22);
 }
 .wall__btn:focus-visible {
   outline: none;

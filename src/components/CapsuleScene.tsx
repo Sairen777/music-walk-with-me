@@ -1,54 +1,39 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import { usePlayer } from "../audio/player";
-import { loadCountry } from "../data/capsules";
-import { IpodPlayer } from "./IpodPlayer";
+import { DevicePlayer } from "./DevicePlayer";
 import { AlbumWall } from "./AlbumWall";
+import { ArtifactsPanel } from "./ArtifactsPanel";
 import { YearDial } from "./YearDial";
+import { YearSouvenirPanel } from "./YearSouvenirPanel";
+import { skinForYear } from "../yearSkins";
 import type { Capsule } from "../types";
 import "./capsule.css";
+import "./year-skins.css";
 
 interface CapsuleSceneProps {
-  iso: string;
-  countryName: string;
+  capsules: Capsule[];
   year: number;
   initialPlaybackKey?: string;
+  stickerMode: boolean;
   onYear: (year: number) => void;
-  onClose: () => void;
+  onBack: () => void;
 }
 
 export function CapsuleScene({
-  iso,
-  countryName,
+  capsules,
   year,
   initialPlaybackKey,
+  stickerMode,
   onYear,
-  onClose,
+  onBack,
 }: CapsuleSceneProps) {
   const { playQueue, adoptQueue, unlock } = usePlayer();
-  // Tag loaded data with its iso so a stale country's data never shows during a switch,
-  // and we avoid resetting state synchronously inside the effect.
-  const [loaded, setLoaded] = useState<{ iso: string; capsules: Capsule[] } | null>(null);
-  const [failedIso, setFailedIso] = useState<string | null>(null);
 
-  useEffect(() => {
-    let alive = true;
-    loadCountry(iso).then(
-      (data) => alive && setLoaded({ iso, capsules: data }),
-      () => alive && setFailedIso(iso),
-    );
-    return () => {
-      alive = false;
-    };
-  }, [iso]);
+  const capsule = capsules.find((c) => c.year === year);
+  const years = capsules.map((c) => c.year);
+  const skin = skinForYear(capsule?.year ?? year);
 
-  const capsules = loaded && loaded.iso === iso ? loaded.capsules : null;
-  const error = failedIso === iso;
-  const capsule = capsules?.find((c) => c.year === year);
-  const years = capsules?.map((c) => c.year) ?? [];
-
-  // Autoplay whenever the resolved capsule (country + year) changes. If Shell
-  // already started the hero preview inside the country click, just adopt the
-  // full queue metadata without touching the active audio.
+  // Autoplay whenever the resolved capsule (country + year) changes.
   const lastPlayed = useRef(initialPlaybackKey ?? "");
   useEffect(() => {
     if (!capsule) return;
@@ -63,10 +48,8 @@ export function CapsuleScene({
 
   const changeYear = (next: number) => {
     if (next === year) return;
-    const target = capsules?.find((c) => c.year === next);
+    const target = capsules.find((c) => c.year === next);
     if (target) {
-      // Year changes happen after the country shard is already loaded, so start
-      // playback inside the button gesture instead of waiting for an effect.
       lastPlayed.current = `${target.iso}-${target.year}`;
       playQueue(target.tracks, 0);
     } else {
@@ -76,19 +59,23 @@ export function CapsuleScene({
   };
 
   return (
-    <main className="capsule" data-field={capsule?.field} data-on-field>
+    <main
+      className="capsule"
+      data-field={capsule?.field}
+      data-skin={skin.id}
+      data-easter={stickerMode ? "stickers" : undefined}
+      data-on-field
+    >
       <div className="capsule__bg" aria-hidden="true" />
 
       <header className="capsule__bar">
-        <button type="button" className="capsule__back" onClick={onClose}>
-          <span aria-hidden="true">◀</span> Map
+        <button type="button" className="capsule__back" onClick={onBack}>
+          <span aria-hidden="true">◀</span> Years
         </button>
 
         <div className="capsule__id">
-          <span className="capsule__brand">Back in My Days</span>
-          <h1 className="capsule__title">
-            {countryName}, {year}
-          </h1>
+          <span className="capsule__brand">USA Yearbook</span>
+          <h1 className="capsule__title">{year}</h1>
         </div>
 
         {years.length > 0 && (
@@ -98,19 +85,16 @@ export function CapsuleScene({
 
       {capsule && <p className="capsule__blurb">{capsule.blurb}</p>}
 
-      <div className="capsule__stage" key={`${iso}-${year}`}>
-        {error ? (
-          <p className="capsule__status" role="alert">
-            Couldn't load this capsule. Go back to the map and try again.
-          </p>
-        ) : capsule ? (
+      <div className="capsule__stage" key={`${year}`}>
+        {capsule ? (
           <>
             <aside className="capsule__player">
-              <IpodPlayer onMenu={onClose} />
+              <DevicePlayer onMenu={onBack} skin={skin} />
             </aside>
+            <YearSouvenirPanel capsule={capsule} skin={skin} />
             <section
               className="capsule__wall"
-              aria-label={`${countryName} ${year} tracks`}
+              aria-label={`USA ${year} tracks`}
             >
               <div className="capsule__wallhead">
                 <h2 className="capsule__wallhead-title">{capsule.era}</h2>
@@ -120,9 +104,14 @@ export function CapsuleScene({
               </div>
               <AlbumWall tracks={capsule.tracks} />
             </section>
+            {capsule.artifacts && (
+              <ArtifactsPanel artifacts={capsule.artifacts} year={capsule.year} />
+            )}
           </>
         ) : (
-          <p className="capsule__status">Loading the capsule&hellip;</p>
+          <p className="capsule__status" role="alert">
+            We don't have this year yet. Pick another one.
+          </p>
         )}
       </div>
     </main>

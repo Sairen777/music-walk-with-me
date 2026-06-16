@@ -12,6 +12,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { norm, slug, coreOf, canonicalName, leadArtistKey, trackKey } from "./music-normalize.mjs";
 import { buildRankedSeeds } from "./rank.mjs";
+import { enrichArtifacts, validateEnrichedArtifacts } from "./artifact-media.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = resolve(__dirname, "../public/data");
@@ -258,6 +259,11 @@ async function main() {
       throw new Error(`UNDERFILLED ${seed.iso} ${seed.year}: wanted ${seed.targetTracks}, got ${tracks.length}`);
     }
 
+    const artifacts = seed.artifacts
+      ? await enrichArtifacts({ iso: seed.iso, year: seed.year, artifacts: seed.artifacts })
+      : null;
+    if (artifacts) validateEnrichedArtifacts({ iso: seed.iso, year: seed.year, artifacts });
+
     capsules.push({
       iso: seed.iso,
       countryName: seed.countryName,
@@ -266,6 +272,7 @@ async function main() {
       field: seed.field,
       blurb: seed.blurb,
       tracks,
+      artifacts,
     });
   }
 
