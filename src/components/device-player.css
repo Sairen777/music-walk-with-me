@@ -68,6 +68,18 @@
   opacity: 0.92;
 }
 
+.device-player__error {
+  margin: 0;
+  padding: 0.5rem 0.75rem;
+  background: oklch(0.28 0.03 20 / 0.55);
+  color: var(--paper);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-align: center;
+  line-height: 1.4;
+}
+
 .device-player__batt {
   width: 18px;
   height: 9px;

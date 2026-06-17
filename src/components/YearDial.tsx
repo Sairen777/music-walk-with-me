@@ -35,7 +35,7 @@ export function YearDial({ years, value, onChange }: YearDialProps) {
   };
 
   return (
-    <div className="dial" role="radiogroup" aria-label="Pick a year" onKeyDown={onKeyDown}>
+    <div className="dial" role="radiogroup" aria-label={`Switch capsule year — currently ${value}`} onKeyDown={onKeyDown}>
       <span className="dial__label" aria-hidden="true">
         Year
       </span>
@@ -50,6 +50,7 @@ export function YearDial({ years, value, onChange }: YearDialProps) {
               aria-checked={active}
               tabIndex={active ? 0 : -1}
               className={`dial__year${active ? " is-active" : ""}`}
+              title={`Switch to ${year}`}
               onClick={() => onChange(year)}
             >
               {year}

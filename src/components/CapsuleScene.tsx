@@ -3,6 +3,8 @@ import { usePlayer } from "../audio/player";
 import { DevicePlayer } from "./DevicePlayer";
 import { AlbumWall } from "./AlbumWall";
 import { ArtifactsPanel } from "./ArtifactsPanel";
+import { InternetArtifactsPanel } from "./InternetArtifactsPanel";
+import { internetForYear } from "../data/yearInternet";
 import { YearDial } from "./YearDial";
 import { YearSouvenirPanel } from "./YearSouvenirPanel";
 import { skinForYear } from "../yearSkins";
@@ -32,6 +34,7 @@ export function CapsuleScene({
   const capsule = capsules.find((c) => c.year === year);
   const years = capsules.map((c) => c.year);
   const skin = skinForYear(capsule?.year ?? year);
+  const internetArtifacts = internetForYear(capsule?.year ?? year);
 
   // Autoplay whenever the resolved capsule (country + year) changes.
   const lastPlayed = useRef(initialPlaybackKey ?? "");
@@ -69,8 +72,8 @@ export function CapsuleScene({
       <div className="capsule__bg" aria-hidden="true" />
 
       <header className="capsule__bar">
-        <button type="button" className="capsule__back" onClick={onBack}>
-          <span aria-hidden="true">◀</span> Years
+        <button type="button" className="capsule__back" onClick={onBack} aria-label="Back to yearbook picker">
+          <span aria-hidden="true">◀</span> Back to yearbook
         </button>
 
         <div className="capsule__id">
@@ -94,7 +97,7 @@ export function CapsuleScene({
             <YearSouvenirPanel capsule={capsule} skin={skin} />
             <section
               className="capsule__wall"
-              aria-label={`USA ${year} tracks`}
+              aria-label="Album wall — tap a cover to play"
             >
               <div className="capsule__wallhead">
                 <h2 className="capsule__wallhead-title">{capsule.era}</h2>
@@ -107,6 +110,7 @@ export function CapsuleScene({
             {capsule.artifacts && (
               <ArtifactsPanel artifacts={capsule.artifacts} year={capsule.year} />
             )}
+            <InternetArtifactsPanel items={internetArtifacts} year={year} />
           </>
         ) : (
           <p className="capsule__status" role="alert">

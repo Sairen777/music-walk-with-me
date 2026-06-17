@@ -75,6 +75,7 @@ Scale: fluid `clamp()`, ratio >= 1.25. Wordmark ceiling clamp max <= 6rem. Displ
 - **YearDial** — skeuomorphic selector for the available years in a capsule. Reads as a physical click-wheel/tuner.
 - **AlbumWall** — grid of real album covers (iTunes artwork, upscaled 600px). Hover = lift + title; click = play that track + set queue. Currently-playing tile marked with an equalizer bob.
 - **ArtifactsPanel** — pop-culture shelf showing films, games, and gadgets from the capsule's artifact data, with staggered card layouts and trailer links.
+- **InternetArtifactsPanel** — curated sidecar web-culture cards: viral clips, Flash loops, meme/site relics, and external source links. No embedded iframes.
 
 ## Motion
 

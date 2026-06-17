@@ -61,7 +61,11 @@ export function YearLanding({ capsules, error, stickerMode, onPickYear }: YearLa
             Couldn't load the USA yearbook. Refresh to try again.
           </p>
         ) : capsules === null ? (
-          <p className="year-landing__status">Loading the yearbook&hellip;</p>
+          <div className="year-grid" aria-busy="true">
+            {[0, 1, 2, 3].map((i) => (
+              <div key={i} className="year-card year-card--placeholder" style={{ "--i": i } as CSSProperties} />
+            ))}
+          </div>
         ) : years.length === 0 ? (
           <p className="year-landing__status">No USA years are loaded yet.</p>
         ) : (

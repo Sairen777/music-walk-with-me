@@ -171,6 +171,36 @@
   transform: translateY(-1px);
 }
 
+/* ── Skeleton placeholder card ── */
+.year-card--placeholder {
+  cursor: default;
+  pointer-events: none;
+  min-height: 200px;
+  border-color: var(--ms-line);
+  opacity: 0.55;
+  background: linear-gradient(
+    110deg,
+    var(--ms-panel) 30%,
+    color-mix(in oklch, var(--ms-line) 60%, var(--ms-panel)) 50%,
+    var(--ms-panel) 70%
+  );
+  background-size: 200% 100%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .year-card--placeholder {
+    animation: skeleton-shimmer 1.8s ease-in-out infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .year-card--placeholder {
+    animation: none;
+    background: var(--ms-panel);
+  }
+}
+
+
 .year-card__year {
   font-size: 2rem;
   font-weight: 800;
@@ -229,7 +259,7 @@
 
 /* ── Stagger entrance ── */
 @media (prefers-reduced-motion: no-preference) {
-  .year-card {
+  .year-card:not(.year-card--placeholder) {
     animation: year-card-in 0.5s var(--ease-out-expo, ease-out) both;
     animation-delay: calc(var(--i, 0) * 60ms);
   }
@@ -243,6 +273,15 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
   }
 }
 

@@ -2,11 +2,11 @@
 
 :root {
   /* ---- Era color fields (iPod-ad chroma) ---- */
-  --field-pink: oklch(0.66 0.24 358);
-  --field-lime: oklch(0.86 0.21 132);
-  --field-cyan: oklch(0.8 0.13 220);
-  --field-orange: oklch(0.72 0.2 48);
-  --field-blue: oklch(0.6 0.18 256);
+  --field-pink: oklch(0.62 0.24 358);
+  --field-lime: oklch(0.57 0.21 132);
+  --field-cyan: oklch(0.57 0.13 220);
+  --field-orange: oklch(0.61 0.2 48);
+  --field-blue: oklch(0.59 0.18 256);
 
   /* Active field, overridden per capsule via [data-field]. Defaults to 2005 pink. */
   --field: var(--field-pink);
@@ -46,6 +46,7 @@
   --ms-blue-lite: oklch(0.72 0.11 240);
   --ms-text: oklch(0.25 0.02 260);
   --ms-text-soft: oklch(0.42 0.02 260);
+  --ms-muted: var(--ms-text-soft);
   --ms-link: oklch(0.45 0.15 250);
 
   /* iPod device greys */
@@ -115,19 +116,19 @@
 }
 [data-field="lime"] {
   --field: var(--field-lime);
-  --field-deep: oklch(0.66 0.2 134);
+  --field-deep: oklch(0.47 0.2 134);
   --field-glow: oklch(0.9 0.2 130);
   --ink-on-field: oklch(0.2 0.05 140);
 }
 [data-field="cyan"] {
   --field: var(--field-cyan);
-  --field-deep: oklch(0.62 0.13 222);
+  --field-deep: oklch(0.47 0.13 222);
   --field-glow: oklch(0.86 0.12 218);
   --ink-on-field: oklch(0.2 0.04 235);
 }
 [data-field="orange"] {
   --field: var(--field-orange);
-  --field-deep: oklch(0.58 0.19 46);
+  --field-deep: oklch(0.51 0.19 46);
   --field-glow: oklch(0.8 0.19 55);
   --ink-on-field: oklch(0.2 0.05 50);
 }

@@ -69,6 +69,12 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
             <span className="device-player__batt" aria-hidden="true" />
           </div>
 
+          {status === "error" && (
+            <p className="device-player__error" role="alert">
+              Couldn't play this track. Try the next one.
+            </p>
+          )}
+
           {current ? (
             <div className="device-player__np-body">
               <img
@@ -79,7 +85,7 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
                 height={148}
                 draggable={false}
               />
-              <div className="device-player__meta">
+              <div className="device-player__meta" role="group" aria-label="Track details">
                 <p className="device-player__title" title={current.title}>
                   {current.title}
                 </p>
@@ -131,6 +137,7 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
             type="button"
             onClick={prev}
             aria-label="Previous track"
+            title="Previous track"
           >
             <Skip dir="prev" />
           </button>
@@ -139,6 +146,7 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
             type="button"
             onClick={next}
             aria-label="Next track"
+            title="Next track"
           >
             <Skip dir="next" />
           </button>
@@ -147,6 +155,7 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
             type="button"
             onClick={toggle}
             aria-label={isPlaying ? "Pause" : "Play"}
+            title={isPlaying ? "Pause" : "Play"}
           >
             <PlayPause />
           </button>
@@ -155,6 +164,7 @@ export function DevicePlayer({ onMenu, skin }: DevicePlayerProps) {
             type="button"
             onClick={toggle}
             aria-label={isPlaying ? "Pause" : "Play"}
+            title={isPlaying ? "Pause" : "Play"}
             aria-pressed={isPlaying}
           />
         </div>

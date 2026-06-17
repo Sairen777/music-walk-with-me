@@ -44,6 +44,8 @@
 }
 .dial__year:hover {
   color: var(--paper);
+  transform: scale(1.08);
+  background: oklch(1 0 0 / 0.08);
 }
 .dial__year.is-active {
   color: var(--ink-on-field);

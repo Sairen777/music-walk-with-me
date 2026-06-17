@@ -9,6 +9,7 @@ People roughly 25 to 40 who grew up online, now nostalgic for the music of their
 
 ## Product Purpose
 Back in My Days lets you pick a year and immediately *hear and see* what American teenagers were listening to then. The first release is a single, perfected loop for the United States, 1990-2007: pick a year, land in the capsule, and a 30-second preview of the era's anthems is already playing over a wall of album covers, framed in the device of the time (iPod, Winamp, Nokia, RAZR, iPhone).
+Internet culture artifacts are year-specific; YouTube only appears from 2005 onward.
 
 Success is the gut-punch of recognition in under two seconds. If a visitor's first reaction is "oh my god, this song," the product worked. Charts-accuracy is explicitly *not* the goal; curated teenage memory is.
 
